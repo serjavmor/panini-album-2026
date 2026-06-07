@@ -1,16 +1,22 @@
 # Última Sesión: Álbum Panini Mundial 2026 Tracker
 
 ## Estado Actual
-* **Hito:** Reestructuración de la base de datos completada. La lámina 13 de cada selección ahora representa la foto de la selección completa, y la lámina 1 representa el escudo del país, alineando el rastreador al formato físico real.
+* **Hito:** Mapeo de nombres y correlativos corregido al 100%. Los nombres reales de los jugadores corresponden perfectamente con sus respectivos números de lámina de manera consistente para todas las selecciones (por ejemplo: `MEX 1` para el Escudo, `MEX 2` para Luis Malagón, `MEX 3` para Johan Vásquez, `MEX 4` para Jorge Sánchez, y así sucesivamente).
 * **Fecha:** 2026-06-06
-* **Resumen Ejecutivo:** Se ejecutó con éxito el script de procesamiento de plantillas (`adjust_photos.py`) para establecer el escudo en la posición 1 y la foto del equipo completo en la posición 13. Adicionalmente, se depuraron y rellenaron los 18 jugadores restantes para cada una de las 48 selecciones. Los cambios fueron integrados en la base de datos `db.js`, el proyecto fue compilado exitosamente con Vite y todos los cambios se subieron al repositorio de GitHub.
+* **Resumen Ejecutivo:** Se identificó que el OCR espacial anterior había desalineado las posiciones debido a la lectura horizontal y la omisión de números por parte del OCR. Se reescribió `parse_exact.py` implementando un algoritmo de proximidad lineal robusto. Este nuevo parser asocia secuencialmente los números y los bloques de nombres fila por fila, resolviendo cadenas complejas unidas, normalizando caracteres turcos combinatorios (como `ı̇` y `İ` que causaban errores), y depurando duplicados insensibles a acentos. Los datos limpios se integraron a `db.js`, se verificó la compilación exitosa en Vite y los cambios se subieron a GitHub.
 
 ## Cambios Realizados
-* **Establecimiento de Escudos y Fotos de Selección:** Configuración del script `adjust_photos.py` para forzar que el cromo número 1 sea siempre el Escudo de la selección y el cromo número 13 sea siempre la Foto de Selección completa (con posición "Equipo").
-* **Ajuste de Plantillas de Jugadores:** Depuración de nombres duplicados y rellenado automático con alternativas reales o ficticias por país hasta completar exactamente 18 jugadores por selección (excluyendo escudo y foto de equipo, para un total de 20 cromos por país).
-* **Actualización e Integración de Datos:** Regeneración automática del archivo central de datos `db.js` y actualización del archivo intermedio `exact_rosters.json`.
-* **Verificación de Compilación:** Ejecución de `npm run build` confirmando que Vite genera de forma satisfactoria los bundles optimizados de producción (`dist/`).
-* **Sincronización con GitHub:** Realizado commit y push de las modificaciones en `db.js` a la rama `main` del repositorio remoto (https://github.com/serjavmor/panini-album-2026).
+* **Algoritmo de Proximidad Lineal:** Corrección de la lógica de parseo en `parse_exact.py` para leer de forma secuencial y por proximidad lineal horizontal en `pdf_text.txt`. Esto garantiza que los nombres sigan la cuadrícula física del PDF de cada selección.
+* **Normalización de Caracteres Turcos y OCR:** Limpieza previa de caracteres turcos (como `İ` y `ı̇`) a formato estándar en español para evitar que el regex de limpieza eliminara letras y causara nombres como `"Carlos Rodrguez"`.
+* **Depuración de Duplicados Insensible a Acentos:** Implementada normalización de strings insensible a acentos y mayúsculas en la detección de duplicados, reemplazándolos inteligentemente con alternativas de la lista de fallbacks reales del país.
+* **Correlativo de México y otros Equipos:** Verificación exitosa de las posiciones en `db.js`. Por ejemplo, en México:
+  - `MEX-01`: Escudo de México
+  - `MEX-02`: Luis Malagón
+  - `MEX-03`: Johan Vasquez
+  - `MEX-04`: Jorge Sánchez
+  - `MEX-13`: Foto de Selección de México
+  - `MEX-18`: Reemplazado por Luis Romo para evitar duplicar a Carlos Rodríguez.
+* **Despliegue y GitHub:** Compilados los archivos optimizados y sincronizados en GitHub (https://github.com/serjavmor/panini-album-2026).
 
 ## Cómo Ejecutar y Probar
 Para iniciar el entorno de desarrollo y probar la aplicación:
