@@ -324,7 +324,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "MEX-01",
-        "name": "Johan Vasquez",
+        "name": "Escudo de México",
         "position": "Escudo",
         "number": 1
       },
@@ -450,7 +450,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "RSA-01",
-        "name": "South Africa",
+        "name": "Escudo de Sudáfrica",
         "position": "Escudo",
         "number": 1
       },
@@ -576,7 +576,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "KOR-01",
-        "name": "Hyeonwoo Jo",
+        "name": "Escudo de Corea del Sur",
         "position": "Escudo",
         "number": 1
       },
@@ -702,7 +702,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "CZE-01",
-        "name": "Matéj Kovár",
+        "name": "Escudo de República Checa",
         "position": "Escudo",
         "number": 1
       },
@@ -828,7 +828,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "CAN-01",
-        "name": "Hanada St Clair",
+        "name": "Escudo de Canadá",
         "position": "Escudo",
         "number": 1
       },
@@ -954,7 +954,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "BIH-01",
-        "name": "Vic Nikola",
+        "name": "Escudo de Bosnia-Herzegovina",
         "position": "Escudo",
         "number": 1
       },
@@ -1080,7 +1080,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "QAT-01",
-        "name": "O Pedro Miguel",
+        "name": "Escudo de Catar",
         "position": "Escudo",
         "number": 1
       },
@@ -1206,7 +1206,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "SUI-01",
-        "name": "Gregor Kobel",
+        "name": "Escudo de Suiza",
         "position": "Escudo",
         "number": 1
       },
@@ -1332,7 +1332,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "BRA-01",
-        "name": "Weslev Razil Argentina",
+        "name": "Escudo de Brasil",
         "position": "Escudo",
         "number": 1
       },
@@ -1458,7 +1458,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "MAR-01",
-        "name": "Morocco Munir",
+        "name": "Escudo de Marruecos",
         "position": "Escudo",
         "number": 1
       },
@@ -1584,7 +1584,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "HAI-01",
-        "name": "Garlens Arcus",
+        "name": "Escudo de Haití",
         "position": "Escudo",
         "number": 1
       },
@@ -1710,7 +1710,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "SCO-01",
-        "name": "Angus Gunn",
+        "name": "Escudo de Escocia",
         "position": "Escudo",
         "number": 1
       },
@@ -1836,7 +1836,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "USA-01",
-        "name": "Matt Freese",
+        "name": "Escudo de Estados Unidos",
         "position": "Escudo",
         "number": 1
       },
@@ -1962,7 +1962,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "PAR-01",
-        "name": "Roberto Gill",
+        "name": "Escudo de Paraguay",
         "position": "Escudo",
         "number": 1
       },
@@ -2088,7 +2088,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "AUS-01",
-        "name": "Rvan Joe",
+        "name": "Escudo de Australia",
         "position": "Escudo",
         "number": 1
       },
@@ -2214,7 +2214,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "TUR-01",
-        "name": "Türkive Uuran",
+        "name": "Escudo de Turquía",
         "position": "Escudo",
         "number": 1
       },
@@ -2340,7 +2340,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "GER-01",
-        "name": "Jonathan Tah",
+        "name": "Escudo de Alemania",
         "position": "Escudo",
         "number": 1
       },
@@ -2466,7 +2466,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "CUW-01",
-        "name": "Sambo Curaao Barbados",
+        "name": "Escudo de Curazao",
         "position": "Escudo",
         "number": 1
       },
@@ -2592,7 +2592,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "CIV-01",
-        "name": "Cte Divoire",
+        "name": "Escudo de Costa de Marfil",
         "position": "Escudo",
         "number": 1
       },
@@ -2718,7 +2718,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "ECU-01",
-        "name": "Hernán Galndez",
+        "name": "Escudo de Ecuador",
         "position": "Escudo",
         "number": 1
       },
@@ -2844,7 +2844,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "NED-01",
-        "name": "Bart Verbruggen",
+        "name": "Escudo de Países Bajos",
         "position": "Escudo",
         "number": 1
       },
@@ -2970,7 +2970,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "JPN-01",
-        "name": "Japan Henry Heroki",
+        "name": "Escudo de Japón",
         "position": "Escudo",
         "number": 1
       },
@@ -3096,7 +3096,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "SWE-01",
-        "name": "Rbielke Lucas",
+        "name": "Escudo de Suecia",
         "position": "Escudo",
         "number": 1
       },
@@ -3222,7 +3222,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "TUN-01",
-        "name": "Bechir Ben Said",
+        "name": "Escudo de Túnez",
         "position": "Escudo",
         "number": 1
       },
@@ -3348,7 +3348,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "BEL-01",
-        "name": "Thibaut Courtois",
+        "name": "Escudo de Bélgica",
         "position": "Escudo",
         "number": 1
       },
@@ -3474,7 +3474,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "EGY-01",
-        "name": "Mohamed Elshenawy",
+        "name": "Escudo de Egipto",
         "position": "Escudo",
         "number": 1
       },
@@ -3600,7 +3600,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "IRN-01",
-        "name": "Ir Iran Alireza",
+        "name": "Escudo de Irán",
         "position": "Escudo",
         "number": 1
       },
@@ -3726,7 +3726,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "NZL-01",
-        "name": "L Tyler",
+        "name": "Escudo de Nueva Zelanda",
         "position": "Escudo",
         "number": 1
       },
@@ -3852,7 +3852,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "ESP-01",
-        "name": "Spain Unai Simón",
+        "name": "Escudo de España",
         "position": "Escudo",
         "number": 1
       },
@@ -3978,7 +3978,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "CPV-01",
-        "name": "Vozinha Logan",
+        "name": "Escudo de Cabo Verde",
         "position": "Escudo",
         "number": 1
       },
@@ -4104,7 +4104,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "KSA-01",
-        "name": "Escudo Arabia Saudita",
+        "name": "Escudo de Arabia Saudita",
         "position": "Escudo",
         "number": 1
       },
@@ -4230,7 +4230,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "URU-01",
-        "name": "Escudo Uruguay",
+        "name": "Escudo de Uruguay",
         "position": "Escudo",
         "number": 1
       },
@@ -4356,7 +4356,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "FRA-01",
-        "name": "Mike Maignan",
+        "name": "Escudo de Francia",
         "position": "Escudo",
         "number": 1
       },
@@ -4482,7 +4482,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "SEN-01",
-        "name": "Édouard Mendv",
+        "name": "Escudo de Senegal",
         "position": "Escudo",
         "number": 1
       },
@@ -4608,7 +4608,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "IRQ-01",
-        "name": "Escudo Irak",
+        "name": "Escudo de Irak",
         "position": "Escudo",
         "number": 1
       },
@@ -4734,7 +4734,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "NOR-01",
-        "name": "Escudo Noruega",
+        "name": "Escudo de Noruega",
         "position": "Escudo",
         "number": 1
       },
@@ -4860,7 +4860,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "ARG-01",
-        "name": "Emiliano Martínez",
+        "name": "Escudo de Argentina",
         "position": "Escudo",
         "number": 1
       },
@@ -4986,7 +4986,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "ALG-01",
-        "name": "Alexis Guendouz",
+        "name": "Escudo de Argelia",
         "position": "Escudo",
         "number": 1
       },
@@ -5112,7 +5112,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "AUT-01",
-        "name": "Schlager Patrick",
+        "name": "Escudo de Austria",
         "position": "Escudo",
         "number": 1
       },
@@ -5238,7 +5238,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "JOR-01",
-        "name": "Vazeed Abulaila",
+        "name": "Escudo de Jordania",
         "position": "Escudo",
         "number": 1
       },
@@ -5364,7 +5364,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "POR-01",
-        "name": "Diogo Costa",
+        "name": "Escudo de Portugal",
         "position": "Escudo",
         "number": 1
       },
@@ -5490,7 +5490,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "COD-01",
-        "name": "Congo Dr Lionel",
+        "name": "Escudo de Congo RD",
         "position": "Escudo",
         "number": 1
       },
@@ -5616,7 +5616,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "UZB-01",
-        "name": "Tov Khojiakbar",
+        "name": "Escudo de Uzbekistán",
         "position": "Escudo",
         "number": 1
       },
@@ -5742,7 +5742,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "COL-01",
-        "name": "Camilo Vargas",
+        "name": "Escudo de Colombia",
         "position": "Escudo",
         "number": 1
       },
@@ -5868,7 +5868,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "ENG-01",
-        "name": "Escudo Inglaterra",
+        "name": "Escudo de Inglaterra",
         "position": "Escudo",
         "number": 1
       },
@@ -5994,7 +5994,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "CRO-01",
-        "name": "Hruata Dominik",
+        "name": "Escudo de Croacia",
         "position": "Escudo",
         "number": 1
       },
@@ -6120,7 +6120,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "GHA-01",
-        "name": "Lawrence Ati Zigi",
+        "name": "Escudo de Ghana",
         "position": "Escudo",
         "number": 1
       },
@@ -6246,7 +6246,7 @@ const REAL_ROSTERS_DB = {
     "stickers": [
       {
         "id": "PAN-01",
-        "name": "Is Jose",
+        "name": "Escudo de Panamá",
         "position": "Escudo",
         "number": 1
       },
