@@ -809,11 +809,6 @@ main {
   gap: 1.5rem;
 }
 
-@media (max-width: 850px) {
-  .stats-panel-layout {
-    grid-template-columns: 1fr;
-  }
-}
 
 .stats-card {
   background: var(--panel-bg);
@@ -987,11 +982,6 @@ main {
   gap: 1.5rem;
 }
 
-@media (max-width: 768px) {
-  .lists-split-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 .list-display-box {
   background: rgba(0, 0, 0, 0.3);
