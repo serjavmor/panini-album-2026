@@ -17,6 +17,7 @@ let activeTeamId = "FWC";
 document.addEventListener("DOMContentLoaded", () => {
   loadCollectionState();
   initNavigation();
+  initSidebarMobile();
   renderGroupsSidebar();
   renderActiveTeamPage();
   updateGlobalProgress();
@@ -136,6 +137,18 @@ function initNavigation() {
   });
 }
 
+function initSidebarMobile() {
+  const toggleBtn = document.getElementById("sidebar-toggle-btn");
+  const sidebarPanel = document.querySelector(".sidebar-panel");
+  
+  if (toggleBtn && sidebarPanel) {
+    toggleBtn.addEventListener("click", () => {
+      const isExpanded = sidebarPanel.classList.toggle("expanded");
+      toggleBtn.setAttribute("aria-expanded", isExpanded);
+    });
+  }
+}
+
 
 // 3. RENDERIZADO DEL PANEL LATERAL (Sidebar Accordion)
 function renderGroupsSidebar() {
@@ -196,6 +209,15 @@ function renderGroupsSidebar() {
         activeTeamId = team.id;
         // Limpiar buscador al cambiar de equipo para evitar confusiones
         document.getElementById("sticker-search").value = "";
+        
+        // Cerrar sidebar en versión móvil si está expandido
+        const sidebarPanel = document.querySelector(".sidebar-panel");
+        const toggleBtn = document.getElementById("sidebar-toggle-btn");
+        if (sidebarPanel && sidebarPanel.classList.contains("expanded")) {
+          sidebarPanel.classList.remove("expanded");
+          if (toggleBtn) toggleBtn.setAttribute("aria-expanded", "false");
+        }
+        
         renderActiveTeamPage();
       });
       
@@ -313,7 +335,17 @@ function createStickerCard(sticker) {
   `;
   
   // Eventos
-  card.addEventListener("click", () => toggleStickerOwned(sticker.id));
+  card.addEventListener("click", (e) => {
+    // Si se hizo click en un botón de control, no hacer nada aquí (ya tienen sus listeners)
+    if (e.target.closest(".control-btn")) return;
+    
+    // Solo permitir marcar como obtenida si está missing.
+    // Una vez obtenida o repetida, los cambios se controlan estrictamente con los botones + y -
+    // para evitar desmarcados accidentales en móviles.
+    if (state.status === "missing") {
+      toggleStickerOwned(sticker.id);
+    }
+  });
   
   const btnPlus = card.querySelector(".btn-plus");
   const btnMinus = card.querySelector(".btn-minus");
@@ -421,14 +453,18 @@ function renderSearchResults(results, query) {
     const card = createStickerCard(sticker);
     
     // Modificar un poco la tarjeta para que muestre el país en los resultados globales
-    const info = card.querySelector(".sticker-info");
-    const teamBadge = document.createElement("div");
-    teamBadge.style.fontSize = "0.7rem";
-    teamBadge.style.color = "var(--accent-gold)";
-    teamBadge.style.marginTop = "0.2rem";
-    teamBadge.style.fontWeight = "600";
-    teamBadge.textContent = `${sticker.teamFlag} ${sticker.teamName}`;
-    info.appendChild(teamBadge);
+    const slotName = card.querySelector(".sticker-slot-name");
+    if (slotName) {
+      slotName.style.flexDirection = "column";
+      slotName.style.gap = "2px";
+      
+      const teamBadge = document.createElement("div");
+      teamBadge.style.fontSize = "0.6rem";
+      teamBadge.style.color = "var(--accent-gold)";
+      teamBadge.style.fontWeight = "700";
+      teamBadge.textContent = `${sticker.teamFlag} ${sticker.teamName.toUpperCase()}`;
+      slotName.appendChild(teamBadge);
+    }
     
     grid.appendChild(card);
   });

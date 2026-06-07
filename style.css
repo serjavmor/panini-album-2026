@@ -31,6 +31,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input, textarea, select {
+  font-size: 16px;
 }
 
 body {
@@ -69,10 +74,14 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 1.5rem;
+  padding-top: calc(1.5rem + env(safe-area-inset-top));
+  padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
+  padding-left: calc(1.5rem + env(safe-area-inset-left));
+  padding-right: calc(1.5rem + env(safe-area-inset-right));
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 /* Header & Barra de Progreso */
@@ -244,7 +253,41 @@ main {
 @media (max-width: 900px) {
   .album-view-layout {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
+
+  .sidebar-panel {
+    position: sticky;
+    top: 1rem;
+    max-height: 90dvh;
+    z-index: 50;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .sidebar-toggle-btn {
+    display: flex; /* Mostrar en móvil */
+  }
+
+  .groups-accordion-wrapper {
+    display: none; /* Colapsado por defecto */
+    max-height: 50dvh;
+    overflow-y: auto;
+  }
+
+  /* Mostrar cuando se expanda el sidebar */
+  .sidebar-panel.expanded .groups-accordion-wrapper {
+    display: flex;
+    animation: sidebarSlideDown 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sidebar-panel.expanded .sidebar-toggle-btn svg {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes sidebarSlideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* Panel Lateral de Navegación */
@@ -262,6 +305,36 @@ main {
   max-height: 80vh;
   position: sticky;
   top: 1.5rem;
+  z-index: 10;
+  transition: var(--transition-smooth);
+}
+
+.sidebar-toggle-btn {
+  display: none;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--accent-gold);
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: var(--transition-smooth);
+  outline: none;
+}
+
+.sidebar-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-toggle-btn svg {
+  width: 16px;
+  height: 16px;
+  transition: var(--transition-smooth);
 }
 
 .search-box {
@@ -276,7 +349,7 @@ main {
   border-radius: 10px;
   color: #fff;
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 16px;
   outline: none;
   transition: var(--transition-smooth);
 }
@@ -669,63 +742,59 @@ main {
 /* Controles de Repetida (+ / -) integrados en la tarjeta */
 .sticker-controls {
   position: absolute;
-  bottom: 0.5rem;
-  left: 0.5rem;
-  right: 0.5rem;
+  top: 0.7rem;
+  left: 0.7rem;
+  right: 0.7rem;
   display: flex;
   justify-content: space-between;
-  gap: 0.5rem;
   opacity: 0;
-  transform: translateY(10px);
+  pointer-events: none;
   transition: var(--transition-smooth);
   z-index: 4;
 }
 
-.sticker-card.owned:hover .sticker-controls,
-.sticker-card.repeated:hover .sticker-controls {
+.sticker-card.owned .sticker-controls,
+.sticker-card.repeated .sticker-controls {
   opacity: 1;
-  transform: translateY(0);
-}
-
-.sticker-card.owned:hover .sticker-slot-name,
-.sticker-card.repeated:hover .sticker-slot-name {
-  opacity: 0; /* Oculta temporalmente el nombre al hacer hover para mostrar botones */
-  transform: translateY(-5px);
 }
 
 .control-btn {
-  flex: 1;
-  height: 28px;
+  pointer-events: auto;
+  width: 22px;
+  height: 22px;
   border: none;
-  border-radius: 6px;
-  font-weight: 700;
-  font-size: 0.9rem;
+  border-radius: 50%;
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: 0.85rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: var(--transition-smooth);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .control-btn.btn-minus {
-  background: rgba(255, 255, 255, 0.15);
+  background: #ef4444;
   color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .control-btn.btn-minus:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: #f87171;
+  transform: scale(1.1);
 }
 
 .control-btn.btn-plus {
-  background: var(--accent-gold);
-  color: #07080e;
+  background: #10b981;
+  color: #fff;
 }
 
 .control-btn.btn-plus:hover {
-  background: #f1c75c;
-  box-shadow: 0 0 8px var(--accent-gold-glow);
+  background: #34d399;
+  transform: scale(1.1);
 }
 
 
@@ -1019,4 +1088,118 @@ main {
   font-size: 1.2rem;
   color: var(--accent-gold);
   margin-bottom: 1rem;
+}
+
+/* Soporte Móvil Adicional y Safe Areas para Pantallas Pequeñas */
+@media (max-width: 480px) {
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+  }
+  
+  .logo-section h1 {
+    font-size: 1.4rem;
+  }
+  
+  .nav-tabs {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0.25rem;
+  }
+  
+  .tab-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    flex: 1;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  
+  .tab-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+  
+  header {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .progress-stats-summary {
+    gap: 0.5rem;
+    justify-content: center;
+    font-size: 0.75rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .progress-stats-summary span {
+    display: flex;
+    gap: 0.25rem;
+  }
+  
+  .progress-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .album-page-panel {
+    padding: 1rem;
+  }
+  
+  .page-title-section {
+    padding-bottom: 0.75rem;
+  }
+  
+  .team-title-wrap h2 {
+    font-size: 1.4rem;
+  }
+  
+  .team-title-wrap .flag-icon {
+    font-size: 1.75rem;
+  }
+  
+  .team-page-progress {
+    gap: 0.5rem;
+  }
+  
+  .team-progress-percentage {
+    font-size: 1.1rem;
+  }
+  
+  .numbers-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .num-box {
+    padding: 0.75rem;
+  }
+  
+  .num-box .value {
+    font-size: 1.5rem;
+  }
+  
+  .actions-row {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .action-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.65rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .modal-window {
+    padding: 1.25rem;
+  }
+  
+  .modal-title {
+    font-size: 1.2rem;
+  }
 }

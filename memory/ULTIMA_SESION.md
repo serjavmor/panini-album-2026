@@ -1,22 +1,21 @@
 # Última Sesión: Álbum Panini Mundial 2026 Tracker
 
 ## Estado Actual
-* **Hito:** Corrección del correlativo de la selección de Sudáfrica (RSA) completada. La base de datos asigna de forma correcta e impecable a los porteros (Ronwen Williams y Sipho Chaine) y defensas en sus respectivos números.
+* **Hito:** Optimización Móvil y Safari (iOS / iPhone) completada y verificada. La SPA es completamente responsiva, previene el zoom automático de Safari en inputs, protege la interactividad táctil contra clics accidentales y presenta una barra de selección de equipos colapsable de alto rendimiento.
 * **Fecha:** 2026-06-06
-* **Resumen Ejecutivo:** Se identificó que la asignación secuencial directa por proximidad de números fallaba en Sudáfrica debido a la acumulación de códigos de cromo antes de los nombres en el OCR. Se modificó el algoritmo en `parse_exact.py` a **proximidad inversa (nombre -> número anterior más cercano)**. Esto corrigió la asignación de Sudáfrica: `RSA-01` (Escudo), `RSA-02` (Ronwen Williams) y `RSA-03` (Sipho Chaine). El cambio se propagó a las 48 selecciones del álbum. El bundle fue recompilado exitosamente y los cambios se subieron a GitHub.
+* **Resumen Ejecutivo:** Se rediseñó el flujo táctil en móviles para evitar que toques de desplazamiento borren cromos de la colección (limitando el decremento/borrado al botón `-`). Se reubicaron los botones `-` y `+` a las esquinas superiores del ID de manera fija en cromos obtenidos para mantener el nombre del jugador 100% legible. Se agregó un botón toggle para expandir/colapsar el sidebar en pantallas menores a 900px, el cual se auto-cierra al seleccionar equipo. Se configuró `100dvh` y `safe-area-inset` para evitar solapamientos en dispositivos iOS. Adicionalmente, se corrigió un bug en la inyección de resultados de búsqueda global.
 
 ## Cambios Realizados
-* **Algoritmo de Proximidad Inversa:** Modificada la lógica de asignación en `parse_exact.py` para asociar cada nombre de jugador detectado en la página al número de cromo no asignado que aparezca inmediatamente antes en el flujo de lectura (distancia mínima de líneas).
-* **Correlativo de Sudáfrica (RSA):** Verificación exitosa en `db.js` y `exact_rosters.json`:
-  - `RSA-01`: Escudo de Sudáfrica
-  - `RSA-02`: Ronwen Williams (Portero titular)
-  - `RSA-03`: Sipho Chaine (Portero suplente)
-  - `RSA-04` a `RSA-10`: Defensas en orden correlativo del PDF.
-* **Verificación de Compilación:** Compilación del proyecto finalizado en 95ms con `npm run build`.
-* **Sincronización con GitHub:** Subidos los cambios de la base de datos a la rama `main` del repositorio remoto (https://github.com/serjavmor/panini-album-2026).
+* **Prevención de Zoom de Safari:** Se asignó un `font-size: 16px` para todos los inputs y cuadros de texto, inhabilitando el comportamiento nativo de zoom al enfocar la barra de búsqueda en iOS.
+* **Gestos y Taps Limpios:** Se aplicó `-webkit-tap-highlight-color: transparent` y `user-select: none` en tarjetas de cromo para una respuesta visual nativa sin recuadros translúcidos azules.
+* **Rediseño de Controles de Cromo:** Los botones `+` y `-` flotan permanentemente en las esquinas superiores de las tarjetas obtenidas. Se inhabilitó el clic del cuerpo de tarjetas obtenidas/repetidas, haciendo que los cambios solo sean posibles a través de los controles específicos y previniendo pérdidas de datos al hacer scroll. El nombre del jugador se mantiene visible.
+* **Sidebar Móvil Colapsable:** Agregado un botón `#sidebar-toggle-btn` en `index.html`. En pantallas `< 900px` la lista de selecciones se oculta y despliega con animaciones CSS (`sidebarSlideDown`). El menú se colapsa automáticamente al elegir un equipo en móvil.
+* **Soporte de Safe Areas:** Se incorporó `env(safe-area-inset-top/bottom/left/right)` al layout principal `.app-container` para compatibilidad completa con el Notch y Home Indicator de iPhone.
+* **Corrección del Buscador:** Corregido bug que arrojaba `TypeError` al intentar buscar `.sticker-info` (el cual no existe en la tarjeta). Ahora busca y añade dinámicamente el badge de país sobre `.sticker-slot-name` con un layout tipo columna.
+* **Verificación de Compilación:** Compilación de producción con Vite (`npm run build`) completada con éxito en 99ms sin advertencias.
 
 ## Cómo Ejecutar y Probar
-Para iniciar el entorno de desarrollo y probar la aplicación:
+Para iniciar el entorno de desarrollo local y validar:
 ```bash
 # Entrar al directorio
 cd /Users/sergiomorales/.gemini/antigravity/scratch/panini-album-2026
@@ -26,4 +25,4 @@ npm run dev
 ```
 
 ## Tareas Pendientes
-* Ninguna pendiente. La base de datos, el diseño premium, las utilidades de importación/exportación y las listas de intercambio están completamente funcionales y alineadas a los requerimientos del álbum oficial.
+* Ninguna pendiente. La aplicación web está completamente optimizada para móviles, iPhone y Safari, manteniendo la paleta de colores premium y el control del álbum al 100%.
