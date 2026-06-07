@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panini 2026: Álbum Mundial de Fútbol - Tracker Premium</title>
+  <meta name="description" content="Lleva el control de tus cromos o láminas del álbum Panini del Mundial de Fútbol 2026. Revisa tu progreso, estadísticas y genera listas de intercambio de forma ágil y moderna.">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- HEADER PRINCIPAL -->
+    <header>
+      <div class="header-top">
+        <div class="logo-section">
+          <h1>🏆 PANINI 2026 <span>Tracker</span></h1>
+        </div>
+        
+        <!-- Pestañas de Navegación -->
+        <nav class="nav-tabs">
+          <button class="tab-btn active" data-tab="album-tab" id="btn-tab-album">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/><path d="M13 14h3"/><path d="M13 18h3"/></svg>
+            Mi Álbum
+          </button>
+          <button class="tab-btn" data-tab="stats-tab" id="btn-tab-stats">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            Estadísticas
+          </button>
+          <button class="tab-btn" data-tab="exchange-tab" id="btn-tab-exchange">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 3 4 4-4 4"/><path d="M20 7H9a4 4 0 0 0-4 4v9"/><path d="m8 21-4-4 4-4"/><path d="M4 17h11a4 4 0 0 0 4-4V4"/></svg>
+            Intercambio
+          </button>
+        </nav>
+      </div>
+      
+      <!-- Barra de Progreso Global del Álbum -->
+      <div class="progress-container">
+        <div class="progress-info">
+          <span>Progreso del Álbum</span>
+          <div class="progress-stats-summary">
+            <span>Tengo: <strong id="global-owned-count">0</strong></span>
+            <span>Faltan: <strong id="global-missing-count">0</strong></span>
+            <span>Repetidas: <strong id="global-repeated-count">0</strong></span>
+            <span id="global-progress-percentage" style="color: var(--accent-gold); font-weight: 700;">0%</span>
+          </div>
+        </div>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar-fill" id="global-progress-bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      
+      <!-- PESTAÑA 1: VISTA DE ÁLBUM -->
+      <section id="album-tab" class="tab-content active">
+        <div class="album-view-layout">
+          
+          <!-- Panel Lateral: Buscador y Lista de Selecciones -->
+          <aside class="sidebar-panel">
+            <!-- Buscador -->
+            <div class="search-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="text" id="sticker-search" placeholder="Buscar jugador o número..." autocomplete="off">
+            </div>
+            
+            <!-- Acordeón de Grupos y Equipos -->
+            <div class="groups-accordion-wrapper" id="groups-accordion">
+              <!-- Se inyecta dinámicamente -->
+            </div>
+          </aside>
+
+          <!-- Panel Central: Doble Página del Equipo -->
+          <article class="album-page-panel">
+            <div class="page-title-section">
+              <div class="team-title-wrap" id="active-team-header">
+                <!-- Se inyecta dinámicamente -->
+              </div>
+              
+              <!-- Progreso Radial/Numérico de la Página -->
+              <div class="team-page-progress">
+                <div class="team-progress-info">
+                  <span class="team-progress-percentage" id="team-percentage">0%</span>
+                  <span class="team-progress-numbers" id="team-ratio">0 / 0</span>
+                </div>
+                <svg class="radial-progress-svg">
+                  <circle class="radial-track" cx="24" cy="24" r="20" />
+                  <circle class="radial-fill" id="team-radial-fill" cx="24" cy="24" r="20" />
+                </svg>
+              </div>
+            </div>
+            
+            <!-- Grid de Láminas -->
+            <div class="stickers-grid" id="stickers-grid">
+              <!-- Se inyectan dinámicamente los cromos -->
+            </div>
+          </article>
+          
+        </div>
+      </section>
+
+      <!-- PESTAÑA 2: ESTADÍSTICAS -->
+      <section id="stats-tab" class="tab-content">
+        <div class="stats-panel-layout">
+          
+          <!-- Resumen Numérico General -->
+          <div class="stats-card">
+            <h3>📊 Resumen de Colección</h3>
+            <div class="numbers-grid">
+              <div class="num-box box-owned">
+                <span class="value" id="stats-owned">0</span>
+                <span class="label">Obtenidas</span>
+              </div>
+              <div class="num-box box-missing">
+                <span class="value" id="stats-missing">0</span>
+                <span class="label">Faltantes</span>
+              </div>
+              <div class="num-box box-repeated">
+                <span class="value" id="stats-repeated">0</span>
+                <span class="label">Repetidas</span>
+              </div>
+            </div>
+            
+            <!-- Progreso Adicional -->
+            <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.75rem;">
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                Has completado un total de <strong id="stats-completed-pages" style="color: var(--accent-gold);">0</strong> de 49 páginas del álbum.
+              </p>
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                Total de láminas impresas registradas: <strong style="color: #fff;">930</strong> (18 Especiales + 19 por cada una de las 48 selecciones).
+              </p>
+            </div>
+          </div>
+          
+          <!-- Progreso Detallado por Selección -->
+          <div class="stats-card">
+            <h3>📈 Progreso por Selección</h3>
+            <div class="teams-progress-scrollable" id="teams-progress-list">
+              <!-- Inyectado dinámicamente -->
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- PESTAÑA 3: INTERCAMBIO -->
+      <section id="exchange-tab" class="tab-content">
+        <div class="exchange-panel-layout">
+          
+          <!-- Botones de Acción Globales -->
+          <div class="stats-card">
+            <h3>⚙️ Gestión y Utilidades</h3>
+            <div class="actions-row">
+              <button class="action-btn btn-primary" id="btn-export-data">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                Exportar / Respaldar Datos
+              </button>
+              <button class="action-btn" id="btn-import-data">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Importar Respaldos
+              </button>
+              <button class="action-btn" id="btn-clear-data" style="border-color: rgba(239, 68, 68, 0.4); color: #ef4444;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg>
+                Reiniciar Álbum
+              </button>
+            </div>
+          </div>
+          
+          <!-- Generador de Listas de Intercambio -->
+          <div class="lists-split-grid">
+            
+            <!-- Columna Faltantes -->
+            <div class="stats-card">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h3>❌ Mis Faltantes</h3>
+                <button class="action-btn btn-primary" id="btn-copy-missing" style="padding: 0.4rem 1rem; font-size: 0.8rem;">
+                  Copiar Lista
+                </button>
+              </div>
+              <div class="list-display-box" id="list-missing-text">
+                No tienes láminas faltantes registradas.
+              </div>
+            </div>
+            
+            <!-- Columna Repetidas -->
+            <div class="stats-card">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h3>🔄 Mis Repetidas</h3>
+                <button class="action-btn btn-gold" id="btn-copy-repeated" style="padding: 0.4rem 1rem; font-size: 0.8rem;">
+                  Copiar Lista
+                </button>
+              </div>
+              <div class="list-display-box" id="list-repeated-text">
+                No tienes láminas repetidas registradas.
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- NOTIFICACIÓN TOAST (Emergente) -->
+  <div class="toast-msg" id="toast">Copiado al portapapeles!</div>
+
+  <!-- MODAL: REINICIAR DATOS -->
+  <div class="modal-backdrop" id="modal-reset">
+    <div class="modal-window">
+      <div class="modal-title" style="color: #ef4444;">⚠️ ¿Reiniciar Progreso?</div>
+      <div class="modal-body">
+        Esta acción borrará por completo el progreso de tu colección, incluyendo todas las láminas obtenidas y repetidas. No se puede deshacer. ¿Deseas continuar?
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn" id="btn-reset-cancel" style="padding: 0.5rem 1rem;">Cancelar</button>
+        <button class="action-btn" id="btn-reset-confirm" style="background: #ef4444; border: none; padding: 0.5rem 1rem;">Reiniciar Todo</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: EXPORTAR/IMPORTAR DATOS -->
+  <div class="modal-backdrop" id="modal-backup">
+    <div class="modal-window" style="max-width: 600px;">
+      <div class="modal-title" id="backup-modal-title">Respaldar Datos</div>
+      <div class="modal-body" style="display: flex; flex-direction: column; gap: 1rem;">
+        <p id="backup-modal-description">Copia el siguiente código de seguridad para restaurar tu progreso en otro dispositivo:</p>
+        <textarea id="backup-textarea" style="width: 100%; height: 120px; background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #fff; padding: 0.5rem; font-family: monospace; font-size: 0.75rem; resize: none;"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn" id="btn-backup-close" style="padding: 0.5rem 1rem;">Cerrar</button>
+        <button class="action-btn btn-primary" id="btn-backup-action" style="padding: 0.5rem 1rem;">Copiar Código</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lógica Principal -->
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
