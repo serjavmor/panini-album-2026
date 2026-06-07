@@ -1,18 +1,16 @@
 # Última Sesión: Álbum Panini Mundial 2026 Tracker
 
 ## Estado Actual
-* **Hito:** Desarrollo completado al 100%, alineado al PDF oficial y publicado en GitHub. Aplicación funcional, compilación verificada con Vite y diseño responsivo premium finalizado.
+* **Hito:** Reestructuración de la base de datos completada. La lámina 13 de cada selección ahora representa la foto de la selección completa, y la lámina 1 representa el escudo del país, alineando el rastreador al formato físico real.
 * **Fecha:** 2026-06-06
-* **Resumen Ejecutivo:** Se ha construido e implementado una SPA interactiva en HTML, Vanilla CSS y JS modular para gestionar el álbum Panini del Mundial 2026. A partir del PDF original provisto (`Album original CARTA.pdf`), se realizó una extracción OCR automatizada usando el framework Vision de Apple. Esto permitió reconstruir los 12 grupos oficiales del Mundial (del A al L) y los nombres reales de los jugadores para las 48 selecciones con exactamente 20 láminas por equipo (978 láminas en total). El repositorio ha sido actualizado en GitHub.
+* **Resumen Ejecutivo:** Se ejecutó con éxito el script de procesamiento de plantillas (`adjust_photos.py`) para establecer el escudo en la posición 1 y la foto del equipo completo en la posición 13. Adicionalmente, se depuraron y rellenaron los 18 jugadores restantes para cada una de las 48 selecciones. Los cambios fueron integrados en la base de datos `db.js`, el proyecto fue compilado exitosamente con Vite y todos los cambios se subieron al repositorio de GitHub.
 
 ## Cambios Realizados
-* **Procesamiento de PDF y OCR Espacial:** Implementado script de OCR geométrico en Swift (`ocr_spatial.swift`) que utiliza las coordenadas normalizadas (`boundingBox`) del framework Vision de Apple. Mapea y enlaza cada identificador de cromo (ej: `MEX 2`) con el bloque de texto del nombre que esté exactamente debajo en su misma columna, corrigiendo cualquier error de desalineación por orden de lectura.
-* **Remoción de Duplicados:** Creado script `clean_duplicates.py` para depurar cualquier nombre repetido en la misma selección por proximidad del OCR, garantizando jugadores únicos.
-* **Estandarización de Escudos:** Implementado script `adjust_shields.py` para forzar que la lámina número 1 de cada selección sea nombrada de forma limpia como "Escudo de [País]" con el rol "Escudo".
-* **Base de Datos (`db.js`):** Inyectados los 12 grupos reales y los nombres de jugadores oficiales extraídos del PDF para las 48 selecciones, con 20 láminas por equipo (1 Escudo + 19 Jugadores).
-* **Simplificación Visual de Tarjetas (`app.js` & `style.css`):** Rediseñado el layout de los cromos para eliminar el avatar de emoji y la posición, dejando solo el identificador de lámina (ej: `MEX 2`) y el nombre del jugador en mayúsculas. El estado faltante imita la ranura física original (fondo verde menta y recuadros redondeados blancos) y el estado obtenido simula el cromo metalizado pegado encima.
-* **Maquetación e Interfaces (`index.html`):** Actualizada la interfaz de estadísticas para reflejar el total real de 978 láminas de la colección.
-* **Entorno y Repositorio:** Compilado el bundle optimizado y subido los cambios al repositorio de GitHub (https://github.com/serjavmor/panini-album-2026).
+* **Establecimiento de Escudos y Fotos de Selección:** Configuración del script `adjust_photos.py` para forzar que el cromo número 1 sea siempre el Escudo de la selección y el cromo número 13 sea siempre la Foto de Selección completa (con posición "Equipo").
+* **Ajuste de Plantillas de Jugadores:** Depuración de nombres duplicados y rellenado automático con alternativas reales o ficticias por país hasta completar exactamente 18 jugadores por selección (excluyendo escudo y foto de equipo, para un total de 20 cromos por país).
+* **Actualización e Integración de Datos:** Regeneración automática del archivo central de datos `db.js` y actualización del archivo intermedio `exact_rosters.json`.
+* **Verificación de Compilación:** Ejecución de `npm run build` confirmando que Vite genera de forma satisfactoria los bundles optimizados de producción (`dist/`).
+* **Sincronización con GitHub:** Realizado commit y push de las modificaciones en `db.js` a la rama `main` del repositorio remoto (https://github.com/serjavmor/panini-album-2026).
 
 ## Cómo Ejecutar y Probar
 Para iniciar el entorno de desarrollo y probar la aplicación:
@@ -25,4 +23,4 @@ npm run dev
 ```
 
 ## Tareas Pendientes
-* Ninguna pendiente para esta fase. El producto está listo para su despliegue y uso.
+* Ninguna pendiente. La base de datos, el diseño premium, las utilidades de importación/exportación y las listas de intercambio están completamente funcionales y alineadas a los requerimientos del álbum oficial.

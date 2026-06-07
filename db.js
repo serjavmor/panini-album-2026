@@ -318,387 +318,1647 @@ export const TEAMS_DATA = [
 ];
 
 const REAL_ROSTERS_DB = {
-  "AUS": {
-    "name": "Australia",
+  "MEX": {
+    "id": "MEX",
+    "name": "México",
     "stickers": [
       {
-        "id": "AUS-01",
-        "name": "Escudo de Australia",
+        "id": "MEX-01",
+        "name": "Escudo de México",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "AUS-02",
-        "name": "Carlos Gómez",
+        "id": "MEX-02",
+        "name": "Luis Malagón",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "AUS-03",
-        "name": "Thomas Jones",
+        "id": "MEX-03",
+        "name": "Johan Vasquez",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "AUS-04",
-        "name": "Kenji Mensah",
+        "id": "MEX-04",
+        "name": "Jorge Sánchez",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "AUS-05",
-        "name": "Kofi Nguyen",
+        "id": "MEX-05",
+        "name": "Cesar Montes",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "AUS-06",
-        "name": "Jack Rossi",
+        "id": "MEX-06",
+        "name": "Jesus Gallardo",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "AUS-07",
-        "name": "Luis Sánchez",
+        "id": "MEX-07",
+        "name": "Israel Reyes",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "AUS-08",
-        "name": "Jan Obi",
+        "id": "MEX-08",
+        "name": "Diego Lainez",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "AUS-09",
-        "name": "Peter Silva",
+        "id": "MEX-09",
+        "name": "Carlos Rodriguez",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "AUS-10",
-        "name": "Sadio Müller",
+        "id": "MEX-10",
+        "name": "Edson Alvarez",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "AUS-11",
-        "name": "Liam Tanaka",
+        "id": "MEX-11",
+        "name": "Orbelín Pineda",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "AUS-12",
-        "name": "Andrés Diallo",
+        "id": "MEX-12",
+        "name": "Marcel Ruiz",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "AUS-13",
-        "name": "Foto de Selección de Australia",
+        "id": "MEX-13",
+        "name": "Foto de Selección de México",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "AUS-14",
-        "name": "Diego Rossi",
+        "id": "MEX-14",
+        "name": "Erick Sánchez",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "AUS-15",
-        "name": "Ji-hoon Sánchez",
+        "id": "MEX-15",
+        "name": "Hirving Lozano",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "AUS-16",
-        "name": "Youssef Obi",
+        "id": "MEX-16",
+        "name": "Santiago Giménez",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "AUS-17",
-        "name": "Oliver Silva",
+        "id": "MEX-17",
+        "name": "Raul Jimenez",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "AUS-18",
-        "name": "Carlos Müller",
+        "id": "MEX-18",
+        "name": "Luis Romo",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "AUS-19",
-        "name": "Thomas Tanaka",
+        "id": "MEX-19",
+        "name": "Roberto Alvarado",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "AUS-20",
-        "name": "Kenji Diallo",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "AUS"
-  },
-  "URU": {
-    "name": "Uruguay",
-    "id": "URU",
-    "stickers": [
-      {
-        "id": "URU-01",
-        "name": "Escudo de Uruguay",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "URU-02",
-        "name": "Sergio Rochet",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "URU-03",
-        "name": "Ronald Araújo",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "URU-04",
-        "name": "José María Giménez",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "URU-05",
-        "name": "Mathías Olivera",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "URU-06",
-        "name": "Federico Valverde",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "URU-07",
-        "name": "Nicolás de la Cruz",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "URU-08",
-        "name": "Darwin Núñez",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "URU-09",
-        "name": "Maximiliano Araujo",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "URU-10",
-        "name": "Luis Suárez",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "URU-11",
-        "name": "Carlos Rossi",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "URU-12",
-        "name": "Thomas Sánchez",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "URU-13",
-        "name": "Foto de Selección de Uruguay",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "URU-14",
-        "name": "Kenji Obi",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "URU-15",
-        "name": "Kofi Silva",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "URU-16",
-        "name": "Jack Müller",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "URU-17",
-        "name": "Luis Tanaka",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "URU-18",
-        "name": "Jan Diallo",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "URU-19",
-        "name": "Peter Ivanov",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "URU-20",
-        "name": "Sadio Hansen",
+        "id": "MEX-20",
+        "name": "César Huerta",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "PAN": {
-    "id": "PAN",
+  "RSA": {
+    "id": "RSA",
+    "name": "Sudáfrica",
     "stickers": [
       {
-        "id": "PAN-01",
-        "name": "Escudo de Panamá",
+        "id": "RSA-01",
+        "name": "Escudo de Sudáfrica",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "PAN-02",
-        "name": "Carlos Gómez",
+        "id": "RSA-02",
+        "name": "Sipho Chaine",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "PAN-03",
-        "name": "Thomas Jones",
+        "id": "RSA-03",
+        "name": "Khulumani Ndamane",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "PAN-04",
-        "name": "Kenji Nguyen",
+        "id": "RSA-04",
+        "name": "Ronwen Williams",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "PAN-05",
-        "name": "Kofi Rossi",
+        "id": "RSA-05",
+        "name": "Khuliso Mudau",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "PAN-06",
-        "name": "Jack Sánchez",
+        "id": "RSA-06",
+        "name": "Aubrey Modiba",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "PAN-07",
-        "name": "Luis Obi",
+        "id": "RSA-07",
+        "name": "Sivabonga Ngezana",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "PAN-08",
-        "name": "Jan Silva",
+        "id": "RSA-08",
+        "name": "Samukele Kabini",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "PAN-09",
-        "name": "Peter Müller",
+        "id": "RSA-09",
+        "name": "Mbekezeli Mbokazi",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "PAN-10",
-        "name": "Sadio Diallo",
+        "id": "RSA-10",
+        "name": "Nkosinathi Sibisi",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "PAN-11",
-        "name": "Liam Rossi",
+        "id": "RSA-11",
+        "name": "Bathusi Aubaas",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "PAN-12",
-        "name": "Andrés Sánchez",
+        "id": "RSA-12",
+        "name": "Yaya Sithole",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "PAN-13",
-        "name": "Foto de Selección de Panamá",
+        "id": "RSA-13",
+        "name": "Foto de Selección de Sudáfrica",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "PAN-14",
-        "name": "Diego Williams",
+        "id": "RSA-14",
+        "name": "Sipho Mbule",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "PAN-15",
-        "name": "Ji-hoon Gómez",
+        "id": "RSA-15",
+        "name": "Lyle Foster",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "PAN-16",
-        "name": "Carlos Obi",
+        "id": "RSA-16",
+        "name": "Ioraam Ravners",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "PAN-17",
-        "name": "Thomas Silva",
+        "id": "RSA-17",
+        "name": "Mohau Nkota",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "PAN-18",
-        "name": "Kenji Müller",
+        "id": "RSA-18",
+        "name": "Carlos Silva",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "PAN-19",
-        "name": "Kofi Tanaka",
+        "id": "RSA-19",
+        "name": "Thomas Müller",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "PAN-20",
-        "name": "Jack Diallo",
+        "id": "RSA-20",
+        "name": "Kenji Tanaka",
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "name": "Panamá"
+    ]
+  },
+  "KOR": {
+    "id": "KOR",
+    "name": "Corea del Sur",
+    "stickers": [
+      {
+        "id": "KOR-01",
+        "name": "Escudo de Corea del Sur",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "KOR-02",
+        "name": "Hyeonwoo Jo",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "KOR-03",
+        "name": "Seunggyu Kim",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "KOR-04",
+        "name": "Yumin Cho",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "KOR-05",
+        "name": "Youngwoo Seol",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "KOR-06",
+        "name": "Hanbeom Lee",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "KOR-07",
+        "name": "Taeseok Lee",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "KOR-08",
+        "name": "Myungjae Lee",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "KOR-09",
+        "name": "Jaesung Lee",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "KOR-10",
+        "name": "Inbeom Hwang",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "KOR-11",
+        "name": "Kangin Lee",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "KOR-12",
+        "name": "Seungho Paik",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "KOR-13",
+        "name": "Foto de Selección de Corea del Sur",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "KOR-14",
+        "name": "Jens Castrop",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "KOR-15",
+        "name": "Donggyeong Lee",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "KOR-16",
+        "name": "Guesung Cho",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "KOR-17",
+        "name": "Heungmin Son",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "KOR-18",
+        "name": "Heechan Hwang",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "KOR-19",
+        "name": "Carlos Gómez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "KOR-20",
+        "name": "Thomas Jones",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "CZE": {
+    "id": "CZE",
+    "name": "República Checa",
+    "stickers": [
+      {
+        "id": "CZE-01",
+        "name": "Escudo de República Checa",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "CZE-02",
+        "name": "Matéj Kovár",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "CZE-03",
+        "name": "Jindich Stank",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "CZE-04",
+        "name": "Tomá Hole",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "CZE-05",
+        "name": "Ladislav Kreji",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "CZE-06",
+        "name": "Vladimir Coufal",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "CZE-07",
+        "name": "Jaroslav Zelenv",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "CZE-08",
+        "name": "Michal Sadilek",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "CZE-09",
+        "name": "Luká Provod",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "CZE-10",
+        "name": "Luká Erv",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "CZE-11",
+        "name": "Pavel Ulc",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "CZE-12",
+        "name": "Tomás Chorv",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "CZE-13",
+        "name": "Foto de Selección de República Checa",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "CZE-14",
+        "name": "Kor Mex",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "CZE-15",
+        "name": "Adam Hloek",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "CZE-16",
+        "name": "Patrik Schick",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "CZE-17",
+        "name": "Carlos Williams",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "CZE-18",
+        "name": "Thomas Gómez",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "CZE-19",
+        "name": "Kenji Jones",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "CZE-20",
+        "name": "Kofi Mensah",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "CAN": {
+    "id": "CAN",
+    "name": "Canadá",
+    "stickers": [
+      {
+        "id": "CAN-01",
+        "name": "Escudo de Canadá",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "CAN-02",
+        "name": "St Clair",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "CAN-03",
+        "name": "Alphonso Davies",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "CAN-04",
+        "name": "Samuel Adekugbe",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "CAN-05",
+        "name": "Alistair Johnston",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "CAN-06",
+        "name": "Richie Larvea",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "CAN-07",
+        "name": "Derek Cornelius",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "CAN-08",
+        "name": "Moise Bombito",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "CAN-09",
+        "name": "Kamal Miller",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "CAN-10",
+        "name": "Stephen Eustáquio",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "CAN-11",
+        "name": "Ismal Koné",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "CAN-12",
+        "name": "Jacob Shaffelburg",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "CAN-13",
+        "name": "Foto de Selección de Canadá",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "CAN-14",
+        "name": "Choinire Niko",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "CAN-15",
+        "name": "Sigur Tajon",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "CAN-16",
+        "name": "Liam Millar",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "CAN-17",
+        "name": "Cyle Larin",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "CAN-18",
+        "name": "Jonathan David",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "CAN-19",
+        "name": "Carlos Gómez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "CAN-20",
+        "name": "Thomas Jones",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "BIH": {
+    "id": "BIH",
+    "name": "Bosnia-Herzegovina",
+    "stickers": [
+      {
+        "id": "BIH-01",
+        "name": "Escudo de Bosnia-Herzegovina",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "BIH-02",
+        "name": "Nikola Vasilj",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "BIH-03",
+        "name": "Amar Dedic",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "BIH-04",
+        "name": "Sead Kolainac",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "BIH-05",
+        "name": "Tarik Muharemovic",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "BIH-06",
+        "name": "Nihad Mujakic",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "BIH-07",
+        "name": "Nikola Katic",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "BIH-08",
+        "name": "Amir Hadiahmetovic",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "BIH-09",
+        "name": "Benjamin Tahirovic",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "BIH-10",
+        "name": "Armin Gigovic",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "BIH-11",
+        "name": "Ivan Unjic",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "BIH-12",
+        "name": "Ivan Baic",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "BIH-13",
+        "name": "Foto de Selección de Bosnia-Herzegovina",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "BIH-14",
+        "name": "Denis Burnic",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "BIH-15",
+        "name": "Esmir Bajraktarevic",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "BIH-16",
+        "name": "Amar Memic",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "BIH-17",
+        "name": "Ermedin Demirovic",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "BIH-18",
+        "name": "Can Samed",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "BIH-19",
+        "name": "Badar Haris",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "BIH-20",
+        "name": "Carlos Müller",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "QAT": {
+    "id": "QAT",
+    "name": "Catar",
+    "stickers": [
+      {
+        "id": "QAT-01",
+        "name": "Escudo de Catar",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "QAT-02",
+        "name": "Pedro Miguel",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "QAT-03",
+        "name": "Sultan Albrake",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "QAT-04",
+        "name": "Meshaal Barsham",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "QAT-05",
+        "name": "Homam Ahmed",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "QAT-06",
+        "name": "Mohammed Mannai",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "QAT-07",
+        "name": "Lugas Mendes",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "QAT-08",
+        "name": "Tarek Salman",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "QAT-09",
+        "name": "Boualem Khoukhi",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "QAT-10",
+        "name": "Karim Boudiaf",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "QAT-11",
+        "name": "Assim Madibo Hamed",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "QAT-12",
+        "name": "Mohammed Waad",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "QAT-13",
+        "name": "Foto de Selección de Catar",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "QAT-14",
+        "name": "Hassan Alhavdos",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "QAT-15",
+        "name": "Edmilson Junior",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "QAT-16",
+        "name": "Akram Hassan",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "QAT-17",
+        "name": "Afif Ahmed",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "QAT-18",
+        "name": "Alganehi Almoez",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "QAT-19",
+        "name": "Carlos Gómez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "QAT-20",
+        "name": "Thomas Jones",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "SUI": {
+    "id": "SUI",
+    "name": "Suiza",
+    "stickers": [
+      {
+        "id": "SUI-01",
+        "name": "Escudo de Suiza",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "SUI-02",
+        "name": "Aurle Amenda",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "SUI-03",
+        "name": "Nico Elvedi",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "SUI-04",
+        "name": "Yvon Mvogo",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "SUI-05",
+        "name": "Ricardo Rodríguez",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "SUI-06",
+        "name": "Denis Zakaria",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "SUI-07",
+        "name": "Silvan Widmer",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "SUI-08",
+        "name": "Granit Xhaka",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "SUI-09",
+        "name": "Remo Freuler",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "SUI-10",
+        "name": "Fabian Rieder",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "SUI-11",
+        "name": "Ardon Jashari",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "SUI-12",
+        "name": "Zeki Amdouni",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "SUI-13",
+        "name": "Foto de Selección de Suiza",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "SUI-14",
+        "name": "Johan Manzambi",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "SUI-15",
+        "name": "Michel Aebischer",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "SUI-16",
+        "name": "Breel Embolo",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "SUI-17",
+        "name": "Rubén Vargas",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "SUI-18",
+        "name": "Dan Ndove",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "SUI-19",
+        "name": "Carlos Gómez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "SUI-20",
+        "name": "Thomas Jones",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "BRA": {
+    "id": "BRA",
+    "name": "Brasil",
+    "stickers": [
+      {
+        "id": "BRA-01",
+        "name": "Escudo de Brasil",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "BRA-02",
+        "name": "Danilo",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "BRA-03",
+        "name": "Éder Milito",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "BRA-04",
+        "name": "Gabriel Magalhaes",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "BRA-05",
+        "name": "Guilherme Arana",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "BRA-06",
+        "name": "Bruno Guimarães",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "BRA-07",
+        "name": "João Gomes",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "BRA-08",
+        "name": "Lucas Paqueta",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "BRA-09",
+        "name": "Vinícius Júnior",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "BRA-10",
+        "name": "Rodrygo",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "BRA-11",
+        "name": "Bruno Guimaraes",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "BRA-12",
+        "name": "Luiz Henrique",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "BRA-13",
+        "name": "Foto de Selección de Brasil",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "BRA-14",
+        "name": "Vinícius Junior Rodrygo",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "BRA-15",
+        "name": "Joo Pedro",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "BRA-16",
+        "name": "Mar Hai",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "BRA-17",
+        "name": "M Sco",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "BRA-18",
+        "name": "Gabriel Martinelli",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "BRA-19",
+        "name": "Raphinha Estvo",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "BRA-20",
+        "name": "Alisson Becker",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "MAR": {
+    "id": "MAR",
+    "name": "Marruecos",
+    "stickers": [
+      {
+        "id": "MAR-01",
+        "name": "Escudo de Marruecos",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "MAR-02",
+        "name": "Munir El",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "MAR-03",
+        "name": "Kajoui Achraf",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "MAR-04",
+        "name": "Hakimi Noussair",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "MAR-05",
+        "name": "Romain Saiss",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "MAR-06",
+        "name": "Sofyan Amrabat",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "MAR-07",
+        "name": "Adam Masina",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "MAR-08",
+        "name": "Azzedine Ounahi",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "MAR-09",
+        "name": "Eliesse Ben",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "MAR-10",
+        "name": "Bilal El",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "MAR-11",
+        "name": "Khannouss Ismael",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "MAR-12",
+        "name": "Saibari Youssef",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "MAR-13",
+        "name": "Foto de Selección de Marruecos",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "MAR-14",
+        "name": "Ennesvri Abde",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "MAR-15",
+        "name": "Avoub El Kaabi",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "MAR-16",
+        "name": "Bra Hai Sco",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "MAR-17",
+        "name": "Brahim Diaz",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "MAR-18",
+        "name": "Carlos Silva",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "MAR-19",
+        "name": "Thomas Müller",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "MAR-20",
+        "name": "Kenji Tanaka",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "HAI": {
+    "id": "HAI",
+    "name": "Haití",
+    "stickers": [
+      {
+        "id": "HAI-01",
+        "name": "Escudo de Haití",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "HAI-02",
+        "name": "Johny Placide",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "HAI-03",
+        "name": "Garlens Arcus Expérience",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "HAI-04",
+        "name": "Barbados Hami",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "HAI-05",
+        "name": "Jeankévin Duverne",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "HAI-06",
+        "name": "Ricardo Adé",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "HAI-07",
+        "name": "Duke Lacroix",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "HAI-08",
+        "name": "Hannes Delcroix",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "HAI-09",
+        "name": "Leverton Pierre",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "HAI-10",
+        "name": "Danley Jean",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "HAI-11",
+        "name": "Bra Duckens",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "HAI-12",
+        "name": "Jacques Bellegarde",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "HAI-13",
+        "name": "Foto de Selección de Haití",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "HAI-14",
+        "name": "Nazon Louicius",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "HAI-15",
+        "name": "Christopher Attvs",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "HAI-16",
+        "name": "Derrick Etienne",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "HAI-17",
+        "name": "Deedson Frantzdy",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "HAI-18",
+        "name": "Jr Josué",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "HAI-19",
+        "name": "Casimir Ruben",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "HAI-20",
+        "name": "Carlos Müller",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "SCO": {
+    "id": "SCO",
+    "name": "Escocia",
+    "stickers": [
+      {
+        "id": "SCO-01",
+        "name": "Escudo de Escocia",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "SCO-02",
+        "name": "Angus Gunn",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "SCO-03",
+        "name": "Jack Hendrv",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "SCO-04",
+        "name": "Kieran Tiernev",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "SCO-05",
+        "name": "Aaron Hickey",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "SCO-06",
+        "name": "Scott Mckenna",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "SCO-07",
+        "name": "John Souttar",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "SCO-08",
+        "name": "Grant Hanlev",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "SCO-09",
+        "name": "Anthony Ralston",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "SCO-10",
+        "name": "Lewis Ferguson",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "SCO-11",
+        "name": "Bra Mar",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "SCO-12",
+        "name": "Kenny Mclean John",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "SCO-13",
+        "name": "Foto de Selección de Escocia",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "SCO-14",
+        "name": "Lyndon Dykes",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "SCO-15",
+        "name": "Ch Adams",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "SCO-16",
+        "name": "Ben Gannondoak",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "SCO-17",
+        "name": "Carlos Williams",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "SCO-18",
+        "name": "Thomas Gómez",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "SCO-19",
+        "name": "Kenji Jones",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "SCO-20",
+        "name": "Kofi Mensah",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "USA": {
+    "id": "USA",
+    "name": "Estados Unidos",
+    "stickers": [
+      {
+        "id": "USA-01",
+        "name": "Escudo de Estados Unidos",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "USA-02",
+        "name": "Matt Freese",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "USA-03",
+        "name": "Chris Richards",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "USA-04",
+        "name": "Alex Freeman",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "USA-05",
+        "name": "Tim Ream",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "USA-06",
+        "name": "Antonee Robinson",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "USA-07",
+        "name": "Tyler Adams",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "USA-08",
+        "name": "Tanner Tessmann",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "USA-09",
+        "name": "Cristian Roldan",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "USA-10",
+        "name": "Timothy Weah",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "USA-11",
+        "name": "Diego Luna",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "USA-12",
+        "name": "Malik Tillman",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "USA-13",
+        "name": "Foto de Selección de Estados Unidos",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "USA-14",
+        "name": "Christian Pulisic",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "USA-15",
+        "name": "Brenden Aaronson",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "USA-16",
+        "name": "Ricardo Pepi",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "USA-17",
+        "name": "Haji Wright",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "USA-18",
+        "name": "Folarin Balogun",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "USA-19",
+        "name": "Carlos Gómez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "USA-20",
+        "name": "Thomas Jones",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
   },
   "PAR": {
-    "name": "Paraguay",
     "id": "PAR",
+    "name": "Paraguay",
     "stickers": [
       {
         "id": "PAR-01",
@@ -708,67 +1968,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-02",
-        "name": "Carlos Gómez",
+        "name": "Omar Alderete",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "PAR-03",
-        "name": "Thomas Jones",
+        "name": "Gustavo Gómez",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "PAR-04",
-        "name": "Kenji Mensah",
+        "name": "Júnior Alonso",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "PAR-05",
-        "name": "Kofi Nguyen",
+        "name": "Diego Gómez",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "PAR-06",
-        "name": "Jack Rossi",
+        "name": "Fabián Balbuena",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "PAR-07",
-        "name": "Luis Sánchez",
+        "name": "Juan José",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "PAR-08",
-        "name": "Jan Obi",
+        "name": "Cáceres Mathías",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "PAR-09",
-        "name": "Peter Silva",
+        "name": "Damian Bobadilla",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "PAR-10",
-        "name": "Sadio Jones",
+        "name": "Antonio Sanabria",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "PAR-11",
-        "name": "Liam Nguyen",
+        "name": "Matías Galarza",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "PAR-12",
-        "name": "Andrés Hansen",
+        "name": "Fonda Julio",
         "position": "Mediocampista",
         "number": 12
       },
@@ -780,25 +2040,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-14",
-        "name": "Diego Vargas",
+        "name": "Romero Gamarra",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "PAR-15",
-        "name": "Ji-hoon Williams",
+        "name": "Miguel Almirón",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "PAR-16",
-        "name": "Youssef Gómez",
+        "name": "Ramón Sosa",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "PAR-17",
-        "name": "Oliver Jones",
+        "name": "Ángel Romero",
         "position": "Delantero",
         "number": 17
       },
@@ -822,637 +2082,261 @@ const REAL_ROSTERS_DB = {
       }
     ]
   },
-  "BRA": {
-    "id": "BRA",
-    "name": "Brasil",
+  "AUS": {
+    "id": "AUS",
+    "name": "Australia",
     "stickers": [
       {
-        "id": "BRA-01",
-        "name": "Escudo de Brasil",
+        "id": "AUS-01",
+        "name": "Escudo de Australia",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "BRA-02",
-        "name": "Alisson Becker",
+        "id": "AUS-02",
+        "name": "Joe Gauci",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "BRA-03",
-        "name": "Danilo",
+        "id": "AUS-03",
+        "name": "Harrv Souttar",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "BRA-04",
-        "name": "Gabriel Magalhães",
+        "id": "AUS-04",
+        "name": "Jordan Bos",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "BRA-05",
-        "name": "Guilherme Arana",
+        "id": "AUS-05",
+        "name": "Aziz Behich",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "BRA-06",
-        "name": "João Gomes",
+        "id": "AUS-06",
+        "name": "Cameron Burgess",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "BRA-07",
-        "name": "Lucas Paquetá",
+        "id": "AUS-07",
+        "name": "Lewis Miller",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "BRA-08",
-        "name": "Vinícius Júnior",
+        "id": "AUS-08",
+        "name": "Milos Degenek",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "BRA-09",
-        "name": "Douglas Luiz",
+        "id": "AUS-09",
+        "name": "Jackson Irvine Riley",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "BRA-10",
-        "name": "Savinho",
+        "id": "AUS-10",
+        "name": "Aiden Oneill",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "BRA-11",
-        "name": "Beraldo",
+        "id": "AUS-11",
+        "name": "Connor Metcalfe",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "BRA-12",
-        "name": "Yan Couto",
+        "id": "AUS-12",
+        "name": "Patrick Vazbek",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "BRA-13",
-        "name": "Foto de Selección de Brasil",
+        "id": "AUS-13",
+        "name": "Foto de Selección de Australia",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "BRA-14",
-        "name": "Evanilson",
+        "id": "AUS-14",
+        "name": "Craig Goodwin",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "BRA-15",
-        "name": "Pepê",
+        "id": "AUS-15",
+        "name": "Kusini Vengi Nestory",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "BRA-16",
-        "name": "Carlos Silva",
+        "id": "AUS-16",
+        "name": "Mohamed Touré",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "BRA-17",
-        "name": "Thomas Müller",
+        "id": "AUS-17",
+        "name": "Carlos Williams",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "BRA-18",
-        "name": "Kenji Tanaka",
+        "id": "AUS-18",
+        "name": "Thomas Gómez",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "BRA-19",
-        "name": "Kofi Diallo",
+        "id": "AUS-19",
+        "name": "Kenji Jones",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "BRA-20",
-        "name": "Jack Ivanov",
+        "id": "AUS-20",
+        "name": "Kofi Mensah",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "CAN": {
-    "name": "Canadá",
-    "id": "CAN",
+  "TUR": {
+    "id": "TUR",
+    "name": "Turquía",
     "stickers": [
       {
-        "id": "CAN-01",
-        "name": "Escudo de Canadá",
+        "id": "TUR-01",
+        "name": "Escudo de Turquía",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "CAN-02",
-        "name": "Carlos Gómez",
+        "id": "TUR-02",
+        "name": "Mert Müldür",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "CAN-03",
-        "name": "Thomas Jones",
+        "id": "TUR-03",
+        "name": "Zeki Elik",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "CAN-04",
-        "name": "Kenji Diallo",
+        "id": "TUR-04",
+        "name": "Uuran Akir",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "CAN-05",
-        "name": "Kofi Ivanov",
+        "id": "TUR-05",
+        "name": "Kaan Avhan",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "CAN-06",
-        "name": "Jack Hansen",
+        "id": "TUR-06",
+        "name": "Bulgaria Türkiye",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "CAN-07",
-        "name": "Luis Vargas",
+        "id": "TUR-07",
+        "name": "Merih Demiral",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "CAN-08",
-        "name": "Jan Williams",
+        "id": "TUR-08",
+        "name": "Ferdi Kadiolu",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "CAN-09",
-        "name": "Peter Gómez",
+        "id": "TUR-09",
+        "name": "Ismail Vüksek",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "CAN-10",
-        "name": "Sadio Jones",
+        "id": "TUR-10",
+        "name": "Türkive Romanla",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "CAN-11",
-        "name": "Liam Nguyen",
+        "id": "TUR-11",
+        "name": "Hakan Alhanolu",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "CAN-12",
-        "name": "Andrés Hansen",
+        "id": "TUR-12",
+        "name": "Kerem Aktürkolu",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "CAN-13",
-        "name": "Foto de Selección de Canadá",
+        "id": "TUR-13",
+        "name": "Foto de Selección de Turquía",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "CAN-14",
-        "name": "Diego Vargas",
+        "id": "TUR-14",
+        "name": "Orkun Kkü",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "CAN-15",
-        "name": "Ji-hoon Williams",
+        "id": "TUR-15",
+        "name": "Arda Güler",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "CAN-16",
-        "name": "Youssef Gómez",
+        "id": "TUR-16",
+        "name": "Yunus Akgün",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "CAN-17",
-        "name": "Oliver Jones",
+        "id": "TUR-17",
+        "name": "Irfan Can",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "CAN-18",
-        "name": "Carlos Silva",
+        "id": "TUR-18",
+        "name": "Can Uzun",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "CAN-19",
-        "name": "Thomas Müller",
+        "id": "TUR-19",
+        "name": "Par Bari",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "CAN-20",
-        "name": "Kenji Tanaka",
+        "id": "TUR-20",
+        "name": "Alper Vilmaz",
         "position": "Delantero",
         "number": 20
       }
     ]
-  },
-  "SUI": {
-    "id": "SUI",
-    "name": "Suiza",
-    "stickers": [
-      {
-        "id": "SUI-01",
-        "name": "Escudo de Suiza",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "SUI-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "SUI-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "SUI-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "SUI-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "SUI-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "SUI-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "SUI-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "SUI-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "SUI-10",
-        "name": "Sadio Tanaka",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "SUI-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "SUI-12",
-        "name": "Andrés Hansen",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "SUI-13",
-        "name": "Foto de Selección de Suiza",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "SUI-14",
-        "name": "Diego Vargas",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "SUI-15",
-        "name": "Ji-hoon Williams",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "SUI-16",
-        "name": "Youssef Gómez",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "SUI-17",
-        "name": "Oliver Jones",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "SUI-18",
-        "name": "Carlos Silva",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "SUI-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "SUI-20",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 20
-      }
-    ]
-  },
-  "CIV": {
-    "name": "Costa de Marfil",
-    "stickers": [
-      {
-        "id": "CIV-01",
-        "name": "Escudo de Costa de Marfil",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "CIV-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "CIV-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "CIV-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "CIV-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "CIV-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "CIV-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "CIV-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "CIV-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "CIV-10",
-        "name": "Sadio Tanaka",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "CIV-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "CIV-12",
-        "name": "Andrés Rossi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "CIV-13",
-        "name": "Foto de Selección de Costa de Marfil",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "CIV-14",
-        "name": "Diego Sánchez",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "CIV-15",
-        "name": "Ji-hoon Obi",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "CIV-16",
-        "name": "Youssef Silva",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "CIV-17",
-        "name": "Oliver Müller",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "CIV-18",
-        "name": "Carlos Tanaka",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "CIV-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "CIV-20",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "CIV"
-  },
-  "NED": {
-    "stickers": [
-      {
-        "id": "NED-01",
-        "name": "Escudo de Países Bajos",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "NED-02",
-        "name": "Carlos Müller",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "NED-03",
-        "name": "Thomas Mensah",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "NED-04",
-        "name": "Kenji Nguyen",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "NED-05",
-        "name": "Kofi Rossi",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "NED-06",
-        "name": "Jack Sánchez",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "NED-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "NED-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "NED-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "NED-10",
-        "name": "Sadio Tanaka",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "NED-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "NED-12",
-        "name": "Andrés Rossi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "NED-13",
-        "name": "Foto de Selección de Países Bajos",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "NED-14",
-        "name": "Diego Sánchez",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "NED-15",
-        "name": "Ji-hoon Obi",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "NED-16",
-        "name": "Youssef Silva",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "NED-17",
-        "name": "Oliver Müller",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "NED-18",
-        "name": "Carlos Tanaka",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "NED-19",
-        "name": "Carlos Gómez",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "NED-20",
-        "name": "Thomas Jones",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "NED",
-    "name": "Países Bajos"
   },
   "GER": {
+    "id": "GER",
+    "name": "Alemania",
     "stickers": [
       {
         "id": "GER-01",
@@ -1462,67 +2346,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GER-02",
-        "name": "Manuel Neuer",
+        "name": "Antonio Rüdiger",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "GER-03",
-        "name": "Antonio Rüdiger",
+        "name": "Jonathan Tah",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "GER-04",
-        "name": "Robert Andrich",
+        "name": "David Raum",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "GER-05",
-        "name": "Toni Kroos",
+        "name": "Waldemar Anton",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "GER-06",
-        "name": "İlkay Gündoğan",
+        "name": "Joshua Kimmich",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "GER-07",
-        "name": "Niclas Füllkrug",
+        "name": "Ridle Baku",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "GER-08",
-        "name": "Thomas Müller",
+        "name": "Nico Schlotterbeck",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "GER-09",
-        "name": "Leroy Sané",
+        "name": "Maximilian Mittelstdt",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "GER-10",
-        "name": "Benjamin Henrichs",
+        "name": "Florian Wirtz",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "GER-11",
-        "name": "Marc-André ter Stegen",
+        "name": "Leon Goretzka",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "GER-12",
-        "name": "Pascal Groß",
+        "name": "Jamal Musiala",
         "position": "Mediocampista",
         "number": 12
       },
@@ -1534,808 +2418,681 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GER-14",
-        "name": "Maximilian Beier",
+        "name": "Serge Gnabry",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "GER-15",
-        "name": "Carlos Silva",
+        "name": "Kai Havertz",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "GER-16",
-        "name": "Kenji Jones",
+        "name": "Karim Adevemi",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "GER-17",
-        "name": "Kofi Diallo",
+        "name": "Nick Woltemade",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "GER-18",
-        "name": "Jack Ivanov",
+        "name": "Carlos Silva",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "GER-19",
-        "name": "Carlos Gómez",
+        "name": "Thomas Müller",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "GER-20",
-        "name": "Thomas Jones",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "GER",
-    "name": "Alemania"
-  },
-  "SEN": {
-    "name": "Senegal",
-    "stickers": [
-      {
-        "id": "SEN-01",
-        "name": "Escudo de Senegal",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "SEN-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "SEN-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "SEN-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "SEN-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "SEN-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "SEN-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "SEN-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "SEN-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "SEN-10",
-        "name": "Sadio Tanaka",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "SEN-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "SEN-12",
-        "name": "Andrés Hansen",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "SEN-13",
-        "name": "Foto de Selección de Senegal",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "SEN-14",
-        "name": "Diego Vargas",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "SEN-15",
-        "name": "Ji-hoon Silva",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "SEN-16",
-        "name": "Youssef Müller",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "SEN-17",
-        "name": "Carlos Williams",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "SEN-18",
-        "name": "Thomas Gómez",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "SEN-19",
-        "name": "Kenji Jones",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "SEN-20",
-        "name": "Kofi Mensah",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "SEN"
-  },
-  "HAI": {
-    "name": "Haití",
-    "stickers": [
-      {
-        "id": "HAI-01",
-        "name": "Escudo de Haití",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "HAI-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "HAI-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "HAI-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "HAI-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "HAI-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "HAI-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "HAI-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "HAI-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "HAI-10",
-        "name": "Sadio Diallo",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "HAI-11",
-        "name": "Liam Rossi",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "HAI-12",
-        "name": "Andrés Sánchez",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "HAI-13",
-        "name": "Foto de Selección de Haití",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "HAI-14",
-        "name": "Diego Williams",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "HAI-15",
-        "name": "Ji-hoon Gómez",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "HAI-16",
-        "name": "Carlos Obi",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "HAI-17",
-        "name": "Thomas Silva",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "HAI-18",
-        "name": "Kenji Müller",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "HAI-19",
-        "name": "Kofi Tanaka",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "HAI-20",
-        "name": "Jack Diallo",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "HAI"
-  },
-  "USA": {
-    "name": "Estados Unidos",
-    "stickers": [
-      {
-        "id": "USA-01",
-        "name": "Escudo de Estados Unidos",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "USA-02",
-        "name": "Matt Turner",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "USA-03",
-        "name": "Tim Ream",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "USA-04",
-        "name": "Sergiño Dest",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "USA-05",
-        "name": "Weston McKennie",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "USA-06",
-        "name": "Yunus Musah",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "USA-07",
-        "name": "Gio Reyna",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "USA-08",
-        "name": "Johnny Cardoso",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "USA-09",
-        "name": "Cameron Carter-Vickers",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "USA-10",
-        "name": "Ethan Horvath",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "USA-11",
-        "name": "Miles Robinson",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "USA-12",
-        "name": "Luca de la Torre",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "USA-13",
-        "name": "Foto de Selección de Estados Unidos",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "USA-14",
-        "name": "Carlos Silva",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "USA-15",
-        "name": "Thomas Müller",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "USA-16",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "USA-17",
-        "name": "Kofi Diallo",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "USA-18",
-        "name": "Jack Ivanov",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "USA-19",
-        "name": "Carlos Gómez",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "USA-20",
-        "name": "Thomas Jones",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "USA"
-  },
-  "MAR": {
-    "name": "Marruecos",
-    "stickers": [
-      {
-        "id": "MAR-01",
-        "name": "Escudo de Marruecos",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "MAR-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "MAR-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "MAR-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "MAR-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "MAR-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "MAR-07",
-        "name": "Luis Vargas",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "MAR-08",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "MAR-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "MAR-10",
-        "name": "Sadio Tanaka",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "MAR-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "MAR-12",
-        "name": "Andrés Rossi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "MAR-13",
-        "name": "Foto de Selección de Marruecos",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "MAR-14",
-        "name": "Diego Sánchez",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "MAR-15",
-        "name": "Ji-hoon Obi",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "MAR-16",
-        "name": "Youssef Gómez",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "MAR-17",
-        "name": "Oliver Jones",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "MAR-18",
-        "name": "Carlos Silva",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "MAR-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "MAR-20",
         "name": "Kenji Tanaka",
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "id": "MAR"
+    ]
   },
-  "COD": {
+  "CUW": {
+    "id": "CUW",
+    "name": "Curazao",
     "stickers": [
       {
-        "id": "COD-01",
-        "name": "Escudo de Congo RD",
+        "id": "CUW-01",
+        "name": "Escudo de Curazao",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "COD-02",
-        "name": "Carlos Gómez",
+        "id": "CUW-02",
+        "name": "Bb Godfried Roemeratoe",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "COD-03",
-        "name": "Thomas Jones",
+        "id": "CUW-03",
+        "name": "Sherel Floranus",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "COD-04",
-        "name": "Kenji Ivanov",
+        "id": "CUW-04",
+        "name": "Aruba Curaao",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "COD-05",
-        "name": "Kofi Sánchez",
+        "id": "CUW-05",
+        "name": "Eloy Room",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "COD-06",
-        "name": "Jack Obi",
+        "id": "CUW-06",
+        "name": "Jurien Gaari",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "COD-07",
-        "name": "Luis Silva",
+        "id": "CUW-07",
+        "name": "Roshon Van Eijma",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "COD-08",
-        "name": "Jan Müller",
+        "id": "CUW-08",
+        "name": "Curaao Barbados",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "COD-09",
-        "name": "Peter Mensah",
+        "id": "CUW-09",
+        "name": "Livano Comenencia",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "COD-10",
-        "name": "Sadio Nguyen",
+        "id": "CUW-10",
+        "name": "Curaao Bermuda",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "COD-11",
-        "name": "Liam Rossi",
+        "id": "CUW-11",
+        "name": "Juninho Bacuna",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "COD-12",
-        "name": "Andrés Sánchez",
+        "id": "CUW-12",
+        "name": "Sontje Hansen",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "COD-13",
-        "name": "Foto de Selección de Congo RD",
+        "id": "CUW-13",
+        "name": "Foto de Selección de Curazao",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "COD-14",
-        "name": "Diego Obi",
+        "id": "CUW-14",
+        "name": "Tahith Chong",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "COD-15",
-        "name": "Ji-hoon Silva",
+        "id": "CUW-15",
+        "name": "Kenji Gorre",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "COD-16",
-        "name": "Youssef Müller",
+        "id": "CUW-16",
+        "name": "Jearl Margaritha",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "COD-17",
-        "name": "Carlos Williams",
+        "id": "CUW-17",
+        "name": "Jürgen Locadia",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "COD-18",
-        "name": "Thomas Gómez",
+        "id": "CUW-18",
+        "name": "Jeremy Antonisse",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "COD-19",
-        "name": "Kenji Jones",
+        "id": "CUW-19",
+        "name": "Gervane Kastaneer",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "COD-20",
-        "name": "Kofi Mensah",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "name": "Congo RD",
-    "id": "COD"
-  },
-  "RSA": {
-    "name": "Sudáfrica",
-    "stickers": [
-      {
-        "id": "RSA-01",
-        "name": "Escudo de Sudáfrica",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "RSA-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "RSA-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "RSA-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "RSA-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "RSA-06",
-        "name": "Jack Rossi",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "RSA-07",
-        "name": "Luis Sánchez",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "RSA-08",
-        "name": "Jan Obi",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "RSA-09",
-        "name": "Peter Silva",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "RSA-10",
-        "name": "Sadio Müller",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "RSA-11",
-        "name": "Liam Tanaka",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "RSA-12",
-        "name": "Andrés Ivanov",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "RSA-13",
-        "name": "Foto de Selección de Sudáfrica",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "RSA-14",
-        "name": "Diego Hansen",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "RSA-15",
-        "name": "Ji-hoon Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "RSA-16",
-        "name": "Youssef Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "RSA-17",
-        "name": "Oliver Gómez",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "RSA-18",
-        "name": "Carlos Jones",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "RSA-19",
-        "name": "Thomas Mensah",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "RSA-20",
+        "id": "CUW-20",
         "name": "Carlos Müller",
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "id": "RSA"
+    ]
+  },
+  "CIV": {
+    "id": "CIV",
+    "name": "Costa de Marfil",
+    "stickers": [
+      {
+        "id": "CIV-01",
+        "name": "Escudo de Costa de Marfil",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "CIV-02",
+        "name": "Cte Divoire",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "CIV-03",
+        "name": "Ghislain Konan",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "CIV-04",
+        "name": "Willy Bolv",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "CIV-05",
+        "name": "Wilfried Singo",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "CIV-06",
+        "name": "Odilon Kossounou",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "CIV-07",
+        "name": "Evan Ndicka",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "CIV-08",
+        "name": "Gabon Kenya",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "CIV-09",
+        "name": "Emmanuel Agbadou Ousmane",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "CIV-10",
+        "name": "Cte Dtvoire Sevchelles",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "CIV-11",
+        "name": "Seko Fofana",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "CIV-12",
+        "name": "Ibrahim Sangaré",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "CIV-13",
+        "name": "Foto de Selección de Costa de Marfil",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "CIV-14",
+        "name": "Jeanphilippe Gbamin",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "CIV-15",
+        "name": "Amad Diallo",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "CIV-16",
+        "name": "Sébastien Haller",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "CIV-17",
+        "name": "Simon Adingra",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "CIV-18",
+        "name": "Oumar Diakité",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "CIV-19",
+        "name": "Cuw Ecu",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "CIV-20",
+        "name": "Carlos Müller",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "ECU": {
+    "id": "ECU",
+    "name": "Ecuador",
+    "stickers": [
+      {
+        "id": "ECU-01",
+        "name": "Escudo de Ecuador",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "ECU-02",
+        "name": "Hernán Galindez",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "ECU-03",
+        "name": "Gonzalo Valle",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "ECU-04",
+        "name": "Joel Ordóñez",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "ECU-05",
+        "name": "Pervis Estupiñán",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "ECU-06",
+        "name": "Willian Pacho",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "ECU-07",
+        "name": "Ángelo Preciado",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "ECU-08",
+        "name": "Moisés Caicedo",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "ECU-09",
+        "name": "Alan Franco",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "ECU-10",
+        "name": "Kendry Páez",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "ECU-11",
+        "name": "Pedro Vite",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "ECU-12",
+        "name": "John Veboah",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "ECU-13",
+        "name": "Foto de Selección de Ecuador",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "ECU-14",
+        "name": "Leonardo Campana",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "ECU-15",
+        "name": "Gonzalo Plata",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "ECU-16",
+        "name": "Nilson Angulo",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "ECU-17",
+        "name": "Ger Civ Cuw",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "ECU-18",
+        "name": "Alan Minda",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "ECU-19",
+        "name": "Kevin Rodriguez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "ECU-20",
+        "name": "Carlos Müller",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "NED": {
+    "id": "NED",
+    "name": "Países Bajos",
+    "stickers": [
+      {
+        "id": "NED-01",
+        "name": "Escudo de Países Bajos",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "NED-02",
+        "name": "Tijjani Reijnders",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "NED-03",
+        "name": "Virgil Van",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "NED-04",
+        "name": "Bart Verbruggen",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "NED-05",
+        "name": "Dijk Micky",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "NED-06",
+        "name": "Van De",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "NED-07",
+        "name": "Nathan Aké",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "NED-08",
+        "name": "Jeremie Frimpong",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "NED-09",
+        "name": "Jurrin Timber",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "NED-10",
+        "name": "Jan Paul",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "NED-11",
+        "name": "Rvan Gravenberch",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "NED-12",
+        "name": "Teun Koopmeiners",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "NED-13",
+        "name": "Foto de Selección de Países Bajos",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "NED-14",
+        "name": "Frenkie De",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "NED-15",
+        "name": "Jong Xavi",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "NED-16",
+        "name": "Simons Justin",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "NED-17",
+        "name": "Kluivert Memphis",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "NED-18",
+        "name": "Donvell Malen",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "NED-19",
+        "name": "Wout Weghorst",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "NED-20",
+        "name": "Cody Gakpo",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "JPN": {
+    "id": "JPN",
+    "name": "Japón",
+    "stickers": [
+      {
+        "id": "JPN-01",
+        "name": "Escudo de Japón",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "JPN-02",
+        "name": "Zion Suzuki",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "JPN-03",
+        "name": "Henry Heroki",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "JPN-04",
+        "name": "Mochizuki Ayumu",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "JPN-05",
+        "name": "Junnosuke Suzuki",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "JPN-06",
+        "name": "Yuki Soma",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "JPN-07",
+        "name": "Ao Tanaka",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "JPN-08",
+        "name": "Kaishu Sano",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "JPN-09",
+        "name": "Tsuyoshi Watanabe",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "JPN-10",
+        "name": "An Mvanmar",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "JPN-11",
+        "name": "Daichi Kamada",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "JPN-12",
+        "name": "Ritsu Doan",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "JPN-13",
+        "name": "Foto de Selección de Japón",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "JPN-14",
+        "name": "Nakamura Takumi",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "JPN-15",
+        "name": "Minaming Shuto",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "JPN-16",
+        "name": "Swe Tun",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "JPN-17",
+        "name": "Koki Ogawa",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "JPN-18",
+        "name": "Avase Ueda",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "JPN-19",
+        "name": "Carlos Gómez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "JPN-20",
+        "name": "Thomas Jones",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
   },
   "SWE": {
     "id": "SWE",
+    "name": "Suecia",
     "stickers": [
       {
         "id": "SWE-01",
@@ -2345,67 +3102,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SWE-02",
-        "name": "Carlos Müller",
+        "name": "Gustaf Lagerbielke",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "SWE-03",
-        "name": "Thomas Mensah",
+        "name": "Isak Hien",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "SWE-04",
-        "name": "Kenji Nguyen",
+        "name": "Emil Holm",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "SWE-05",
-        "name": "Kofi Rossi",
+        "name": "Viktor Johansson Swe",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "SWE-06",
-        "name": "Jack Sánchez",
+        "name": "Victor Nilsson Lindelf",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "SWE-07",
-        "name": "Luis Obi",
+        "name": "Gabriel Gudmundsson",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "SWE-08",
-        "name": "Jan Silva",
+        "name": "Lucas Bergvall",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "SWE-09",
-        "name": "Peter Müller",
+        "name": "Hugo Larsson",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "SWE-10",
-        "name": "Sadio Diallo",
+        "name": "Jesper Karlstrom",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "SWE-11",
-        "name": "Liam Ivanov",
+        "name": "Vasin Avari",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "SWE-12",
-        "name": "Andrés Hansen",
+        "name": "Daniel Svensson",
         "position": "Mediocampista",
         "number": 12
       },
@@ -2417,170 +3174,169 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SWE-14",
-        "name": "Diego Vargas",
+        "name": "Ken Sema",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "SWE-15",
-        "name": "Ji-hoon Silva",
+        "name": "Roony Bardghji",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "SWE-16",
-        "name": "Youssef Müller",
+        "name": "Dejan Kulusevski",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "SWE-17",
-        "name": "Carlos Williams",
+        "name": "Isan Viktor Gyokeres",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "SWE-18",
-        "name": "Thomas Gómez",
+        "name": "Carlos Silva",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "SWE-19",
-        "name": "Kenji Jones",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "SWE-20",
-        "name": "Kofi Mensah",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "name": "Suecia"
-  },
-  "BIH": {
-    "name": "Bosnia-Herzegovina",
-    "id": "BIH",
-    "stickers": [
-      {
-        "id": "BIH-01",
-        "name": "Escudo de Bosnia-Herzegovina",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "BIH-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "BIH-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "BIH-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "BIH-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "BIH-06",
-        "name": "Jack Rossi",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "BIH-07",
-        "name": "Luis Sánchez",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "BIH-08",
-        "name": "Jan Obi",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "BIH-09",
-        "name": "Peter Silva",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "BIH-10",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "BIH-11",
-        "name": "Liam Mensah",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "BIH-12",
-        "name": "Andrés Ivanov",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "BIH-13",
-        "name": "Foto de Selección de Bosnia-Herzegovina",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "BIH-14",
-        "name": "Diego Hansen",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "BIH-15",
-        "name": "Ji-hoon Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "BIH-16",
-        "name": "Youssef Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "BIH-17",
-        "name": "Oliver Müller",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "BIH-18",
-        "name": "Carlos Tanaka",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "BIH-19",
         "name": "Thomas Müller",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "BIH-20",
+        "id": "SWE-20",
         "name": "Kenji Tanaka",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "TUN": {
+    "id": "TUN",
+    "name": "Túnez",
+    "stickers": [
+      {
+        "id": "TUN-01",
+        "name": "Escudo de Túnez",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "TUN-02",
+        "name": "Bechir Ben Said",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "TUN-03",
+        "name": "Aymen Dahmen",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "TUN-04",
+        "name": "Yan Valerv",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "TUN-05",
+        "name": "Montassar Talbi",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "TUN-06",
+        "name": "Yassine Meriah",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "TUN-07",
+        "name": "Ali Abdi",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "TUN-08",
+        "name": "Dylan Bronn",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "TUN-09",
+        "name": "Ellves Skhiri",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "TUN-10",
+        "name": "Aissa Ladouni",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "TUN-11",
+        "name": "Ferjani Sassi",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "TUN-12",
+        "name": "Mohamed Ali",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "TUN-13",
+        "name": "Foto de Selección de Túnez",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "TUN-14",
+        "name": "Ben Romdhane",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "TUN-15",
+        "name": "Hannibal Mejbri",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "TUN-16",
+        "name": "Elias Achouri",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "TUN-17",
+        "name": "Elias Saad",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "TUN-18",
+        "name": "Hazem Mastouri",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "TUN-19",
+        "name": "Sayfallah Ltaief",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "TUN-20",
+        "name": "Nam Sliti",
         "position": "Delantero",
         "number": 20
       }
@@ -2598,67 +3354,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-02",
-        "name": "Carlos Müller",
+        "name": "Thibaut Courtois",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "BEL-03",
-        "name": "Thomas Tanaka",
+        "name": "Zeno Debast",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "BEL-04",
-        "name": "Kenji Diallo",
+        "name": "Maxim De Cuvper",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "BEL-05",
-        "name": "Kofi Ivanov",
+        "name": "Tielemans Amadou Onana",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "BEL-06",
-        "name": "Jack Hansen",
+        "name": "Raskin Saelemaekers",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "BEL-07",
-        "name": "Luis Obi",
+        "name": "Hans Vanaken",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "BEL-08",
-        "name": "Jan Silva",
+        "name": "Kevin De",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "BEL-09",
-        "name": "Peter Müller",
+        "name": "Bruvne Jérémy",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "BEL-10",
-        "name": "Sadio Diallo",
+        "name": "Doku Charles",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "BEL-11",
-        "name": "Liam Ivanov",
+        "name": "De Ketelaere",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "BEL-12",
-        "name": "Andrés Hansen",
+        "name": "Romelu Lukaku",
         "position": "Mediocampista",
         "number": 12
       },
@@ -2670,427 +3426,51 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-14",
-        "name": "Diego Vargas",
+        "name": "Carlos Sánchez",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "BEL-15",
-        "name": "Ji-hoon Williams",
+        "name": "Thomas Obi",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "BEL-16",
-        "name": "Youssef Gómez",
+        "name": "Kenji Silva",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "BEL-17",
-        "name": "Oliver Jones",
+        "name": "Kofi Müller",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "BEL-18",
-        "name": "Carlos Silva",
+        "name": "Jack Tanaka",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "BEL-19",
-        "name": "Thomas Müller",
+        "name": "Luis Diallo",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "BEL-20",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 20
-      }
-    ]
-  },
-  "SCO": {
-    "id": "SCO",
-    "name": "Escocia",
-    "stickers": [
-      {
-        "id": "SCO-01",
-        "name": "Escudo de Escocia",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "SCO-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "SCO-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "SCO-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "SCO-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "SCO-06",
-        "name": "Jack Rossi",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "SCO-07",
-        "name": "Luis Sánchez",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "SCO-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "SCO-09",
-        "name": "Peter Mensah",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "SCO-10",
-        "name": "Sadio Ivanov",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "SCO-11",
-        "name": "Liam Hansen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "SCO-12",
-        "name": "Andrés Obi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "SCO-13",
-        "name": "Foto de Selección de Escocia",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "SCO-14",
-        "name": "Diego Silva",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "SCO-15",
-        "name": "Carlos Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "SCO-16",
-        "name": "Thomas Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "SCO-17",
-        "name": "Kenji Gómez",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "SCO-18",
-        "name": "Kofi Jones",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "SCO-19",
-        "name": "Jack Mensah",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "SCO-20",
-        "name": "Luis Nguyen",
-        "position": "Delantero",
-        "number": 20
-      }
-    ]
-  },
-  "TUR": {
-    "name": "Turquía",
-    "stickers": [
-      {
-        "id": "TUR-01",
-        "name": "Escudo de Turquía",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "TUR-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "TUR-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "TUR-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "TUR-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "TUR-06",
-        "name": "Jack Rossi",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "TUR-07",
-        "name": "Luis Sánchez",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "TUR-08",
-        "name": "Jan Obi",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "TUR-09",
-        "name": "Peter Silva",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "TUR-10",
-        "name": "Sadio Müller",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "TUR-11",
-        "name": "Liam Tanaka",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "TUR-12",
-        "name": "Andrés Ivanov",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "TUR-13",
-        "name": "Foto de Selección de Turquía",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "TUR-14",
-        "name": "Diego Hansen",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "TUR-15",
-        "name": "Ji-hoon Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "TUR-16",
-        "name": "Youssef Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "TUR-17",
-        "name": "Oliver Gómez",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "TUR-18",
-        "name": "Carlos Jones",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "TUR-19",
-        "name": "Thomas Mensah",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "TUR-20",
-        "name": "Carlos Müller",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "TUR"
-  },
-  "CZE": {
-    "name": "República Checa",
-    "id": "CZE",
-    "stickers": [
-      {
-        "id": "CZE-01",
-        "name": "Escudo de República Checa",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "CZE-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "CZE-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "CZE-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "CZE-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "CZE-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "CZE-07",
-        "name": "Luis Vargas",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "CZE-08",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "CZE-09",
-        "name": "Peter Gómez",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "CZE-10",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "CZE-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "CZE-12",
-        "name": "Andrés Obi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "CZE-13",
-        "name": "Foto de Selección de República Checa",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "CZE-14",
-        "name": "Diego Silva",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "CZE-15",
-        "name": "Carlos Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "CZE-16",
-        "name": "Thomas Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "CZE-17",
-        "name": "Kenji Gómez",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "CZE-18",
-        "name": "Kofi Jones",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "CZE-19",
-        "name": "Jack Mensah",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "CZE-20",
-        "name": "Luis Nguyen",
+        "name": "Jan Ivanov",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
   "EGY": {
+    "id": "EGY",
+    "name": "Egipto",
     "stickers": [
       {
         "id": "EGY-01",
@@ -3100,67 +3480,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "EGY-02",
-        "name": "Carlos Gómez",
+        "name": "Mohamed Elshenawy Egv",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "EGY-03",
-        "name": "Thomas Jones",
+        "name": "Mohamed Hany",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "EGY-04",
-        "name": "Kenji Mensah",
+        "name": "Mohamed Hamdv",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "EGY-05",
-        "name": "Kofi Nguyen",
+        "name": "Vasser Ibrahim",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "EGY-06",
-        "name": "Jack Rossi",
+        "name": "Khaled Sobhi",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "EGY-07",
-        "name": "Luis Sánchez",
+        "name": "Ramy Rabia",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "EGY-08",
-        "name": "Jan Obi",
+        "name": "Hossam Abdelmaguid",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "EGY-09",
-        "name": "Peter Silva",
+        "name": "Ahmed Fatouh",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "EGY-10",
-        "name": "Sadio Müller",
+        "name": "Marwan Attia",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "EGY-11",
-        "name": "Liam Tanaka",
+        "name": "Mohanad Lasheen",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "EGY-12",
-        "name": "Andrés Diallo",
+        "name": "Emam Ashour",
         "position": "Mediocampista",
         "number": 12
       },
@@ -3172,548 +3552,168 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "EGY-14",
-        "name": "Diego Rossi",
+        "name": "Hamdy Fathy",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "EGY-15",
-        "name": "Ji-hoon Sánchez",
+        "name": "Osama Faisal",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "EGY-16",
-        "name": "Youssef Obi",
+        "name": "Mohamed Salah",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "EGY-17",
-        "name": "Oliver Silva",
+        "name": "Mostafa Mohamed",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "EGY-18",
-        "name": "Carlos Müller",
+        "name": "Trezeguet Omar",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "EGY-19",
-        "name": "Thomas Tanaka",
+        "name": "Carlos Gómez",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "EGY-20",
-        "name": "Kenji Diallo",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "name": "Egipto",
-    "id": "EGY"
-  },
-  "UZB": {
-    "stickers": [
-      {
-        "id": "UZB-01",
-        "name": "Escudo de Uzbekistán",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "UZB-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "UZB-03",
         "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "UZB-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "UZB-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "UZB-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "UZB-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "UZB-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "UZB-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "UZB-10",
-        "name": "Sadio Tanaka",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "UZB-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "UZB-12",
-        "name": "Andrés Rossi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "UZB-13",
-        "name": "Foto de Selección de Uzbekistán",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "UZB-14",
-        "name": "Diego Sánchez",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "UZB-15",
-        "name": "Ji-hoon Obi",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "UZB-16",
-        "name": "Youssef Silva",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "UZB-17",
-        "name": "Oliver Müller",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "UZB-18",
-        "name": "Carlos Tanaka",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "UZB-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "UZB-20",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "UZB",
-    "name": "Uzbekistán"
-  },
-  "POR": {
-    "stickers": [
-      {
-        "id": "POR-01",
-        "name": "Escudo de Portugal",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "POR-02",
-        "name": "Pepe",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "POR-03",
-        "name": "João Palhinha",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "POR-04",
-        "name": "Bruno Fernandes",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "POR-05",
-        "name": "Francisco Conceição",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "POR-06",
-        "name": "Rui Patrício",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "POR-07",
-        "name": "Nelson Semedo",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "POR-08",
-        "name": "Danilo Pereira",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "POR-09",
-        "name": "Matheus Nunes",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "POR-10",
-        "name": "Carlos Sánchez",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "POR-11",
-        "name": "Thomas Williams",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "POR-12",
-        "name": "Kenji Gómez",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "POR-13",
-        "name": "Foto de Selección de Portugal",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "POR-14",
-        "name": "Kofi Jones",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "POR-15",
-        "name": "Jack Mensah",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "POR-16",
-        "name": "Luis Nguyen",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "POR-17",
-        "name": "Jan Rossi",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "POR-18",
-        "name": "Peter Sánchez",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "POR-19",
-        "name": "Carlos Gómez",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "POR-20",
-        "name": "Thomas Jones",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "POR",
-    "name": "Portugal"
-  },
-  "COL": {
-    "id": "COL",
-    "name": "Colombia",
-    "stickers": [
-      {
-        "id": "COL-01",
-        "name": "Escudo de Colombia",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "COL-02",
-        "name": "Daniel Muñoz",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "COL-03",
-        "name": "Davinson Sánchez",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "COL-04",
-        "name": "Carlos Cuesta",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "COL-05",
-        "name": "Jefferson Lerma",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "COL-06",
-        "name": "Richard Ríos",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "COL-07",
-        "name": "James Rodríguez",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "COL-08",
-        "name": "Luis Díaz",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "COL-09",
-        "name": "Jhon Córdoba",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "COL-10",
-        "name": "Rafael Santos Borré",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "COL-11",
-        "name": "Luis Sinisterra",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "COL-12",
-        "name": "Yerry Mina",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "COL-13",
-        "name": "Foto de Selección de Colombia",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "COL-14",
-        "name": "Juan Fernando Quintero",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "COL-15",
-        "name": "Jhon Durán",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "COL-16",
-        "name": "Mateus Uribe",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "COL-17",
-        "name": "Carlos Tanaka",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "COL-18",
-        "name": "Carlos Silva",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "COL-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "COL-20",
-        "name": "Kenji Tanaka",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "ENG": {
-    "id": "ENG",
-    "name": "Inglaterra",
+  "IRN": {
+    "id": "IRN",
+    "name": "Irán",
     "stickers": [
       {
-        "id": "ENG-01",
-        "name": "Escudo de Inglaterra",
+        "id": "IRN-01",
+        "name": "Escudo de Irán",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "ENG-02",
-        "name": "Jordan Pickford",
+        "id": "IRN-02",
+        "name": "Milad Mohammadi",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "ENG-03",
-        "name": "Kyle Walker",
+        "id": "IRN-03",
+        "name": "Ehsan Hajsafi",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "ENG-04",
-        "name": "Marc Guéhi",
+        "id": "IRN-04",
+        "name": "Sadegh Moharrami",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "ENG-05",
-        "name": "Kieran Trippier",
+        "id": "IRN-05",
+        "name": "Shojae Khalilzadeh",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "ENG-06",
-        "name": "Declan Rice",
+        "id": "IRN-06",
+        "name": "Ramin Rezaeian",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "ENG-07",
-        "name": "Trent Alexander-Arnold",
+        "id": "IRN-07",
+        "name": "Hossein Kanaani",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "ENG-08",
-        "name": "Cole Palmer",
+        "id": "IRN-08",
+        "name": "Saleh Hardani",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "ENG-09",
-        "name": "Kobbie Mainoo",
+        "id": "IRN-09",
+        "name": "Saeed Ezatolahi Ghoddos",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "ENG-10",
-        "name": "Anthony Gordon",
+        "id": "IRN-10",
+        "name": "Omid Noorafkan",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "ENG-11",
-        "name": "Aaron Ramsdale",
+        "id": "IRN-11",
+        "name": "Roozbeh Cheshmi",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "ENG-12",
-        "name": "Luke Shaw",
+        "id": "IRN-12",
+        "name": "Mohammad Sardar",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "ENG-13",
-        "name": "Foto de Selección de Inglaterra",
+        "id": "IRN-13",
+        "name": "Foto de Selección de Irán",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "ENG-14",
-        "name": "Joe Gomez",
+        "id": "IRN-14",
+        "name": "Alireza Jahanbakhsh",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "ENG-15",
-        "name": "Conor Gallagher",
+        "id": "IRN-15",
+        "name": "Ali Gholizadeh",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "ENG-16",
+        "id": "IRN-16",
         "name": "Carlos Obi",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "ENG-17",
+        "id": "IRN-17",
         "name": "Thomas Silva",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "ENG-18",
+        "id": "IRN-18",
         "name": "Kenji Müller",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "ENG-19",
+        "id": "IRN-19",
         "name": "Kofi Tanaka",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "ENG-20",
+        "id": "IRN-20",
         "name": "Jack Diallo",
         "position": "Delantero",
         "number": 20
@@ -3721,6 +3721,8 @@ const REAL_ROSTERS_DB = {
     ]
   },
   "NZL": {
+    "id": "NZL",
+    "name": "Nueva Zelanda",
     "stickers": [
       {
         "id": "NZL-01",
@@ -3730,67 +3732,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-02",
-        "name": "Carlos Gómez",
+        "name": "Liberato Cacace Pavne",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "NZL-03",
-        "name": "Thomas Jones",
+        "name": "Alex Paulsen",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "NZL-04",
-        "name": "Kenji Mensah",
+        "name": "Michael Boxall",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "NZL-05",
-        "name": "Kofi Nguyen",
+        "name": "Finn Surman",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "NZL-06",
-        "name": "Jack Rossi",
+        "name": "Joe Bell",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "NZL-07",
-        "name": "Luis Sánchez",
+        "name": "Tyler Bindon",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "NZL-08",
-        "name": "Jan Obi",
+        "name": "Francis De Vries",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "NZL-09",
-        "name": "Peter Gómez",
+        "name": "Sarpreet Singh",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "NZL-10",
-        "name": "Sadio Jones",
+        "name": "Ryan Thomas",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "NZL-11",
-        "name": "Liam Mensah",
+        "name": "Garbett Stamenic",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "NZL-12",
-        "name": "Andrés Ivanov",
+        "name": "Kosta Barbarouses",
         "position": "Mediocampista",
         "number": 12
       },
@@ -3802,13 +3804,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-14",
-        "name": "Diego Sánchez",
+        "name": "Old Chris",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "NZL-15",
-        "name": "Ji-hoon Silva",
+        "name": "Callum Mccowatt",
         "position": "Mediocampista",
         "number": 15
       },
@@ -3842,767 +3844,136 @@ const REAL_ROSTERS_DB = {
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "id": "NZL",
-    "name": "Nueva Zelanda"
+    ]
   },
-  "CRO": {
-    "id": "CRO",
+  "ESP": {
+    "id": "ESP",
+    "name": "España",
     "stickers": [
       {
-        "id": "CRO-01",
-        "name": "Escudo de Croacia",
+        "id": "ESP-01",
+        "name": "Escudo de España",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "CRO-02",
-        "name": "Carlos Gómez",
+        "id": "ESP-02",
+        "name": "Unai Simón",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "CRO-03",
-        "name": "Thomas Jones",
+        "id": "ESP-03",
+        "name": "Aymeric Laporte",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "CRO-04",
-        "name": "Kenji Mensah",
+        "id": "ESP-04",
+        "name": "Dani Carvajal",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "CRO-05",
-        "name": "Kofi Nguyen",
+        "id": "ESP-05",
+        "name": "Martin Zubimendi",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "CRO-06",
-        "name": "Jack Rossi",
+        "id": "ESP-06",
+        "name": "Rodri",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "CRO-07",
-        "name": "Luis Sánchez",
+        "id": "ESP-07",
+        "name": "Marc Cucurella",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "CRO-08",
-        "name": "Jan Obi",
+        "id": "ESP-08",
+        "name": "Dean Huijsen",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "CRO-09",
-        "name": "Peter Silva",
+        "id": "ESP-09",
+        "name": "Pedro Porro",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "CRO-10",
-        "name": "Sadio Müller",
+        "id": "ESP-10",
+        "name": "Álvaro Morata",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "CRO-11",
-        "name": "Liam Tanaka",
+        "id": "ESP-11",
+        "name": "Pedri Ruiz",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "CRO-12",
-        "name": "Andrés Diallo",
+        "id": "ESP-12",
+        "name": "Mikel Merino",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "CRO-13",
-        "name": "Foto de Selección de Croacia",
+        "id": "ESP-13",
+        "name": "Foto de Selección de España",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "CRO-14",
-        "name": "Diego Rossi",
+        "id": "ESP-14",
+        "name": "Lamine Vamal",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "CRO-15",
-        "name": "Ji-hoon Sánchez",
+        "id": "ESP-15",
+        "name": "Mikel Oyarzabal",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "CRO-16",
-        "name": "Youssef Obi",
+        "id": "ESP-16",
+        "name": "Dani Olmo",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "CRO-17",
-        "name": "Oliver Silva",
+        "id": "ESP-17",
+        "name": "Nico Williams",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "CRO-18",
-        "name": "Carlos Müller",
+        "id": "ESP-18",
+        "name": "Alex Baena",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "CRO-19",
-        "name": "Thomas Tanaka",
+        "id": "ESP-19",
+        "name": "Robin Le Normand",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "CRO-20",
-        "name": "Kenji Diallo",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "name": "Croacia"
-  },
-  "ECU": {
-    "name": "Ecuador",
-    "id": "ECU",
-    "stickers": [
-      {
-        "id": "ECU-01",
-        "name": "Escudo de Ecuador",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "ECU-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "ECU-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "ECU-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "ECU-05",
-        "name": "Kofi Rossi",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "ECU-06",
-        "name": "Jack Vargas",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "ECU-07",
-        "name": "Luis Williams",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "ECU-08",
-        "name": "Jan Gómez",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "ECU-09",
-        "name": "Peter Jones",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "ECU-10",
-        "name": "Sadio Diallo",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "ECU-11",
-        "name": "Liam Ivanov",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "ECU-12",
-        "name": "Andrés Hansen",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "ECU-13",
-        "name": "Foto de Selección de Ecuador",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "ECU-14",
-        "name": "Diego Vargas",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "ECU-15",
-        "name": "Ji-hoon Williams",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "ECU-16",
-        "name": "Youssef Gómez",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "ECU-17",
-        "name": "Oliver Jones",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "ECU-18",
-        "name": "Carlos Silva",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "ECU-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "ECU-20",
-        "name": "Kenji Tanaka",
+        "id": "ESP-20",
+        "name": "Fabián Ruiz",
         "position": "Delantero",
         "number": 20
       }
     ]
-  },
-  "JPN": {
-    "stickers": [
-      {
-        "id": "JPN-01",
-        "name": "Escudo de Japón",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "JPN-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "JPN-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "JPN-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "JPN-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "JPN-06",
-        "name": "Jack Rossi",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "JPN-07",
-        "name": "Luis Vargas",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "JPN-08",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "JPN-09",
-        "name": "Peter Gómez",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "JPN-10",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "JPN-11",
-        "name": "Liam Mensah",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "JPN-12",
-        "name": "Andrés Ivanov",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "JPN-13",
-        "name": "Foto de Selección de Japón",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "JPN-14",
-        "name": "Diego Hansen",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "JPN-15",
-        "name": "Ji-hoon Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "JPN-16",
-        "name": "Youssef Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "JPN-17",
-        "name": "Oliver Gómez",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "JPN-18",
-        "name": "Carlos Jones",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "JPN-19",
-        "name": "Thomas Mensah",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "JPN-20",
-        "name": "Carlos Müller",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "JPN",
-    "name": "Japón"
-  },
-  "GHA": {
-    "name": "Ghana",
-    "id": "GHA",
-    "stickers": [
-      {
-        "id": "GHA-01",
-        "name": "Escudo de Ghana",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "GHA-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "GHA-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "GHA-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "GHA-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "GHA-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "GHA-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "GHA-08",
-        "name": "Jan Gómez",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "GHA-09",
-        "name": "Peter Jones",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "GHA-10",
-        "name": "Sadio Diallo",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "GHA-11",
-        "name": "Liam Ivanov",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "GHA-12",
-        "name": "Andrés Hansen",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "GHA-13",
-        "name": "Foto de Selección de Ghana",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "GHA-14",
-        "name": "Diego Vargas",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "GHA-15",
-        "name": "Ji-hoon Silva",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "GHA-16",
-        "name": "Youssef Müller",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "GHA-17",
-        "name": "Carlos Williams",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "GHA-18",
-        "name": "Thomas Gómez",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "GHA-19",
-        "name": "Kenji Jones",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "GHA-20",
-        "name": "Kofi Mensah",
-        "position": "Delantero",
-        "number": 20
-      }
-    ]
-  },
-  "ALG": {
-    "stickers": [
-      {
-        "id": "ALG-01",
-        "name": "Escudo de Argelia",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "ALG-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "ALG-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "ALG-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "ALG-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "ALG-06",
-        "name": "Jack Rossi",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "ALG-07",
-        "name": "Luis Sánchez",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "ALG-08",
-        "name": "Jan Obi",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "ALG-09",
-        "name": "Peter Silva",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "ALG-10",
-        "name": "Sadio Müller",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "ALG-11",
-        "name": "Liam Tanaka",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "ALG-12",
-        "name": "Andrés Ivanov",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "ALG-13",
-        "name": "Foto de Selección de Argelia",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "ALG-14",
-        "name": "Diego Hansen",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "ALG-15",
-        "name": "Ji-hoon Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "ALG-16",
-        "name": "Youssef Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "ALG-17",
-        "name": "Oliver Müller",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "ALG-18",
-        "name": "Carlos Tanaka",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "ALG-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "ALG-20",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "ALG",
-    "name": "Argelia"
-  },
-  "KOR": {
-    "name": "Corea del Sur",
-    "stickers": [
-      {
-        "id": "KOR-01",
-        "name": "Escudo de Corea del Sur",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "KOR-02",
-        "name": "Carlos Müller",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "KOR-03",
-        "name": "Thomas Tanaka",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "KOR-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "KOR-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "KOR-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "KOR-07",
-        "name": "Luis Vargas",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "KOR-08",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "KOR-09",
-        "name": "Peter Gómez",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "KOR-10",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "KOR-11",
-        "name": "Liam Mensah",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "KOR-12",
-        "name": "Andrés Ivanov",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "KOR-13",
-        "name": "Foto de Selección de Corea del Sur",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "KOR-14",
-        "name": "Diego Hansen",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "KOR-15",
-        "name": "Ji-hoon Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "KOR-16",
-        "name": "Youssef Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "KOR-17",
-        "name": "Oliver Gómez",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "KOR-18",
-        "name": "Carlos Jones",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "KOR-19",
-        "name": "Thomas Mensah",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "KOR-20",
-        "name": "Thomas Jones",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "KOR"
   },
   "CPV": {
+    "id": "CPV",
     "name": "Cabo Verde",
     "stickers": [
       {
@@ -4613,67 +3984,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CPV-02",
-        "name": "Carlos Gómez",
+        "name": "Pico Dinev",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "CPV-03",
-        "name": "Thomas Jones",
+        "name": "Steven Moreira",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "CPV-04",
-        "name": "Kenji Diallo",
+        "name": "Wagner Pina",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "CPV-05",
-        "name": "Kofi Ivanov",
+        "name": "Joo Paulo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "CPV-06",
-        "name": "Jack Vargas",
+        "name": "Yannick Semedo",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "CPV-07",
-        "name": "Luis Williams",
+        "name": "Kevin Pina",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "CPV-08",
-        "name": "Jan Gómez",
+        "name": "Jamiro Monteiro",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "CPV-09",
-        "name": "Peter Jones",
+        "name": "Deroy Duarte",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "CPV-10",
-        "name": "Sadio Ivanov",
+        "name": "Willy Semedo",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "CPV-11",
-        "name": "Liam Sánchez",
+        "name": "Ksa Uru",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "CPV-12",
-        "name": "Andrés Obi",
+        "name": "Cdy Jovane",
         "position": "Mediocampista",
         "number": 12
       },
@@ -4685,48 +4056,299 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CPV-14",
-        "name": "Carlos Sánchez",
+        "name": "Cabral Rvan",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "CPV-15",
-        "name": "Thomas Obi",
+        "name": "Dailon Livramento",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "CPV-16",
-        "name": "Kenji Silva",
+        "name": "Carlos Obi",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "CPV-17",
-        "name": "Kofi Müller",
+        "name": "Thomas Silva",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "CPV-18",
-        "name": "Jack Tanaka",
+        "name": "Kenji Müller",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "CPV-19",
-        "name": "Luis Diallo",
+        "name": "Kofi Tanaka",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "CPV-20",
-        "name": "Jan Ivanov",
+        "name": "Jack Diallo",
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "id": "CPV"
+    ]
+  },
+  "KSA": {
+    "id": "KSA",
+    "name": "Arabia Saudita",
+    "stickers": [
+      {
+        "id": "KSA-01",
+        "name": "Escudo de Arabia Saudita",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "KSA-02",
+        "name": "Nawaf Alaoidi",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "KSA-03",
+        "name": "Abdulrahman Alsanbi",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "KSA-04",
+        "name": "Saud Abdulhamid",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "KSA-05",
+        "name": "Nawaf Buwashl",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "KSA-06",
+        "name": "Moteb Alharbi",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "KSA-07",
+        "name": "Jordan Saudi Arabi",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "KSA-08",
+        "name": "Chn Zivad Aljohani",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "KSA-09",
+        "name": "Jehad Thikri",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "KSA-10",
+        "name": "Hassan Altambakti",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "KSA-11",
+        "name": "Abdullah Alkhaibari",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "KSA-12",
+        "name": "Saleh Abu",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "KSA-13",
+        "name": "Foto de Selección de Arabia Saudita",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "KSA-14",
+        "name": "Nasser Aldawsari",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "KSA-15",
+        "name": "Alshamat Marwan",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "KSA-16",
+        "name": "Alsahafi Salem",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "KSA-17",
+        "name": "Aldawsari Abdulrahman",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "KSA-18",
+        "name": "Saleh Alshehri",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "KSA-19",
+        "name": "Abdullah Alhamdan",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "KSA-20",
+        "name": "Carlos Müller",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "URU": {
+    "id": "URU",
+    "name": "Uruguay",
+    "stickers": [
+      {
+        "id": "URU-01",
+        "name": "Escudo de Uruguay",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "URU-02",
+        "name": "Sergio Rochet",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "URU-03",
+        "name": "Santiago Mele",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "URU-04",
+        "name": "Giménez Sebastián",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "URU-05",
+        "name": "Guillermo Varela",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "URU-06",
+        "name": "Venezuela Uruguan",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "URU-07",
+        "name": "Ronald Araújo",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "URU-08",
+        "name": "José María",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "URU-09",
+        "name": "Mathias Olivera",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "URU-10",
+        "name": "Nahitan Nández",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "URU-11",
+        "name": "Giorgian De",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "URU-12",
+        "name": "Arrascaeta Rodrigo",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "URU-13",
+        "name": "Foto de Selección de Uruguay",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "URU-14",
+        "name": "Manuel Ugarte",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "URU-15",
+        "name": "Federico Viñas",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "URU-16",
+        "name": "De La",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "URU-17",
+        "name": "Rodrigo Aguirre",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "URU-18",
+        "name": "Facundo Pellistri",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "URU-19",
+        "name": "Cruz Maxi",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "URU-20",
+        "name": "Araujo Darwin",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
   },
   "FRA": {
     "id": "FRA",
@@ -4740,67 +4362,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "FRA-02",
-        "name": "Dayot Upamecano",
+        "name": "Mike Maignan",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "FRA-03",
-        "name": "Theo Hernandez",
+        "name": "Théo Hernández",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "FRA-04",
-        "name": "N'Golo Kanté",
+        "name": "William Saliba",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "FRA-05",
-        "name": "Antoine Griezmann",
+        "name": "Jules Koundé",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "FRA-06",
-        "name": "Ousmane Dembélé",
+        "name": "Ibrahima Konaté",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "FRA-07",
-        "name": "Marcus Thuram",
+        "name": "Lucas Digne",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "FRA-08",
-        "name": "Kylian Mbappé",
+        "name": "Aurélien Tchouaméni",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "FRA-09",
-        "name": "Olivier Giroud",
+        "name": "Eduardo Camavinga",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "FRA-10",
-        "name": "Brice Samba",
+        "name": "Ukraine France",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "FRA-11",
-        "name": "Ferland Mendy",
+        "name": "Manu Koné",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "FRA-12",
-        "name": "Warren Zaïre-Emery",
+        "name": "Adrien Rabiot",
         "position": "Mediocampista",
         "number": 12
       },
@@ -4812,301 +4434,303 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "FRA-14",
-        "name": "Bradley Barcola",
+        "name": "Michael Olise",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "FRA-15",
-        "name": "Carlos Silva",
+        "name": "Désiré Doué",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "FRA-16",
-        "name": "Thomas Müller",
+        "name": "Kingsley Coman",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "FRA-17",
-        "name": "Kenji Tanaka",
+        "name": "Hugo Ekitiké",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "FRA-18",
-        "name": "Kofi Diallo",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "FRA-19",
-        "name": "Carlos Gómez",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "FRA-20",
-        "name": "Thomas Jones",
-        "position": "Delantero",
-        "number": 20
-      }
-    ]
-  },
-  "AUT": {
-    "id": "AUT",
-    "name": "Austria",
-    "stickers": [
-      {
-        "id": "AUT-01",
-        "name": "Escudo de Austria",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "AUT-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "AUT-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "AUT-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "AUT-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "AUT-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "AUT-07",
-        "name": "Luis Obi",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "AUT-08",
-        "name": "Jan Silva",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "AUT-09",
-        "name": "Peter Müller",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "AUT-10",
-        "name": "Sadio Tanaka",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "AUT-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "AUT-12",
-        "name": "Andrés Rossi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "AUT-13",
-        "name": "Foto de Selección de Austria",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "AUT-14",
-        "name": "Diego Sánchez",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "AUT-15",
-        "name": "Ji-hoon Obi",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "AUT-16",
-        "name": "Youssef Silva",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "AUT-17",
-        "name": "Oliver Müller",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "AUT-18",
         "name": "Carlos Silva",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "AUT-19",
+        "id": "FRA-19",
         "name": "Thomas Müller",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "AUT-20",
+        "id": "FRA-20",
         "name": "Kenji Tanaka",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "JOR": {
-    "id": "JOR",
+  "SEN": {
+    "id": "SEN",
+    "name": "Senegal",
     "stickers": [
       {
-        "id": "JOR-01",
-        "name": "Escudo de Jordania",
+        "id": "SEN-01",
+        "name": "Escudo de Senegal",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "JOR-02",
-        "name": "Carlos Gómez",
+        "id": "SEN-02",
+        "name": "Édouard Mendv",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "JOR-03",
-        "name": "Thomas Jones",
+        "id": "SEN-03",
+        "name": "Vehvann Diouf",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "JOR-04",
-        "name": "Kenji Diallo",
+        "id": "SEN-04",
+        "name": "Kalidou Koulibaly",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "JOR-05",
-        "name": "Kofi Ivanov",
+        "id": "SEN-05",
+        "name": "Niakhaté Abdoulave",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "JOR-06",
-        "name": "Jack Hansen",
+        "id": "SEN-06",
+        "name": "Seck Ismail",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "JOR-07",
-        "name": "Luis Vargas",
+        "id": "SEN-07",
+        "name": "El Hadji",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "JOR-08",
-        "name": "Jan Williams",
+        "id": "SEN-08",
+        "name": "Idrissa Gana Gueve",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "JOR-09",
-        "name": "Peter Gómez",
+        "id": "SEN-09",
+        "name": "Malick Diouf",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "JOR-10",
-        "name": "Sadio Jones",
+        "id": "SEN-10",
+        "name": "Pape Matar Sarr",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "JOR-11",
-        "name": "Liam Mensah",
+        "id": "SEN-11",
+        "name": "Pape Gueve",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "JOR-12",
-        "name": "Andrés Ivanov",
+        "id": "SEN-12",
+        "name": "Habib Diarra",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "JOR-13",
-        "name": "Foto de Selección de Jordania",
+        "id": "SEN-13",
+        "name": "Foto de Selección de Senegal",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "JOR-14",
-        "name": "Diego Hansen",
+        "id": "SEN-14",
+        "name": "Lamine Camara",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "JOR-15",
-        "name": "Ji-hoon Vargas",
+        "id": "SEN-15",
+        "name": "Jackson Krépin Diatta",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "JOR-16",
-        "name": "Youssef Williams",
+        "id": "SEN-16",
+        "name": "Sadio Man",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "JOR-17",
-        "name": "Oliver Müller",
+        "id": "SEN-17",
+        "name": "Ismaila Sarr",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "JOR-18",
-        "name": "Carlos Tanaka",
+        "id": "SEN-18",
+        "name": "Boulave Dia",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "JOR-19",
-        "name": "Thomas Müller",
+        "id": "SEN-19",
+        "name": "Iro Nor",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "JOR-20",
-        "name": "Kenji Tanaka",
+        "id": "SEN-20",
+        "name": "Carlos Müller",
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "name": "Jordania"
+    ]
+  },
+  "IRQ": {
+    "id": "IRQ",
+    "name": "Irak",
+    "stickers": [
+      {
+        "id": "IRQ-01",
+        "name": "Escudo de Irak",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "IRQ-02",
+        "name": "Irao Indonesia",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "IRQ-03",
+        "name": "Rebin Sulaka",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "IRQ-04",
+        "name": "Ali Iro",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "IRQ-05",
+        "name": "Zidane Iqbal",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "IRQ-06",
+        "name": "Amir Alammari",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "IRQ-07",
+        "name": "Zaid Tahseen",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "IRQ-08",
+        "name": "Manaf Younis",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "IRQ-09",
+        "name": "Irad Indonesia",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "IRQ-10",
+        "name": "Merchas Doski Iro",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "IRQ-11",
+        "name": "Ibrahim Bavesh Iro",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "IRQ-12",
+        "name": "Ali Jasim Iroq",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "IRQ-13",
+        "name": "Foto de Selección de Irak",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "IRQ-14",
+        "name": "Youssef Amyn",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "IRQ-15",
+        "name": "Aimar Sher",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "IRQ-16",
+        "name": "Marko Farji",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "IRQ-17",
+        "name": "Osama Rashid",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "IRQ-18",
+        "name": "Ali Alhamadi Iro",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "IRQ-19",
+        "name": "Aymen Hussein",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "IRQ-20",
+        "name": "Mohanad Ali",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
   },
   "NOR": {
+    "id": "NOR",
+    "name": "Noruega",
     "stickers": [
       {
         "id": "NOR-01",
@@ -5116,67 +4740,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NOR-02",
-        "name": "Carlos Gómez",
+        "name": "Rverson Leo",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "NOR-03",
-        "name": "Thomas Jones",
+        "name": "Nor Julian",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "NOR-04",
-        "name": "Kenji Diallo",
+        "name": "Morten Thorsbv",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "NOR-05",
-        "name": "Kofi Ivanov",
+        "name": "Kristoffer Vassbakk Ajer",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "NOR-06",
-        "name": "Jack Hansen",
+        "name": "Marcus Holmgren Pedersen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "NOR-07",
-        "name": "Luis Obi",
+        "name": "David Mller Wolfe",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "NOR-08",
-        "name": "Jan Silva",
+        "name": "Martin Degaard",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "NOR-09",
-        "name": "Peter Müller",
+        "name": "Torbjrn Heggem",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "NOR-10",
-        "name": "Sadio Diallo",
+        "name": "Moldova Norwav",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "NOR-11",
-        "name": "Liam Ivanov",
+        "name": "Berge Schjelderup",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "NOR-12",
-        "name": "Andrés Hansen",
+        "name": "Patrick Berg Erling",
         "position": "Mediocampista",
         "number": 12
       },
@@ -5188,19 +4812,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NOR-14",
-        "name": "Diego Vargas",
+        "name": "Sloth Aron Dnnum",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "NOR-15",
-        "name": "Ji-hoon Silva",
+        "name": "Fra Antonio",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "NOR-16",
-        "name": "Youssef Müller",
+        "name": "Oscar Bobb",
         "position": "Delantero",
         "number": 16
       },
@@ -5228,263 +4852,11 @@ const REAL_ROSTERS_DB = {
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "name": "Noruega",
-    "id": "NOR"
-  },
-  "IRN": {
-    "id": "IRN",
-    "stickers": [
-      {
-        "id": "IRN-01",
-        "name": "Escudo de Irán",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "IRN-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "IRN-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "IRN-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "IRN-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "IRN-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "IRN-07",
-        "name": "Luis Vargas",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "IRN-08",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "IRN-09",
-        "name": "Peter Gómez",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "IRN-10",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "IRN-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "IRN-12",
-        "name": "Andrés Rossi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "IRN-13",
-        "name": "Foto de Selección de Irán",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "IRN-14",
-        "name": "Diego Sánchez",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "IRN-15",
-        "name": "Ji-hoon Obi",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "IRN-16",
-        "name": "Youssef Gómez",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "IRN-17",
-        "name": "Oliver Jones",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "IRN-18",
-        "name": "Carlos Silva",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "IRN-19",
-        "name": "Thomas Müller",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "IRN-20",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "name": "Irán"
-  },
-  "IRQ": {
-    "name": "Irak",
-    "id": "IRQ",
-    "stickers": [
-      {
-        "id": "IRQ-01",
-        "name": "Escudo de Irak",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "IRQ-02",
-        "name": "Carlos Müller",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "IRQ-03",
-        "name": "Thomas Tanaka",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "IRQ-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "IRQ-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "IRQ-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "IRQ-07",
-        "name": "Luis Vargas",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "IRQ-08",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "IRQ-09",
-        "name": "Peter Gómez",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "IRQ-10",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "IRQ-11",
-        "name": "Liam Mensah",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "IRQ-12",
-        "name": "Andrés Ivanov",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "IRQ-13",
-        "name": "Foto de Selección de Irak",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "IRQ-14",
-        "name": "Diego Hansen",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "IRQ-15",
-        "name": "Ji-hoon Vargas",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "IRQ-16",
-        "name": "Youssef Williams",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "IRQ-17",
-        "name": "Oliver Gómez",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "IRQ-18",
-        "name": "Carlos Jones",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "IRQ-19",
-        "name": "Thomas Mensah",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "IRQ-20",
-        "name": "Thomas Jones",
-        "position": "Delantero",
-        "number": 20
-      }
     ]
   },
   "ARG": {
+    "id": "ARG",
+    "name": "Argentina",
     "stickers": [
       {
         "id": "ARG-01",
@@ -5494,67 +4866,67 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ARG-02",
-        "name": "Nico González",
+        "name": "Emiliano Martínez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "ARG-03",
-        "name": "Lautaro Martínez",
+        "name": "Nahuel Molina",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "ARG-04",
-        "name": "Julián Álvarez",
+        "name": "Cristian Romero",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "ARG-05",
-        "name": "Gerónimo Rulli",
+        "name": "Nicolás Otamendi",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "ARG-06",
-        "name": "Gonzalo Montiel",
+        "name": "Leonardo Balerdi",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "ARG-07",
-        "name": "Lisandro Martínez",
+        "name": "Nicolás Tagliafico",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "ARG-08",
-        "name": "Marcos Acuña",
+        "name": "Enzo Fernández",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "ARG-09",
-        "name": "Giovani Lo Celso",
+        "name": "Alexis Mac Allister",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "ARG-10",
-        "name": "Guido Rodríguez",
+        "name": "Rodrigo De Paul",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "ARG-11",
-        "name": "Angel Di María",
+        "name": "Exequiel Palacios",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "ARG-12",
-        "name": "Alejandro Garnacho",
+        "name": "Aut Alg Jor",
         "position": "Mediocampista",
         "number": 12
       },
@@ -5566,805 +4938,1433 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ARG-14",
-        "name": "Valentin Carboni",
+        "name": "Nico Paz",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "ARG-15",
-        "name": "Carlos Williams",
+        "name": "Franco Mastantuono",
         "position": "Mediocampista",
         "number": 15
       },
       {
         "id": "ARG-16",
-        "name": "Thomas Gómez",
+        "name": "Nico Gonzalez",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "ARG-17",
-        "name": "Kenji Jones",
+        "name": "Lionel Messi",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "ARG-18",
-        "name": "Kofi Mensah",
+        "name": "Julián Alvarez",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "ARG-19",
-        "name": "Jack Nguyen",
+        "name": "Giuliano Simeone",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "ARG-20",
-        "name": "Luis Rossi",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "ARG",
-    "name": "Argentina"
-  },
-  "KSA": {
-    "name": "Arabia Saudita",
-    "id": "KSA",
-    "stickers": [
-      {
-        "id": "KSA-01",
-        "name": "Escudo de Arabia Saudita",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "KSA-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "KSA-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "KSA-04",
-        "name": "Kenji Mensah",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "KSA-05",
-        "name": "Kofi Nguyen",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "KSA-06",
-        "name": "Jack Rossi",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "KSA-07",
-        "name": "Luis Sánchez",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "KSA-08",
-        "name": "Saudi Arabia Irao",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "KSA-09",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "KSA-10",
-        "name": "Peter Gómez",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "KSA-11",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "KSA-12",
-        "name": "Liam Mensah",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "KSA-13",
-        "name": "Foto de Selección de Arabia Saudita",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "KSA-14",
-        "name": "Diego Rossi",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "KSA-15",
-        "name": "Ji-hoon Sánchez",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "KSA-16",
-        "name": "Youssef Obi",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "KSA-17",
-        "name": "Oliver Silva",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "KSA-18",
-        "name": "Carlos Müller",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "KSA-19",
-        "name": "Thomas Tanaka",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "KSA-20",
-        "name": "Kenji Diallo",
+        "name": "Leandro Paredes",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "QAT": {
-    "id": "QAT",
-    "name": "Catar",
+  "ALG": {
+    "id": "ALG",
+    "name": "Argelia",
     "stickers": [
       {
-        "id": "QAT-01",
-        "name": "Escudo de Catar",
+        "id": "ALG-01",
+        "name": "Escudo de Argelia",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "QAT-02",
-        "name": "Carlos Müller",
+        "id": "ALG-02",
+        "name": "Alexis Guendouz",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "QAT-03",
-        "name": "Thomas Mensah",
+        "id": "ALG-03",
+        "name": "Ramy Bensebaini",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "QAT-04",
-        "name": "Kenji Ivanov",
+        "id": "ALG-04",
+        "name": "Ismal Bennacer",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "QAT-05",
-        "name": "Kofi Hansen",
+        "id": "ALG-05",
+        "name": "Algeria Guinea",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "QAT-06",
-        "name": "Jack Vargas",
+        "id": "ALG-06",
+        "name": "Mozambique Algeria",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "QAT-07",
-        "name": "Luis Williams",
+        "id": "ALG-07",
+        "name": "Voucef Atal",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "QAT-08",
-        "name": "Jan Gómez",
+        "id": "ALG-08",
+        "name": "Algeria Somalia",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "QAT-09",
-        "name": "Peter Mensah",
+        "id": "ALG-09",
+        "name": "Houssem Aouar",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "QAT-10",
-        "name": "Sadio Ivanov",
+        "id": "ALG-10",
+        "name": "Hicham Boudaoui",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "QAT-11",
-        "name": "Liam Hansen",
+        "id": "ALG-11",
+        "name": "Ramiz Zerrouki",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "QAT-12",
-        "name": "Andrés Vargas",
+        "id": "ALG-12",
+        "name": "Fares Rivad",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "QAT-13",
-        "name": "Foto de Selección de Catar",
+        "id": "ALG-13",
+        "name": "Foto de Selección de Argelia",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "QAT-14",
-        "name": "Diego Williams",
+        "id": "ALG-14",
+        "name": "Mahrez Said",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "QAT-15",
-        "name": "Ji-hoon Gómez",
+        "id": "ALG-15",
+        "name": "Benrahma Anis",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "QAT-16",
-        "name": "Carlos Obi",
+        "id": "ALG-16",
+        "name": "Hadj Moussa",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "QAT-17",
-        "name": "Thomas Silva",
+        "id": "ALG-17",
+        "name": "Arg Aut",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "QAT-18",
-        "name": "Kenji Müller",
+        "id": "ALG-18",
+        "name": "Mohammed Amoura",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "QAT-19",
-        "name": "Kofi Tanaka",
+        "id": "ALG-19",
+        "name": "Amine Gouiri",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "QAT-20",
-        "name": "Jack Diallo",
+        "id": "ALG-20",
+        "name": "Baghdad Bounedjah",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "MEX": {
-    "name": "México",
+  "AUT": {
+    "id": "AUT",
+    "name": "Austria",
     "stickers": [
       {
-        "id": "MEX-01",
-        "name": "Escudo de México",
+        "id": "AUT-01",
+        "name": "Escudo de Austria",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "MEX-02",
-        "name": "Johan Vásquez",
+        "id": "AUT-02",
+        "name": "Patrick Pentz",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "MEX-03",
-        "name": "César Montes",
+        "id": "AUT-03",
+        "name": "David Alaba",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "MEX-04",
-        "name": "Jesús Gallardo",
+        "id": "AUT-04",
+        "name": "Aut Phillipp Mwene",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "MEX-05",
-        "name": "Israel Reyes",
+        "id": "AUT-05",
+        "name": "Kevin Danso",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "MEX-06",
-        "name": "Edson Álvarez",
+        "id": "AUT-06",
+        "name": "Philipp Lienhart",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "MEX-07",
-        "name": "Luis Chávez",
+        "id": "AUT-07",
+        "name": "Stefan Posch",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "MEX-08",
-        "name": "Orbelín Pineda",
+        "id": "AUT-08",
+        "name": "Xaver Schlager",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "MEX-09",
-        "name": "Gerardo Arteaga",
+        "id": "AUT-09",
+        "name": "Marcel Sabitzer",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "MEX-10",
-        "name": "Guillermo Ochoa",
+        "id": "AUT-10",
+        "name": "Konrad Laimer",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "MEX-11",
-        "name": "Bryan González",
+        "id": "AUT-11",
+        "name": "Florian Grillitsch",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "MEX-12",
-        "name": "Alexis Vega",
+        "id": "AUT-12",
+        "name": "Seiwald Romano",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "MEX-13",
-        "name": "Foto de Selección de México",
+        "id": "AUT-13",
+        "name": "Foto de Selección de Austria",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "MEX-14",
-        "name": "Henry Martín",
+        "id": "AUT-14",
+        "name": "Schmid Patrick",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "MEX-15",
-        "name": "Guillermo Martínez",
+        "id": "AUT-15",
+        "name": "Arg Christoph",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "MEX-16",
-        "name": "Carlos Silva",
+        "id": "AUT-16",
+        "name": "Baumgartner Michael",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "MEX-17",
-        "name": "Thomas Müller",
+        "id": "AUT-17",
+        "name": "Gregoritsch Marko",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "MEX-18",
-        "name": "Kenji Tanaka",
-        "position": "Delantero",
-        "number": 18
-      },
-      {
-        "id": "MEX-19",
-        "name": "Kofi Diallo",
-        "position": "Delantero",
-        "number": 19
-      },
-      {
-        "id": "MEX-20",
-        "name": "Jack Ivanov",
-        "position": "Delantero",
-        "number": 20
-      }
-    ],
-    "id": "MEX"
-  },
-  "CUW": {
-    "id": "CUW",
-    "name": "Curazao",
-    "stickers": [
-      {
-        "id": "CUW-01",
-        "name": "Escudo de Curazao",
-        "position": "Escudo",
-        "number": 1
-      },
-      {
-        "id": "CUW-02",
-        "name": "Carlos Gómez",
-        "position": "Portero",
-        "number": 2
-      },
-      {
-        "id": "CUW-03",
-        "name": "Thomas Jones",
-        "position": "Defensa",
-        "number": 3
-      },
-      {
-        "id": "CUW-04",
-        "name": "Kenji Diallo",
-        "position": "Defensa",
-        "number": 4
-      },
-      {
-        "id": "CUW-05",
-        "name": "Kofi Ivanov",
-        "position": "Defensa",
-        "number": 5
-      },
-      {
-        "id": "CUW-06",
-        "name": "Jack Hansen",
-        "position": "Defensa",
-        "number": 6
-      },
-      {
-        "id": "CUW-07",
-        "name": "Luis Vargas",
-        "position": "Defensa",
-        "number": 7
-      },
-      {
-        "id": "CUW-08",
-        "name": "Jan Williams",
-        "position": "Mediocampista",
-        "number": 8
-      },
-      {
-        "id": "CUW-09",
-        "name": "Peter Gómez",
-        "position": "Mediocampista",
-        "number": 9
-      },
-      {
-        "id": "CUW-10",
-        "name": "Sadio Jones",
-        "position": "Mediocampista",
-        "number": 10
-      },
-      {
-        "id": "CUW-11",
-        "name": "Liam Nguyen",
-        "position": "Mediocampista",
-        "number": 11
-      },
-      {
-        "id": "CUW-12",
-        "name": "Andrés Rossi",
-        "position": "Mediocampista",
-        "number": 12
-      },
-      {
-        "id": "CUW-13",
-        "name": "Foto de Selección de Curazao",
-        "position": "Equipo",
-        "number": 13
-      },
-      {
-        "id": "CUW-14",
-        "name": "Diego Sánchez",
-        "position": "Mediocampista",
-        "number": 14
-      },
-      {
-        "id": "CUW-15",
-        "name": "Ji-hoon Williams",
-        "position": "Mediocampista",
-        "number": 15
-      },
-      {
-        "id": "CUW-16",
-        "name": "Youssef Gómez",
-        "position": "Delantero",
-        "number": 16
-      },
-      {
-        "id": "CUW-17",
-        "name": "Oliver Jones",
-        "position": "Delantero",
-        "number": 17
-      },
-      {
-        "id": "CUW-18",
+        "id": "AUT-18",
         "name": "Carlos Silva",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "CUW-19",
+        "id": "AUT-19",
         "name": "Thomas Müller",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "CUW-20",
+        "id": "AUT-20",
         "name": "Kenji Tanaka",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "ESP": {
-    "id": "ESP",
-    "name": "España",
+  "JOR": {
+    "id": "JOR",
+    "name": "Jordania",
     "stickers": [
       {
-        "id": "ESP-01",
-        "name": "Escudo de España",
+        "id": "JOR-01",
+        "name": "Escudo de Jordania",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "ESP-02",
-        "name": "Robin Le Normand",
+        "id": "JOR-02",
+        "name": "Jordan Kuwait",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "ESP-03",
-        "name": "Fabián Ruiz",
+        "id": "JOR-03",
+        "name": "Ihsan Haddad",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "ESP-04",
-        "name": "Lamine Yamal",
+        "id": "JOR-04",
+        "name": "Ibrahim Saadeh",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "ESP-05",
-        "name": "Alejandro Grimaldo",
+        "id": "JOR-05",
+        "name": "Mohammad Abu",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "ESP-06",
-        "name": "Mikel Oyarzabal",
+        "id": "JOR-06",
+        "name": "Abdallah Nasib",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "ESP-07",
-        "name": "Ferran Torres",
+        "id": "JOR-07",
+        "name": "Saleem Obaid",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "ESP-08",
-        "name": "Alex Baena",
+        "id": "JOR-08",
+        "name": "Mohammad Abualnadi",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "ESP-09",
-        "name": "David Raya",
+        "id": "JOR-09",
+        "name": "Palestine Jordan",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "ESP-10",
-        "name": "Jesus Navas",
+        "id": "JOR-10",
+        "name": "Nizar Alrashdan",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "ESP-11",
-        "name": "Pedri",
+        "id": "JOR-11",
+        "name": "Noor Alrawabdeh",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "ESP-12",
-        "name": "Nacho Fernández",
+        "id": "JOR-12",
+        "name": "Mohannad Abu",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "ESP-13",
-        "name": "Foto de Selección de España",
+        "id": "JOR-13",
+        "name": "Foto de Selección de Jordania",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "ESP-14",
-        "name": "Fermín López",
+        "id": "JOR-14",
+        "name": "Amer Jamous",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "ESP-15",
-        "name": "Ayoze Pérez",
+        "id": "JOR-15",
+        "name": "Altaamari Yazan",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "ESP-16",
-        "name": "Carlos Silva",
+        "id": "JOR-16",
+        "name": "Alnaimat Mahmoud",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "ESP-17",
-        "name": "Thomas Müller",
+        "id": "JOR-17",
+        "name": "Arg Aut Alg",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "ESP-18",
-        "name": "Kenji Tanaka",
+        "id": "JOR-18",
+        "name": "Mohammad Abu Zravo",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "ESP-19",
-        "name": "Kofi Diallo",
+        "id": "JOR-19",
+        "name": "Ibrahim Sabra",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "ESP-20",
-        "name": "Jack Ivanov",
+        "id": "JOR-20",
+        "name": "Carlos Müller",
         "position": "Delantero",
         "number": 20
       }
     ]
   },
-  "TUN": {
+  "POR": {
+    "id": "POR",
+    "name": "Portugal",
     "stickers": [
       {
-        "id": "TUN-01",
-        "name": "Escudo de Túnez",
+        "id": "POR-01",
+        "name": "Escudo de Portugal",
         "position": "Escudo",
         "number": 1
       },
       {
-        "id": "TUN-02",
-        "name": "Carlos Gómez",
+        "id": "POR-02",
+        "name": "José Sá",
         "position": "Portero",
         "number": 2
       },
       {
-        "id": "TUN-03",
-        "name": "Thomas Jones",
+        "id": "POR-03",
+        "name": "Rúben Dias",
         "position": "Defensa",
         "number": 3
       },
       {
-        "id": "TUN-04",
-        "name": "Kenji Mensah",
+        "id": "POR-04",
+        "name": "Joo Cancelo",
         "position": "Defensa",
         "number": 4
       },
       {
-        "id": "TUN-05",
-        "name": "Kofi Nguyen",
+        "id": "POR-05",
+        "name": "Diogo Dalot",
         "position": "Defensa",
         "number": 5
       },
       {
-        "id": "TUN-06",
-        "name": "Jack Rossi",
+        "id": "POR-06",
+        "name": "Nuno Mendes",
         "position": "Defensa",
         "number": 6
       },
       {
-        "id": "TUN-07",
-        "name": "Luis Sánchez",
+        "id": "POR-07",
+        "name": "Gonalo Inácio",
         "position": "Defensa",
         "number": 7
       },
       {
-        "id": "TUN-08",
-        "name": "Jan Obi",
+        "id": "POR-08",
+        "name": "Bernardo Silva",
         "position": "Mediocampista",
         "number": 8
       },
       {
-        "id": "TUN-09",
-        "name": "Peter Silva",
+        "id": "POR-09",
+        "name": "Rúben Neves Vitinha",
         "position": "Mediocampista",
         "number": 9
       },
       {
-        "id": "TUN-10",
-        "name": "Sadio Müller",
+        "id": "POR-10",
+        "name": "Joo Neves",
         "position": "Mediocampista",
         "number": 10
       },
       {
-        "id": "TUN-11",
-        "name": "Liam Tanaka",
+        "id": "POR-11",
+        "name": "Cristiano Ronaldo",
         "position": "Mediocampista",
         "number": 11
       },
       {
-        "id": "TUN-12",
-        "name": "Andrés Diallo",
+        "id": "POR-12",
+        "name": "Francisco Trinco",
         "position": "Mediocampista",
         "number": 12
       },
       {
-        "id": "TUN-13",
-        "name": "Foto de Selección de Túnez",
+        "id": "POR-13",
+        "name": "Foto de Selección de Portugal",
         "position": "Equipo",
         "number": 13
       },
       {
-        "id": "TUN-14",
-        "name": "Diego Rossi",
+        "id": "POR-14",
+        "name": "Joo Félix",
         "position": "Mediocampista",
         "number": 14
       },
       {
-        "id": "TUN-15",
-        "name": "Ji-hoon Sánchez",
+        "id": "POR-15",
+        "name": "Gonalo Ramos",
         "position": "Mediocampista",
         "number": 15
       },
       {
-        "id": "TUN-16",
-        "name": "Youssef Obi",
+        "id": "POR-16",
+        "name": "Pedro Neto",
         "position": "Delantero",
         "number": 16
       },
       {
-        "id": "TUN-17",
-        "name": "Oliver Silva",
+        "id": "POR-17",
+        "name": "Rafael Leo",
         "position": "Delantero",
         "number": 17
       },
       {
-        "id": "TUN-18",
-        "name": "Carlos Jones",
+        "id": "POR-18",
+        "name": "Carlos Silva",
         "position": "Delantero",
         "number": 18
       },
       {
-        "id": "TUN-19",
-        "name": "Thomas Mensah",
+        "id": "POR-19",
+        "name": "Thomas Müller",
         "position": "Delantero",
         "number": 19
       },
       {
-        "id": "TUN-20",
+        "id": "POR-20",
+        "name": "Kenji Tanaka",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "COD": {
+    "id": "COD",
+    "name": "Congo RD",
+    "stickers": [
+      {
+        "id": "COD-01",
+        "name": "Escudo de Congo RD",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "COD-02",
+        "name": "Lionel Mpasi",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "COD-03",
+        "name": "Aaron Wanbissaka",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "COD-04",
+        "name": "Chancel Mbemba",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "COD-05",
+        "name": "Joris Kavembe",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "COD-06",
+        "name": "Charles Pickel",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "COD-07",
+        "name": "Edo Kavembe",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "COD-08",
+        "name": "Ngalavel Mukau",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "COD-09",
+        "name": "Samuel Moutoussamv",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "COD-10",
+        "name": "Noah Sadiki",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "COD-11",
+        "name": "Théo Bongonda",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "COD-12",
+        "name": "Meschack Elia",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "COD-13",
+        "name": "Foto de Selección de Congo RD",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "COD-14",
+        "name": "Yoane Wissa",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "COD-15",
+        "name": "Brian Cipenga",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "COD-16",
+        "name": "Fiston Mavele",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "COD-17",
+        "name": "Cédric Bakambu",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "COD-18",
+        "name": "Nathanal Mbuku",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "COD-19",
+        "name": "Carlos Gómez",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "COD-20",
+        "name": "Thomas Jones",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "UZB": {
+    "id": "UZB",
+    "name": "Uzbekistán",
+    "stickers": [
+      {
+        "id": "UZB-01",
+        "name": "Escudo de Uzbekistán",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "UZB-02",
+        "name": "Utkir Vusupov",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "UZB-03",
+        "name": "Farrukh Savfiev",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "UZB-04",
+        "name": "Ne Are Uzbekistan",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "UZB-05",
+        "name": "Umar Eshmurodov",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "UZB-06",
+        "name": "Husniddin Aliqulov",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "UZB-07",
+        "name": "Sherzod Nasrullaev",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "UZB-08",
+        "name": "Rustam Ashurmatov",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "UZB-09",
+        "name": "Odiljon Hamrobekov",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "UZB-10",
+        "name": "Kyrgyz Republicuzbekistan",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "UZB-11",
+        "name": "Otabek Shukurov Jamshid",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "UZB-12",
+        "name": "Azizbek Turgunboev",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "UZB-13",
+        "name": "Foto de Selección de Uzbekistán",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "UZB-14",
+        "name": "Khojimat Erkinov",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "UZB-15",
+        "name": "Eldor Shomurodov",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "UZB-16",
+        "name": "Oston Urunov",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "UZB-17",
+        "name": "Jaloliddin Masharipov",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "UZB-18",
+        "name": "Igor Sergeev",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "UZB-19",
+        "name": "Abbosbek Favzullaev",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "UZB-20",
         "name": "Carlos Müller",
         "position": "Delantero",
         "number": 20
       }
-    ],
-    "id": "TUN",
-    "name": "Túnez"
+    ]
+  },
+  "COL": {
+    "id": "COL",
+    "name": "Colombia",
+    "stickers": [
+      {
+        "id": "COL-01",
+        "name": "Escudo de Colombia",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "COL-02",
+        "name": "Jefferson Lerma",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "COL-03",
+        "name": "David Ospina",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "COL-04",
+        "name": "Dávinson Sánchez",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "COL-05",
+        "name": "Johan Mojica",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "COL-06",
+        "name": "Santiago Arias",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "COL-07",
+        "name": "Verry Mina",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "COL-08",
+        "name": "Daniel Muñoz",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "COL-09",
+        "name": "Jhon Lucumí",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "COL-10",
+        "name": "Bolivia Colomeia",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "COL-11",
+        "name": "Kevin Castaño Richard",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "COL-12",
+        "name": "James Rodriguez",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "COL-13",
+        "name": "Foto de Selección de Colombia",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "COL-14",
+        "name": "Quintero Jorge",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "COL-15",
+        "name": "Carrascal Jhon",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "COL-16",
+        "name": "Suarez Luis Diaz",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "COL-17",
+        "name": "Carlos Williams",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "COL-18",
+        "name": "Thomas Gómez",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "COL-19",
+        "name": "Kenji Jones",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "COL-20",
+        "name": "Kofi Mensah",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "ENG": {
+    "id": "ENG",
+    "name": "Inglaterra",
+    "stickers": [
+      {
+        "id": "ENG-01",
+        "name": "Escudo de Inglaterra",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "ENG-02",
+        "name": "Eno Jordan Pickford",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "ENG-03",
+        "name": "John Stones Guéhi",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "ENG-04",
+        "name": "Ezri Konsa",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "ENG-05",
+        "name": "Eno Reece",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "ENG-06",
+        "name": "James Dan",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "ENG-07",
+        "name": "Jordan Henderson",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "ENG-08",
+        "name": "Declan Rice",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "ENG-09",
+        "name": "Jude Bellingham",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "ENG-10",
+        "name": "Ollie Watkins",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "ENG-11",
+        "name": "Morgan Rogers",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "ENG-12",
+        "name": "Gordon Phil",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "ENG-13",
+        "name": "Foto de Selección de Inglaterra",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "ENG-14",
+        "name": "Foden Bukayo",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "ENG-15",
+        "name": "Gha Pan",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "ENG-16",
+        "name": "Harry Kane",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "ENG-17",
+        "name": "Marcus Rashford",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "ENG-18",
+        "name": "Carlos Silva",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "ENG-19",
+        "name": "Thomas Müller",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "ENG-20",
+        "name": "Kenji Tanaka",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "CRO": {
+    "id": "CRO",
+    "name": "Croacia",
+    "stickers": [
+      {
+        "id": "CRO-01",
+        "name": "Escudo de Croacia",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "CRO-02",
+        "name": "Dominik Livakovic",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "CRO-03",
+        "name": "Duje Caletacar",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "CRO-04",
+        "name": "Joko Gvardiol",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "CRO-05",
+        "name": "Josip Stanii",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "CRO-06",
+        "name": "Luka Vukovi",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "CRO-07",
+        "name": "Kristijan Jakic",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "CRO-08",
+        "name": "Mateo Kovai",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "CRO-09",
+        "name": "Luka Modri",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "CRO-10",
+        "name": "Gibraltar Croatia",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "CRO-11",
+        "name": "Martin Baturina",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "CRO-12",
+        "name": "Lovro Majer",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "CRO-13",
+        "name": "Foto de Selección de Croacia",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "CRO-14",
+        "name": "Mario Paali",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "CRO-15",
+        "name": "Petar Suic",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "CRO-16",
+        "name": "Ivan Perii",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "CRO-17",
+        "name": "Marco Paali",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "CRO-18",
+        "name": "Ante Budimir",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "CRO-19",
+        "name": "Kramaric Franjo Ivanovi",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "CRO-20",
+        "name": "Carlos Müller",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "GHA": {
+    "id": "GHA",
+    "name": "Ghana",
+    "stickers": [
+      {
+        "id": "GHA-01",
+        "name": "Escudo de Ghana",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "GHA-02",
+        "name": "Lawrence Ati Zigi",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "GHA-03",
+        "name": "Tario Lamptev",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "GHA-04",
+        "name": "Abdul Issahaku",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "GHA-05",
+        "name": "Mohammed Salisu",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "GHA-06",
+        "name": "Alidu Seidu",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "GHA-07",
+        "name": "Gideon Mensah",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "GHA-08",
+        "name": "Caleb Virenkvi",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "GHA-09",
+        "name": "Thomas Partev",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "GHA-10",
+        "name": "Salis Abdul",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "GHA-11",
+        "name": "Samed Kamaldeen",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "GHA-12",
+        "name": "Mohammed Kudus",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "GHA-13",
+        "name": "Foto de Selección de Ghana",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "GHA-14",
+        "name": "Inaki Williams",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "GHA-15",
+        "name": "Jordan Avew",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "GHA-16",
+        "name": "Osman Bukari",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "GHA-17",
+        "name": "Antoine Semenvo",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "GHA-18",
+        "name": "Carlos Silva",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "GHA-19",
+        "name": "Thomas Müller",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "GHA-20",
+        "name": "Kenji Tanaka",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
+  },
+  "PAN": {
+    "id": "PAN",
+    "name": "Panamá",
+    "stickers": [
+      {
+        "id": "PAN-01",
+        "name": "Escudo de Panamá",
+        "position": "Escudo",
+        "number": 1
+      },
+      {
+        "id": "PAN-02",
+        "name": "César Blackman",
+        "position": "Portero",
+        "number": 2
+      },
+      {
+        "id": "PAN-03",
+        "name": "Luis Mejia",
+        "position": "Defensa",
+        "number": 3
+      },
+      {
+        "id": "PAN-04",
+        "name": "Panama Guyana",
+        "position": "Defensa",
+        "number": 4
+      },
+      {
+        "id": "PAN-05",
+        "name": "Panama Guatemala",
+        "position": "Defensa",
+        "number": 5
+      },
+      {
+        "id": "PAN-06",
+        "name": "Michael Amir Murillo",
+        "position": "Defensa",
+        "number": 6
+      },
+      {
+        "id": "PAN-07",
+        "name": "Eric Davis",
+        "position": "Defensa",
+        "number": 7
+      },
+      {
+        "id": "PAN-08",
+        "name": "Jose Córdoba",
+        "position": "Mediocampista",
+        "number": 8
+      },
+      {
+        "id": "PAN-09",
+        "name": "El Salvador",
+        "position": "Mediocampista",
+        "number": 9
+      },
+      {
+        "id": "PAN-10",
+        "name": "Cristian Martínez",
+        "position": "Mediocampista",
+        "number": 10
+      },
+      {
+        "id": "PAN-11",
+        "name": "Anibal Godov Carrasquilla",
+        "position": "Mediocampista",
+        "number": 11
+      },
+      {
+        "id": "PAN-12",
+        "name": "Rodriguez Alberto",
+        "position": "Mediocampista",
+        "number": 12
+      },
+      {
+        "id": "PAN-13",
+        "name": "Foto de Selección de Panamá",
+        "position": "Equipo",
+        "number": 13
+      },
+      {
+        "id": "PAN-14",
+        "name": "Edgar Barcenas",
+        "position": "Mediocampista",
+        "number": 14
+      },
+      {
+        "id": "PAN-15",
+        "name": "Quintero Gha",
+        "position": "Mediocampista",
+        "number": 15
+      },
+      {
+        "id": "PAN-16",
+        "name": "Ismael Diaz",
+        "position": "Delantero",
+        "number": 16
+      },
+      {
+        "id": "PAN-17",
+        "name": "José Fajardo",
+        "position": "Delantero",
+        "number": 17
+      },
+      {
+        "id": "PAN-18",
+        "name": "Cecilio Waterman",
+        "position": "Delantero",
+        "number": 18
+      },
+      {
+        "id": "PAN-19",
+        "name": "José Luis",
+        "position": "Delantero",
+        "number": 19
+      },
+      {
+        "id": "PAN-20",
+        "name": "Carlos Müller",
+        "position": "Delantero",
+        "number": 20
+      }
+    ]
   }
 };
 
