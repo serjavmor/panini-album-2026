@@ -10,6 +10,7 @@
 * **Remoción de Duplicados:** Creado script `clean_duplicates.py` para depurar cualquier nombre repetido en la misma selección por proximidad del OCR, garantizando jugadores únicos.
 * **Estandarización de Escudos:** Implementado script `adjust_shields.py` para forzar que la lámina número 1 de cada selección sea nombrada de forma limpia como "Escudo de [País]" con el rol "Escudo".
 * **Base de Datos (`db.js`):** Inyectados los 12 grupos reales y los nombres de jugadores oficiales extraídos del PDF para las 48 selecciones, con 20 láminas por equipo (1 Escudo + 19 Jugadores).
+* **Simplificación Visual de Tarjetas (`app.js` & `style.css`):** Rediseñado el layout de los cromos para eliminar el avatar de emoji y la posición, dejando solo el identificador de lámina (ej: `MEX 2`) y el nombre del jugador en mayúsculas. El estado faltante imita la ranura física original (fondo verde menta y recuadros redondeados blancos) y el estado obtenido simula el cromo metalizado pegado encima.
 * **Maquetación e Interfaces (`index.html`):** Actualizada la interfaz de estadísticas para reflejar el total real de 978 láminas de la colección.
 * **Entorno y Repositorio:** Compilado el bundle optimizado y subido los cambios al repositorio de GitHub (https://github.com/serjavmor/panini-album-2026).
 
