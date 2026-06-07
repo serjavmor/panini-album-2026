@@ -373,8 +373,7 @@ function initSearch() {
         if (
           sticker.id.toLowerCase().includes(query) ||
           sticker.name.toLowerCase().includes(query) ||
-          team.name.toLowerCase().includes(query) ||
-          sticker.position.toLowerCase().includes(query)
+          team.name.toLowerCase().includes(query)
         ) {
           results.push({
             ...sticker,
