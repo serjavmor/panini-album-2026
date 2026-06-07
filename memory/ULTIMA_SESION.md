@@ -1,11 +1,19 @@
 # Última Sesión: Álbum Panini Mundial 2026 Tracker
 
 ## Estado Actual
-* **Hito (v1.1.2):** Corrección en el colapso y centrado de los menús móviles, y simplificación del formato de las listas de intercambio (solo números y cantidad).
+* **Hito (v1.2.0):** Implementada navegación secuencial mediante flechas a los costados del título de la selección, corrección en el colapso/centrado del menú lateral móvil y formato simplificado de intercambio.
 * **Fecha:** 2026-06-06
-* **Resumen Ejecutivo:** Se solucionó un bug crítico de cascada en CSS que impedía que el menú lateral móvil se minimizara (la declaración base sobreescribía al media query). Se centró la barra lateral móvil horizontalmente y los menús superiores para pantallas pequeñas. Se reestructuraron las listas de intercambio para excluir los nombres de los jugadores y mostrar únicamente los números y cantidades.
+* **Resumen Ejecutivo:** Se integraron botones de flechas (`<` y `>`) a los costados de la cabecera del equipo en la vista activa del álbum (`#active-team-header`) para navegar de forma cíclica entre las 49 páginas del álbum sin necesidad de abrir el menú lateral. Se resolvió el bug de CSS en el colapso del menú móvil de selecciones y se centró horizontalmente todo el bloque en pantallas móviles. Asimismo, las listas de faltantes y repetidas se formatearon a solo números y cantidades para simplificar los intercambios por mensajería.
 
 ## Cambios Realizados
+* **Navegación Secuencial con Flechas (v1.2.0):**
+  * Definido el array ordenado `ORDERED_TEAM_IDS` en `app.js` (Especial + 48 Selecciones ordenadas por grupo).
+  * Inyectados dinámicamente botones `.team-nav-btn` a la izquierda y derecha del nombre del equipo en `renderActiveTeamPage()`.
+  * Creada la función `navigateTeam(direction)` en `app.js` para rotar de manera cíclica entre equipos y actualizar de forma sincronizada el estado activo en el acordeón del sidebar (incluyendo abrir el acordeón correspondiente).
+  * Ocultamiento de las flechas cuando el buscador está activo (resultados de búsqueda global).
+* **Estilos y Centrado Responsivo:**
+  * Estilizados los botones redondos `.team-nav-btn` con fondo translúcido y efectos premium de hover/escala.
+  * Ajustada la responsividad de las flechas y títulos en pantallas de menos de 480px en `style.css` para evitar desbordes en dispositivos pequeños (como el iPhone SE).
 * **Corrección de Colapso del Sidebar Móvil:** Se movió el bloque del media query de 900px al final de `style.css` para aplicar de forma segura la cascada de estilos, y se añadió `!important` a la propiedad `display` del acordeón en móvil para garantizar que se oculte al desmarcar la clase `.expanded`.
 * **Centralización de Menús:** Se centró horizontalmente el panel lateral `.sidebar-panel` en móviles mediante `margin: 0 auto;` y un `max-width` adecuado. Se centraron los menús y pestañas superiores (`.header-top`, `.nav-tabs`) para pantallas de hasta 900px, asegurando alineación perfecta en tablets y teléfonos.
 * **Listas de Intercambio Simplificadas:** Modificada la lógica de `renderExchangeTab` (`app.js`) para formatear las listas de coleccionista compactas:
@@ -16,7 +24,7 @@
 * **Rediseño de Controles de Cromo:** Los botones `+` y `-` flotan permanentemente en las esquinas superiores de las tarjetas obtenidas. Se inhabilitó el clic del cuerpo de tarjetas obtenidas/repetidas, haciendo que los cambios solo sean posibles a través de los controles específicos y previniendo pérdidas de datos al hacer scroll. El nombre del jugador se mantiene visible.
 * **Soporte de Safe Areas:** Se incorporó `env(safe-area-inset-top/bottom/left/right)` al layout principal `.app-container` para compatibilidad completa con el Notch y Home Indicator de iPhone.
 * **Corrección del Buscador:** Corregido bug que arrojaba `TypeError` al intentar buscar `.sticker-info` (el cual no existe en la tarjeta). Ahora busca y añade dinámicamente el badge de país sobre `.sticker-slot-name` con un layout tipo columna.
-* **Verificación de Compilación:** Compilación de producción con Vite (`npm run build`) completada con éxito en 97ms sin advertencias.
+* **Verificación de Compilación:** Compilación de producción con Vite (`npm run build`) completada con éxito en 99ms sin advertencias.
 
 ## Cómo Ejecutar y Probar
 Para iniciar el entorno de desarrollo local y validar:
@@ -29,4 +37,4 @@ npm run dev
 ```
 
 ## Tareas Pendientes
-* Ninguna pendiente. La versión `v1.1.2` está totalmente completada y cargada en producción.
+* Ninguna pendiente. La versión `v1.2.0` está totalmente completada y cargada en producción.

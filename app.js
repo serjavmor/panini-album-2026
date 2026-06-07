@@ -13,6 +13,10 @@ let collectionState = {};
 // Equipo que se está visualizando actualmente
 let activeTeamId = "FWC";
 
+// Lista ordenada de IDs de selecciones para navegación secuencial con flechas
+const ORDERED_TEAM_IDS = ["FWC", ...TEAMS_DATA.map(t => t.id)];
+
+
 // Inicializar la aplicación
 document.addEventListener("DOMContentLoaded", () => {
   loadCollectionState();
@@ -263,15 +267,43 @@ function renderActiveTeamPage() {
   const team = ALBUM_DB[activeTeamId];
   if (!team) return;
   
-  // 1. Actualizar Cabecera de Página
+  // 1. Actualizar Cabecera de Página (Con Flechas de Navegación Secuencial)
   const headerContainer = document.getElementById("active-team-header");
-  headerContainer.innerHTML = `
-    <span class="flag-icon">${team.flag}</span>
-    <div>
-      <h2>${team.name}</h2>
-      <span class="group-badge">${team.group === "Especial" ? "Especial" : "Grupo " + team.group}</span>
-    </div>
-  `;
+  
+  // Si estamos en la pantalla de "Resultados de Búsqueda" no inyectamos flechas de navegación
+  const isSearching = document.getElementById("sticker-search").value.trim() !== "";
+  
+  if (isSearching) {
+    headerContainer.innerHTML = `
+      <span class="flag-icon">🔍</span>
+      <div>
+        <h2>Resultados de Búsqueda</h2>
+        <span class="group-badge" style="color: var(--accent-blue);">"${document.getElementById("sticker-search").value}"</span>
+      </div>
+    `;
+  } else {
+    headerContainer.innerHTML = `
+      <button class="team-nav-btn btn-prev" id="btn-prev-team" title="Equipo anterior">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      
+      <div class="team-title-content">
+        <span class="flag-icon">${team.flag}</span>
+        <div>
+          <h2>${team.name}</h2>
+          <span class="group-badge">${team.group === "Especial" ? "Especial" : "Grupo " + team.group}</span>
+        </div>
+      </div>
+      
+      <button class="team-nav-btn btn-next" id="btn-next-team" title="Siguiente equipo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    `;
+    
+    // Instalar listeners
+    document.getElementById("btn-prev-team").addEventListener("click", () => navigateTeam(-1));
+    document.getElementById("btn-next-team").addEventListener("click", () => navigateTeam(1));
+  }
   
   // 2. Actualizar Progreso del Equipo
   const progress = getTeamProgress(activeTeamId);
@@ -297,6 +329,38 @@ function renderActiveTeamPage() {
   if (badge) {
     badge.textContent = `${progress.owned}/${progress.total}`;
   }
+}
+
+// Función de navegación secuencial entre páginas de selecciones
+function navigateTeam(direction) {
+  const currentIndex = ORDERED_TEAM_IDS.indexOf(activeTeamId);
+  if (currentIndex === -1) return;
+  
+  let newIndex = currentIndex + direction;
+  if (newIndex < 0) {
+    newIndex = ORDERED_TEAM_IDS.length - 1;
+  } else if (newIndex >= ORDERED_TEAM_IDS.length) {
+    newIndex = 0;
+  }
+  
+  activeTeamId = ORDERED_TEAM_IDS[newIndex];
+  
+  // Sincronizar el estado activo en el sidebar
+  document.querySelectorAll(".team-list-item").forEach(el => el.classList.remove("active"));
+  const activeSidebarItem = document.getElementById(`sidebar-team-${activeTeamId}`);
+  if (activeSidebarItem) {
+    activeSidebarItem.classList.add("active");
+    
+    // Asegurar que el acordeón esté abierto para el equipo seleccionado
+    const groupList = activeSidebarItem.closest(".group-teams-list");
+    const headerBtn = groupList ? groupList.previousElementSibling : null;
+    if (groupList && !groupList.classList.contains("open")) {
+      groupList.classList.add("open");
+      if (headerBtn) headerBtn.classList.add("open");
+    }
+  }
+  
+  renderActiveTeamPage();
 }
 
 // Crear elemento HTML para un cromo
