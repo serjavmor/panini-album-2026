@@ -6,7 +6,7 @@
 * **Resumen Ejecutivo:** Se ha construido e implementado una SPA interactiva en HTML, Vanilla CSS y JS modular para gestionar el álbum Panini del Mundial 2026. A partir del PDF original provisto (`Album original CARTA.pdf`), se realizó una extracción OCR automatizada usando el framework Vision de Apple. Esto permitió reconstruir los 12 grupos oficiales del Mundial (del A al L) y los nombres reales de los jugadores para las 48 selecciones con exactamente 20 láminas por equipo (978 láminas en total). El repositorio ha sido actualizado en GitHub.
 
 ## Cambios Realizados
-* **Procesamiento de PDF:** Implementado script de OCR en Swift (`ocr_pdf.swift`) y de filtrado semántico en Python (`parse_exact.py`) para mapear el álbum oficial en `exact_rosters.json`.
+* **Procesamiento de PDF y OCR Espacial:** Implementado script de OCR geométrico en Swift (`ocr_spatial.swift`) que utiliza las coordenadas normalizadas (`boundingBox`) del framework Vision de Apple. Mapea y enlaza cada identificador de cromo (ej: `MEX 2`) con el bloque de texto del nombre que esté exactamente debajo en su misma columna, corrigiendo cualquier error de desalineación por orden de lectura.
 * **Remoción de Duplicados:** Creado script `clean_duplicates.py` para depurar cualquier nombre repetido en la misma selección por proximidad del OCR, garantizando jugadores únicos.
 * **Estandarización de Escudos:** Implementado script `adjust_shields.py` para forzar que la lámina número 1 de cada selección sea nombrada de forma limpia como "Escudo de [País]" con el rol "Escudo".
 * **Base de Datos (`db.js`):** Inyectados los 12 grupos reales y los nombres de jugadores oficiales extraídos del PDF para las 48 selecciones, con 20 láminas por equipo (1 Escudo + 19 Jugadores).
