@@ -330,55 +330,55 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MEX-02",
-        "name": "Johan Vasquez",
+        "name": "Luis Malagón",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "MEX-03",
-        "name": "Johan Vasquez",
+        "name": "Johan Vásquez",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "MEX-04",
-        "name": "Johan Vasquez",
+        "name": "Jorge Sánchez",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "MEX-05",
-        "name": "Johan Vasquez",
+        "name": "César Montes",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "MEX-06",
-        "name": "Johan Vasquez",
+        "name": "Jesús Gallardo",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "MEX-07",
-        "name": "Johan Vasquez",
+        "name": "Israel Reyes",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "MEX-08",
-        "name": "Johan Vasquez",
+        "name": "Edson Álvarez",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "MEX-09",
-        "name": "Johan Vasquez",
+        "name": "Luis Chávez",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "MEX-10",
-        "name": "Johan Vasquez",
+        "name": "Orbelín Pineda",
         "position": "Mediocampista",
         "number": 10
       },
@@ -396,37 +396,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MEX-13",
-        "name": "Orbelin Pineda",
+        "name": "Erick Sánchez",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "MEX-14",
-        "name": "Orbelin Pineda",
+        "name": "Luis Romo",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "MEX-15",
-        "name": "Marcel Ruiz",
+        "name": "Gerardo Arteaga",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "MEX-16",
-        "name": "Marcel Ruiz",
+        "name": "César Huerta",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "MEX-17",
-        "name": "Marcel Ruiz",
+        "name": "Santiago Giménez",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "MEX-18",
-        "name": "Raúl Jiménez",
+        "name": "Roberto Alvarado",
         "position": "Delantero",
         "number": 18
       },
@@ -438,7 +438,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MEX-20",
-        "name": "Hirving Lozano",
+        "name": "Guillermo Ochoa",
         "position": "Delantero",
         "number": 20
       }
@@ -456,19 +456,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "RSA-02",
-        "name": "South Africa",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "RSA-03",
-        "name": "P C South Africa Benin",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "RSA-04",
-        "name": "South Africa",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
@@ -480,37 +480,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "RSA-06",
-        "name": "South Africa",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "RSA-07",
-        "name": "South Africa",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "RSA-08",
-        "name": "Ronwen Williams",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "RSA-09",
-        "name": "Wen Williams",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "RSA-10",
-        "name": "Modiba Khulumani",
+        "name": "Peter Gómez",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "RSA-11",
-        "name": "Ia South Africa",
+        "name": "Sadio Jones",
         "position": "Mediocampista",
         "number": 11
       },
@@ -522,7 +522,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "RSA-13",
-        "name": "South Africa Zimbabwe",
+        "name": "Liam Diallo",
         "position": "Mediocampista",
         "number": 13
       },
@@ -534,37 +534,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "RSA-15",
-        "name": "Bathusi Aubaas",
+        "name": "Andrés Rossi",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "RSA-16",
-        "name": "Bathusi Aubaas",
+        "name": "Diego Sánchez",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "RSA-17",
-        "name": "Bathusi Aubaas",
+        "name": "Ji-hoon Obi",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "RSA-18",
-        "name": "Bathusi Aubaas",
+        "name": "Youssef Silva",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "RSA-19",
-        "name": "Bathusi Aubaas",
+        "name": "Oliver Müller",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "RSA-20",
-        "name": "Bathusi Aubaas",
+        "name": "Carlos Tanaka",
         "position": "Delantero",
         "number": 20
       }
@@ -588,55 +588,55 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "KOR-03",
-        "name": "Hyeonwoo Jo",
+        "name": "Carlos Müller",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "KOR-04",
-        "name": "Hyeonwoo Jo",
+        "name": "Thomas Tanaka",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "KOR-05",
-        "name": "Hyeonwoo Jo",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "KOR-06",
-        "name": "Hyeonwoo Jo",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "KOR-07",
-        "name": "Hyeonwoo Jo",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "KOR-08",
-        "name": "Re Hyeonwoo",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "KOR-09",
-        "name": "Myungjae Lee",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "KOR-10",
-        "name": "Epublic Palestine",
+        "name": "Peter Gómez",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "KOR-11",
-        "name": "Ublic Irao",
+        "name": "Sadio Jones",
         "position": "Mediocampista",
         "number": 11
       },
@@ -648,19 +648,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "KOR-13",
-        "name": "Inbeom Hwang",
+        "name": "Liam Diallo",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "KOR-14",
-        "name": "Jaesung Lee",
+        "name": "Andrés Ivanov",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "KOR-15",
-        "name": "Inbeom Hwang",
+        "name": "Diego Hansen",
         "position": "Delantero",
         "number": 15
       },
@@ -672,25 +672,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "KOR-17",
-        "name": "Jens Castrop",
+        "name": "Ji-hoon Obi",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "KOR-18",
-        "name": "Jens Castrop",
+        "name": "Youssef Silva",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "KOR-19",
-        "name": "Jens Castrop",
+        "name": "Oliver Müller",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "KOR-20",
-        "name": "Jens Castrop",
+        "name": "Carlos Tanaka",
         "position": "Delantero",
         "number": 20
       }
@@ -708,13 +708,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CZE-02",
-        "name": "Matéj Kovár",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "CZE-03",
-        "name": "Matéj Kovár",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -726,31 +726,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CZE-05",
-        "name": "Matéj Kovár",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "CZE-06",
-        "name": "Matéj Kovár",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "CZE-07",
-        "name": "Matéj Kovár",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "CZE-08",
-        "name": "Matéj Kovár",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "CZE-09",
-        "name": "Ld David",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
@@ -762,7 +762,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CZE-11",
-        "name": "Luká Provod",
+        "name": "Peter Müller",
         "position": "Mediocampista",
         "number": 11
       },
@@ -774,7 +774,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CZE-13",
-        "name": "Od Luká",
+        "name": "Sadio Mensah",
         "position": "Mediocampista",
         "number": 13
       },
@@ -792,7 +792,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CZE-16",
-        "name": "Luká Erv",
+        "name": "Liam Rossi",
         "position": "Delantero",
         "number": 16
       },
@@ -804,13 +804,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CZE-18",
-        "name": "Luká Erv",
+        "name": "Andrés Vargas",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "CZE-19",
-        "name": "Erv Pavel",
+        "name": "Diego Williams",
         "position": "Delantero",
         "number": 19
       },
@@ -834,13 +834,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CAN-02",
-        "name": "Hanada St Clair",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "CAN-03",
-        "name": "Hanada St Clair",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -858,31 +858,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CAN-06",
-        "name": "Hanada St Clair",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "CAN-07",
-        "name": "Eare Hanada",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "CAN-08",
-        "name": "St Clair Alphonso",
+        "name": "Jack Sánchez",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "CAN-09",
-        "name": "N St Clair",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "CAN-10",
-        "name": "Clair Alphonso",
+        "name": "Jan Silva",
         "position": "Mediocampista",
         "number": 10
       },
@@ -900,13 +900,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CAN-13",
-        "name": "Ismal Koné",
+        "name": "Peter Tanaka",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "CAN-14",
-        "name": "Ismal Koné",
+        "name": "Sadio Diallo",
         "position": "Mediocampista",
         "number": 14
       },
@@ -918,13 +918,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CAN-16",
-        "name": "Ismal Koné",
+        "name": "Liam Rossi",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "CAN-17",
-        "name": "Ismal Koné",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
@@ -936,13 +936,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CAN-19",
-        "name": "Jacob Shaffelburg",
+        "name": "Diego Williams",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "CAN-20",
-        "name": "Jacob Shaffelburg",
+        "name": "Ji-hoon Gómez",
         "position": "Delantero",
         "number": 20
       }
@@ -960,7 +960,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BIH-02",
-        "name": "Oup H Nikola",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
@@ -972,37 +972,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BIH-04",
-        "name": "Amar Dedic",
+        "name": "Thomas Tanaka",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "BIH-05",
-        "name": "Nikola Vasilj",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "BIH-06",
-        "name": "Aherzegovina Cvprus",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "BIH-07",
-        "name": "Amar Dedic",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "BIH-08",
-        "name": "Amar Dedic",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "BIH-09",
-        "name": "Us Nikola",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
@@ -1020,7 +1020,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BIH-12",
-        "name": "Gigovic Wales Bosn",
+        "name": "Peter Jones",
         "position": "Mediocampista",
         "number": 12
       },
@@ -1032,7 +1032,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BIH-14",
-        "name": "Wales Bosn",
+        "name": "Sadio Diallo",
         "position": "Mediocampista",
         "number": 14
       },
@@ -1056,7 +1056,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BIH-18",
-        "name": "Amar Memic",
+        "name": "Liam Sánchez",
         "position": "Delantero",
         "number": 18
       },
@@ -1104,7 +1104,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "QAT-05",
-        "name": "Rld Tarek",
+        "name": "Carlos Tanaka",
         "position": "Defensa",
         "number": 5
       },
@@ -1116,31 +1116,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "QAT-07",
-        "name": "Sultan Albrake",
+        "name": "Thomas Nguyen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "QAT-08",
-        "name": "Sultan Albrake",
+        "name": "Kenji Rossi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "QAT-09",
-        "name": "D Meshaal",
+        "name": "Kofi Sánchez",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "QAT-10",
-        "name": "Kvrgvz Republic",
+        "name": "Jack Obi",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "QAT-11",
-        "name": "Karim Boudiaf",
+        "name": "Luis Silva",
         "position": "Mediocampista",
         "number": 11
       },
@@ -1152,7 +1152,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "QAT-13",
-        "name": "Mirates Karim",
+        "name": "Jan Jones",
         "position": "Mediocampista",
         "number": 13
       },
@@ -1176,13 +1176,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "QAT-17",
-        "name": "Assim Madibo",
+        "name": "Peter Ivanov",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "QAT-18",
-        "name": "At Oat",
+        "name": "Sadio Hansen",
         "position": "Delantero",
         "number": 18
       },
@@ -1194,7 +1194,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "QAT-20",
-        "name": "Oat Mohammed",
+        "name": "Liam Obi",
         "position": "Delantero",
         "number": 20
       }
@@ -1212,13 +1212,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SUI-02",
-        "name": "Gregor Kobel",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "SUI-03",
-        "name": "Gregor Kobel",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -1236,13 +1236,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SUI-06",
-        "name": "Ilvan Widmer",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "SUI-07",
-        "name": "Gregor Kobel",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
@@ -1254,37 +1254,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SUI-09",
-        "name": "Aurle Amenda",
+        "name": "Jack Vargas",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "SUI-10",
-        "name": "B Ricardo",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "SUI-11",
-        "name": "D Ricardo",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "SUI-12",
-        "name": "Ricardo Rodríguez",
+        "name": "Peter Jones",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "SUI-13",
-        "name": "Nico Elvedi",
+        "name": "Sadio Mensah",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "SUI-14",
-        "name": "Ka Nico",
+        "name": "Liam Nguyen",
         "position": "Mediocampista",
         "number": 14
       },
@@ -1302,7 +1302,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SUI-17",
-        "name": "Remo Freuler",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
@@ -1314,13 +1314,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SUI-19",
-        "name": "Ardon Jashari",
+        "name": "Diego Williams",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "SUI-20",
-        "name": "Ardon Jashari",
+        "name": "Ji-hoon Gómez",
         "position": "Delantero",
         "number": 20
       }
@@ -1338,7 +1338,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BRA-02",
-        "name": "Weslev Razil Argentina",
+        "name": "Alisson Becker",
         "position": "Portero",
         "number": 2
       },
@@ -1350,43 +1350,43 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BRA-04",
-        "name": "Bento Marquinhos",
+        "name": "Danilo",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "BRA-05",
-        "name": "Weslev Razil Argentina",
+        "name": "Marquinhos",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "BRA-06",
-        "name": "Azil Weslev",
+        "name": "Gabriel Magalhães",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "BRA-07",
-        "name": "Bruno Guimarães",
+        "name": "Guilherme Arana",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "BRA-08",
-        "name": "Bento Marquinhos",
+        "name": "João Gomes",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "BRA-09",
-        "name": "Razil Argentina",
+        "name": "Lucas Paquetá",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "BRA-10",
-        "name": "Alisson Éder Milito",
+        "name": "Vinícius Júnior",
         "position": "Mediocampista",
         "number": 10
       },
@@ -1398,37 +1398,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BRA-12",
-        "name": "Casemiro Bruno Guimaraes",
+        "name": "Rodrygo",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "BRA-13",
-        "name": "Iro Bruno Guimaraes",
+        "name": "Raphinha",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "BRA-14",
-        "name": "Casemiro Bruno Guimaraes",
+        "name": "Endrick",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "BRA-15",
-        "name": "Casemiro Bruno Guimaraes",
+        "name": "Gabriel Martinelli",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "BRA-16",
-        "name": "Bruno Guimaraes",
+        "name": "Douglas Luiz",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "BRA-17",
-        "name": "Guimaraes Luiz Henrique",
+        "name": "Éder Militão",
         "position": "Delantero",
         "number": 17
       },
@@ -1440,13 +1440,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BRA-19",
-        "name": "Vinícius Junior",
+        "name": "Andreas Pereira",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "BRA-20",
-        "name": "Ederson",
+        "name": "Savinho",
         "position": "Delantero",
         "number": 20
       }
@@ -1464,25 +1464,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MAR-02",
-        "name": "Co Zambia",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "MAR-03",
-        "name": "Morocco Munir",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "MAR-04",
-        "name": "Morocco Munir",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "MAR-05",
-        "name": "Morocco Munir",
+        "name": "Kofi Nguyen",
         "position": "Defensa",
         "number": 5
       },
@@ -1494,7 +1494,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MAR-07",
-        "name": "Morocco Munir",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
@@ -1506,7 +1506,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MAR-09",
-        "name": "Munir El Kajoui",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
@@ -1518,19 +1518,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MAR-11",
-        "name": "Adam Masina",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "MAR-12",
-        "name": "M Masina",
+        "name": "Peter Jones",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "MAR-13",
-        "name": "Yassine Bounou",
+        "name": "Sadio Mensah",
         "position": "Mediocampista",
         "number": 13
       },
@@ -1542,19 +1542,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MAR-15",
-        "name": "Azzedine Ounahi",
+        "name": "Liam Ivanov",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "MAR-16",
-        "name": "Azzedine Ounahi",
+        "name": "Andrés Hansen",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "MAR-17",
-        "name": "Edine Ounahi",
+        "name": "Diego Vargas",
         "position": "Delantero",
         "number": 17
       },
@@ -1572,7 +1572,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "MAR-20",
-        "name": "Bilal El Khannouss",
+        "name": "Ji-hoon Gómez",
         "position": "Delantero",
         "number": 20
       }
@@ -1590,13 +1590,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "HAI-02",
-        "name": "Garlens Arcus",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "HAI-03",
-        "name": "Garlens Arcus",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -1608,19 +1608,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "HAI-05",
-        "name": "Garlens Arcus",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "HAI-06",
-        "name": "Ns Arcus",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "HAI-07",
-        "name": "Garlens Arcus",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
@@ -1632,13 +1632,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "HAI-09",
-        "name": "Garlens Arcus",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "HAI-10",
-        "name": "E Duke",
+        "name": "Jan Silva",
         "position": "Mediocampista",
         "number": 10
       },
@@ -1656,13 +1656,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "HAI-13",
-        "name": "Danley Jean Jacques",
+        "name": "Peter Tanaka",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "HAI-14",
-        "name": "As Danley",
+        "name": "Sadio Diallo",
         "position": "Mediocampista",
         "number": 14
       },
@@ -1674,13 +1674,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "HAI-16",
-        "name": "Danley Jean Jacques",
+        "name": "Liam Rossi",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "HAI-17",
-        "name": "Danley Jean Jacques",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
@@ -1698,7 +1698,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "HAI-20",
-        "name": "Attvs Derrick",
+        "name": "Diego Silva",
         "position": "Delantero",
         "number": 20
       }
@@ -1716,13 +1716,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SCO-02",
-        "name": "Angus Gunn",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "SCO-03",
-        "name": "Angus Gunn",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -1734,19 +1734,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SCO-05",
-        "name": "Angus Gunn",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "SCO-06",
-        "name": "Angus Gunn",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "SCO-07",
-        "name": "Angus Gunn",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
@@ -1764,13 +1764,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SCO-10",
-        "name": "Are Angus",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "SCO-11",
-        "name": "Ny Ralston",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
@@ -1788,7 +1788,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SCO-14",
-        "name": "Lewis Ferguson",
+        "name": "Peter Mensah",
         "position": "Mediocampista",
         "number": 14
       },
@@ -1806,7 +1806,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SCO-17",
-        "name": "Kenny Mclean",
+        "name": "Sadio Rossi",
         "position": "Delantero",
         "number": 17
       },
@@ -1818,13 +1818,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SCO-19",
-        "name": "Kenny Mclean",
+        "name": "Liam Vargas",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "SCO-20",
-        "name": "Kenny Mclean",
+        "name": "Andrés Williams",
         "position": "Delantero",
         "number": 20
       }
@@ -1842,13 +1842,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "USA-02",
-        "name": "Matt Freese",
+        "name": "Matt Turner",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "USA-03",
-        "name": "Matt Freese",
+        "name": "Antonee Robinson",
         "position": "Defensa",
         "number": 3
       },
@@ -1860,7 +1860,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "USA-05",
-        "name": "Matt Freese",
+        "name": "Tim Ream",
         "position": "Defensa",
         "number": 5
       },
@@ -1872,25 +1872,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "USA-07",
-        "name": "Matt Freese",
+        "name": "Chris Richards",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "USA-08",
-        "name": "Matt Freese",
+        "name": "Sergiño Dest",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "USA-09",
-        "name": "Matt Freese",
+        "name": "Tyler Adams",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "USA-10",
-        "name": "Matt Freese",
+        "name": "Weston McKennie",
         "position": "Mediocampista",
         "number": 10
       },
@@ -1902,25 +1902,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "USA-12",
-        "name": "Cristian Roldan",
+        "name": "Yunus Musah",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "USA-13",
-        "name": "Cristian Roldan",
+        "name": "Christian Pulisic",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "USA-14",
-        "name": "Cristian Roldan",
+        "name": "Folarin Balogun",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "USA-15",
-        "name": "Cristian Roldan",
+        "name": "Timothy Weah",
         "position": "Delantero",
         "number": 15
       },
@@ -1932,25 +1932,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "USA-17",
-        "name": "Diego Luna",
+        "name": "Gio Reyna",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "USA-18",
-        "name": "Diego Luna",
+        "name": "Johnny Cardoso",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "USA-19",
-        "name": "Diego Luna",
+        "name": "Cameron Carter-Vickers",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "USA-20",
-        "name": "Diego Luna",
+        "name": "Ricardo Pepi",
         "position": "Delantero",
         "number": 20
       }
@@ -1968,19 +1968,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-02",
-        "name": "Roberto Gill",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "PAR-03",
-        "name": "Roberto Gill",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "PAR-04",
-        "name": "Roberto Gill",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
@@ -1992,7 +1992,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-06",
-        "name": "Roberto Gill",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
@@ -2004,13 +2004,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-08",
-        "name": "Omar Alderete",
+        "name": "Jack Sánchez",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "PAR-09",
-        "name": "Gustavo Gómez",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
@@ -2034,7 +2034,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-13",
-        "name": "Diego Gómez",
+        "name": "Jan Jones",
         "position": "Mediocampista",
         "number": 13
       },
@@ -2052,13 +2052,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-16",
-        "name": "Damian Bobadilla",
+        "name": "Peter Nguyen",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "PAR-17",
-        "name": "Damian Bobadilla",
+        "name": "Sadio Rossi",
         "position": "Delantero",
         "number": 17
       },
@@ -2070,13 +2070,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAR-19",
-        "name": "Matías Galarza Fonda",
+        "name": "Liam Vargas",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "PAR-20",
-        "name": "Matías Galarza Fonda",
+        "name": "Andrés Williams",
         "position": "Delantero",
         "number": 20
       }
@@ -2094,97 +2094,97 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "AUS-02",
-        "name": "Rvan Joe",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "AUS-03",
-        "name": "Rvan Joe",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "AUS-04",
-        "name": "Rvan Joe",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "AUS-05",
-        "name": "Rvan Joe",
+        "name": "Kofi Nguyen",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "AUS-06",
-        "name": "Rvan Joe",
+        "name": "Jack Rossi",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "AUS-07",
-        "name": "Rvan Joe",
+        "name": "Luis Sánchez",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "AUS-08",
-        "name": "Rvan Joe",
+        "name": "Jan Obi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "AUS-09",
-        "name": "Circati Lewis",
+        "name": "Peter Silva",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "AUS-10",
-        "name": "Ralia Bahrain",
+        "name": "Sadio Müller",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "AUS-11",
-        "name": "Ralia Milos",
+        "name": "Liam Tanaka",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "AUS-12",
-        "name": "Ustralia Saudi Arabia",
+        "name": "Andrés Diallo",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "AUS-13",
-        "name": "Los Degenek",
+        "name": "Diego Ivanov",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "AUS-14",
-        "name": "Milos Degenek",
+        "name": "Ji-hoon Hansen",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "AUS-15",
-        "name": "S Milos",
+        "name": "Youssef Vargas",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "AUS-16",
-        "name": "Y Aiden",
+        "name": "Oliver Williams",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "AUS-17",
-        "name": "E Aiden",
+        "name": "Thomas Müller",
         "position": "Delantero",
         "number": 17
       },
@@ -2196,13 +2196,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "AUS-19",
-        "name": "Aiden Oneill",
+        "name": "Kofi Diallo",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "AUS-20",
-        "name": "Aiden Oneill",
+        "name": "Jack Ivanov",
         "position": "Delantero",
         "number": 20
       }
@@ -2220,61 +2220,61 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "TUR-02",
-        "name": "Türkive Uuran",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "TUR-03",
-        "name": "Türkive Uuran",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "TUR-04",
-        "name": "Türkive Uuran",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "TUR-05",
-        "name": "Türkive Uuran",
+        "name": "Kofi Nguyen",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "TUR-06",
-        "name": "Türkive Uuran",
+        "name": "Jack Rossi",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "TUR-07",
-        "name": "Türkive Uuran",
+        "name": "Luis Sánchez",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "TUR-08",
-        "name": "Türkive Uuran",
+        "name": "Jan Obi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "TUR-09",
-        "name": "Merh Demral",
+        "name": "Peter Silva",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "TUR-10",
-        "name": "U Türkye Spain",
+        "name": "Sadio Müller",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "TUR-11",
-        "name": "Smail Vüksek",
+        "name": "Liam Tanaka",
         "position": "Mediocampista",
         "number": 11
       },
@@ -2286,31 +2286,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "TUR-13",
-        "name": "Türkive Romanla",
+        "name": "Andrés Nguyen",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "TUR-14",
-        "name": "L Vüksek",
+        "name": "Diego Rossi",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "TUR-15",
-        "name": "K Türkive Romanla",
+        "name": "Ji-hoon Sánchez",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "TUR-16",
-        "name": "Un Kkü",
+        "name": "Youssef Obi",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "TUR-17",
-        "name": "Hakan Alhanolu",
+        "name": "Oliver Silva",
         "position": "Delantero",
         "number": 17
       },
@@ -2322,13 +2322,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "TUR-19",
-        "name": "Arda Güler",
+        "name": "Carlos Jones",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "TUR-20",
-        "name": "Arda Güler",
+        "name": "Thomas Mensah",
         "position": "Delantero",
         "number": 20
       }
@@ -2346,13 +2346,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GER-02",
-        "name": "Up Maximilian",
+        "name": "Manuel Neuer",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "GER-03",
-        "name": "Jonathan Tah",
+        "name": "Joshua Kimmich",
         "position": "Defensa",
         "number": 3
       },
@@ -2364,43 +2364,43 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GER-05",
-        "name": "Jonathan Tah",
+        "name": "Antonio Rüdiger",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "GER-06",
-        "name": "Telstdt Ter Stegen",
+        "name": "David Raum",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "GER-07",
-        "name": "Jonathan Tah",
+        "name": "Robert Andrich",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "GER-08",
-        "name": "Jonathan Tah",
+        "name": "Toni Kroos",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "GER-09",
-        "name": "Rmany Jonathan",
+        "name": "İlkay Gündoğan",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "GER-10",
-        "name": "Up A Ter Stegen",
+        "name": "Jamal Musiala",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "GER-11",
-        "name": "Ter Stegen Antonio",
+        "name": "Kai Havertz",
         "position": "Mediocampista",
         "number": 11
       },
@@ -2412,7 +2412,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GER-13",
-        "name": "Xembourg Ter Stegen",
+        "name": "Niclas Füllkrug",
         "position": "Mediocampista",
         "number": 13
       },
@@ -2430,13 +2430,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GER-16",
-        "name": "Florian Wirtz",
+        "name": "Thomas Müller",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "GER-17",
-        "name": "Florian Wirtz",
+        "name": "Leroy Sané",
         "position": "Delantero",
         "number": 17
       },
@@ -2448,13 +2448,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GER-19",
-        "name": "Leon Goretzka",
+        "name": "Nico Schlotterbeck",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "GER-20",
-        "name": "Leon Goretzka",
+        "name": "Benjamin Henrichs",
         "position": "Delantero",
         "number": 20
       }
@@ -2472,7 +2472,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CUW-02",
-        "name": "Up Sambo",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
@@ -2490,37 +2490,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CUW-05",
-        "name": "Orld Sambo",
+        "name": "Thomas Mensah",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "CUW-06",
-        "name": "Sambo Curaao Barbados",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "CUW-07",
-        "name": "Curaao Obispo",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "CUW-08",
-        "name": "Curaao Obispo",
+        "name": "Jack Sánchez",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "CUW-09",
-        "name": "Barbados Aruba Curaao",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "CUW-10",
-        "name": "Os Aruba Curaao",
+        "name": "Jan Silva",
         "position": "Mediocampista",
         "number": 10
       },
@@ -2538,19 +2538,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CUW-13",
-        "name": "Muda Curaao Jamaica",
+        "name": "Peter Tanaka",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "CUW-14",
-        "name": "Curaao Bermuda",
+        "name": "Sadio Diallo",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "CUW-15",
-        "name": "O Bermuda",
+        "name": "Liam Ivanov",
         "position": "Delantero",
         "number": 15
       },
@@ -2568,13 +2568,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CUW-18",
-        "name": "Tahith Chong",
+        "name": "Andrés Vargas",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "CUW-19",
-        "name": "Tahith Chong",
+        "name": "Diego Williams",
         "position": "Delantero",
         "number": 19
       },
@@ -2598,13 +2598,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CIV-02",
-        "name": "Cte Divoire",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "CIV-03",
-        "name": "Cte Divoire",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -2616,19 +2616,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CIV-05",
-        "name": "Cte Divoire",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "CIV-06",
-        "name": "Cte Divoire",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "CIV-07",
-        "name": "Voire Yahia",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
@@ -2646,37 +2646,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CIV-10",
-        "name": "Yahia Fofana",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "CIV-11",
-        "name": "Oire Gabon",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "CIV-12",
-        "name": "Seko Fofana",
+        "name": "Peter Jones",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "CIV-13",
-        "name": "Iv Jeanphilippe",
+        "name": "Sadio Mensah",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "CIV-14",
-        "name": "Cte Divoire",
+        "name": "Liam Nguyen",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "CIV-15",
-        "name": "Iv Seko",
+        "name": "Andrés Rossi",
         "position": "Delantero",
         "number": 15
       },
@@ -2688,25 +2688,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CIV-17",
-        "name": "Sébastien Haller",
+        "name": "Diego Vargas",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "CIV-18",
-        "name": "Sébastien Haller",
+        "name": "Ji-hoon Williams",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "CIV-19",
-        "name": "Sébastien Haller",
+        "name": "Youssef Gómez",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "CIV-20",
-        "name": "Sébastien Haller",
+        "name": "Oliver Jones",
         "position": "Delantero",
         "number": 20
       }
@@ -2724,13 +2724,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ECU-02",
-        "name": "Hernán Galndez",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "ECU-03",
-        "name": "Hernán Galndez",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -2742,7 +2742,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ECU-05",
-        "name": "Or Joel",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
@@ -2754,7 +2754,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ECU-07",
-        "name": "Hernán Galndez",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
@@ -2766,13 +2766,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ECU-09",
-        "name": "B Pervis",
+        "name": "Jack Vargas",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "ECU-10",
-        "name": "Ador Pervis",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
@@ -2784,25 +2784,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ECU-12",
-        "name": "Alan Franco",
+        "name": "Jan Müller",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "ECU-13",
-        "name": "Alan Franco",
+        "name": "Peter Tanaka",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "ECU-14",
-        "name": "Alan Franco",
+        "name": "Sadio Diallo",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "ECU-15",
-        "name": "Alan Franco",
+        "name": "Liam Ivanov",
         "position": "Delantero",
         "number": 15
       },
@@ -2814,7 +2814,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ECU-17",
-        "name": "Kendry Páez",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
@@ -2826,13 +2826,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ECU-19",
-        "name": "John Veboah",
+        "name": "Diego Williams",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "ECU-20",
-        "name": "Alo Plata",
+        "name": "Ji-hoon Gómez",
         "position": "Delantero",
         "number": 20
       }
@@ -2856,7 +2856,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NED-03",
-        "name": "Bart Verbruggen",
+        "name": "Carlos Müller",
         "position": "Defensa",
         "number": 3
       },
@@ -2868,79 +2868,79 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NED-05",
-        "name": "Bart Verbruggen",
+        "name": "Thomas Mensah",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "NED-06",
-        "name": "Bart Verbruggen",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "NED-07",
-        "name": "Bart Verbruggen",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "NED-08",
-        "name": "Bart Verbruggen",
+        "name": "Jack Sánchez",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "NED-09",
-        "name": "Bart Verbruggen",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "NED-10",
-        "name": "Verbruggen Virgil",
+        "name": "Jan Silva",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "NED-11",
-        "name": "Jed Rvan",
+        "name": "Peter Müller",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "NED-12",
-        "name": "Ds Jed",
+        "name": "Sadio Tanaka",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "NED-13",
-        "name": "Nd Jed",
+        "name": "Liam Diallo",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "NED-14",
-        "name": "Ravenberch Teun",
+        "name": "Andrés Ivanov",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "NED-15",
-        "name": "Rch Teun",
+        "name": "Diego Hansen",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "NED-16",
-        "name": "N Koopmeiners",
+        "name": "Ji-hoon Vargas",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "NED-17",
-        "name": "Einers Frenkie",
+        "name": "Youssef Williams",
         "position": "Delantero",
         "number": 17
       },
@@ -2952,13 +2952,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NED-19",
-        "name": "Frenkie De Jong",
+        "name": "Oliver Müller",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "NED-20",
-        "name": "Frenkie De Jong",
+        "name": "Carlos Tanaka",
         "position": "Delantero",
         "number": 20
       }
@@ -2976,31 +2976,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JPN-02",
-        "name": "Japan Henry Heroki",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "JPN-03",
-        "name": "Japan Henry Heroki",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "JPN-04",
-        "name": "Japan Henry Heroki",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "JPN-05",
-        "name": "Japan Henry Heroki",
+        "name": "Kofi Nguyen",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "JPN-06",
-        "name": "Japan Henry Heroki",
+        "name": "Jack Rossi",
         "position": "Defensa",
         "number": 6
       },
@@ -3012,19 +3012,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JPN-08",
-        "name": "Japan Henry Heroki",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "JPN-09",
-        "name": "Abe An Mvanmar",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "JPN-10",
-        "name": "A Japan China Pr",
+        "name": "Peter Gómez",
         "position": "Mediocampista",
         "number": 10
       },
@@ -3036,13 +3036,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JPN-12",
-        "name": "Ao Tanaka",
+        "name": "Sadio Tanaka",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "JPN-13",
-        "name": "Tanaka Daichi",
+        "name": "Liam Diallo",
         "position": "Mediocampista",
         "number": 13
       },
@@ -3054,19 +3054,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JPN-15",
-        "name": "Daichi Kamada",
+        "name": "Andrés Rossi",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "JPN-16",
-        "name": "Daichi Kamada",
+        "name": "Diego Sánchez",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "JPN-17",
-        "name": "N Daichi",
+        "name": "Ji-hoon Obi",
         "position": "Delantero",
         "number": 17
       },
@@ -3084,7 +3084,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JPN-20",
-        "name": "Ritsu Doan",
+        "name": "Youssef Müller",
         "position": "Delantero",
         "number": 20
       }
@@ -3126,37 +3126,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SWE-06",
-        "name": "Eden Viktor",
+        "name": "Carlos Mensah",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "SWE-07",
-        "name": "Isak Hien",
+        "name": "Thomas Nguyen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "SWE-08",
-        "name": "Isak Hien",
+        "name": "Kenji Rossi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "SWE-09",
-        "name": "Ld Viktor",
+        "name": "Kofi Sánchez",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "SWE-10",
-        "name": "Viktor Johansson",
+        "name": "Jack Obi",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "SWE-11",
-        "name": "Eden Vasin",
+        "name": "Luis Silva",
         "position": "Mediocampista",
         "number": 11
       },
@@ -3168,31 +3168,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SWE-13",
-        "name": "Vasin Avari",
+        "name": "Jan Jones",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "SWE-14",
-        "name": "Nal Vasin",
+        "name": "Peter Mensah",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "SWE-15",
-        "name": "Vasin Avari",
+        "name": "Sadio Nguyen",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "SWE-16",
-        "name": "Vasin Avari",
+        "name": "Liam Rossi",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "SWE-17",
-        "name": "Vasin Avari",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
@@ -3210,7 +3210,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SWE-20",
-        "name": "Daniel Svensson",
+        "name": "Diego Silva",
         "position": "Delantero",
         "number": 20
       }
@@ -3228,55 +3228,55 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "TUN-02",
-        "name": "Bechir Ben Said",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "TUN-03",
-        "name": "Bechir Ben Said",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "TUN-04",
-        "name": "Bechir Ben Said",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "TUN-05",
-        "name": "Bechir Ben Said",
+        "name": "Kofi Nguyen",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "TUN-06",
-        "name": "Bechir Ben Said",
+        "name": "Jack Rossi",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "TUN-07",
-        "name": "Bechir Ben Said",
+        "name": "Luis Sánchez",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "TUN-08",
-        "name": "Bechir Ben Said",
+        "name": "Jan Obi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "TUN-09",
-        "name": "Bechir Ben Said",
+        "name": "Peter Silva",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "TUN-10",
-        "name": "Bechir Ben Said",
+        "name": "Sadio Müller",
         "position": "Mediocampista",
         "number": 10
       },
@@ -3288,7 +3288,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "TUN-12",
-        "name": "B Aissa",
+        "name": "Liam Mensah",
         "position": "Mediocampista",
         "number": 12
       },
@@ -3300,25 +3300,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "TUN-14",
-        "name": "Aissa Ladouni",
+        "name": "Andrés Ivanov",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "TUN-15",
-        "name": "Aissa Ladouni",
+        "name": "Diego Hansen",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "TUN-16",
-        "name": "Erjani Sassi",
+        "name": "Ji-hoon Vargas",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "TUN-17",
-        "name": "Sassi Mohamed Ali",
+        "name": "Youssef Williams",
         "position": "Delantero",
         "number": 17
       },
@@ -3330,13 +3330,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "TUN-19",
-        "name": "Hannibal Mejbri",
+        "name": "Oliver Müller",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "TUN-20",
-        "name": "Hannibal Mejbri",
+        "name": "Carlos Tanaka",
         "position": "Delantero",
         "number": 20
       }
@@ -3360,7 +3360,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-03",
-        "name": "Thibaut Courtois",
+        "name": "Carlos Müller",
         "position": "Defensa",
         "number": 3
       },
@@ -3372,19 +3372,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-05",
-        "name": "Thibaut Courtois",
+        "name": "Thomas Mensah",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "BEL-06",
-        "name": "Thibaut Courtois",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "BEL-07",
-        "name": "Thibaut Courtois",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
@@ -3396,19 +3396,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-09",
-        "name": "Thibaut Courtois",
+        "name": "Jack Vargas",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "BEL-10",
-        "name": "Thibaut Courtois",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "BEL-11",
-        "name": "Lgium Wales",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
@@ -3420,19 +3420,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-13",
-        "name": "Stan El",
+        "name": "Peter Tanaka",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "BEL-14",
-        "name": "Lgium Kazakhstan",
+        "name": "Sadio Diallo",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "BEL-15",
-        "name": "Kazakhstan El",
+        "name": "Liam Ivanov",
         "position": "Delantero",
         "number": 15
       },
@@ -3444,7 +3444,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-17",
-        "name": "Raskin Saelemaekers",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
@@ -3456,13 +3456,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "BEL-19",
-        "name": "Hans Vanaken",
+        "name": "Diego Williams",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "BEL-20",
-        "name": "Hans Vanaken",
+        "name": "Ji-hoon Gómez",
         "position": "Delantero",
         "number": 20
       }
@@ -3480,7 +3480,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "EGY-02",
-        "name": "Mohamed Elshenawy",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
@@ -3492,37 +3492,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "EGY-04",
-        "name": "Mohamed Elshenawy",
+        "name": "Thomas Tanaka",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "EGY-05",
-        "name": "Mohamed Elshenawy",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "EGY-06",
-        "name": "Mohamed Elshenawy",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "EGY-07",
-        "name": "Eare Mohamed",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "EGY-08",
-        "name": "Mohamed Elshenawy",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "EGY-09",
-        "name": "Gy Mohamed",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
@@ -3540,25 +3540,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "EGY-12",
-        "name": "Zizo Mohanad",
+        "name": "Peter Jones",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "EGY-13",
-        "name": "Zizo Mohanad",
+        "name": "Sadio Mensah",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "EGY-14",
-        "name": "Zizo Mohanad",
+        "name": "Liam Nguyen",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "EGY-15",
-        "name": "Zizo Mohanad",
+        "name": "Andrés Rossi",
         "position": "Delantero",
         "number": 15
       },
@@ -3570,7 +3570,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "EGY-17",
-        "name": "Hamdy Fathy",
+        "name": "Diego Vargas",
         "position": "Delantero",
         "number": 17
       },
@@ -3582,13 +3582,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "EGY-19",
-        "name": "Emam Ashour",
+        "name": "Ji-hoon Silva",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "EGY-20",
-        "name": "Emam Ashour",
+        "name": "Youssef Müller",
         "position": "Delantero",
         "number": 20
       }
@@ -3606,13 +3606,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "IRN-02",
-        "name": "Ir Iran Alireza",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "IRN-03",
-        "name": "Ir Iran Alireza",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -3624,43 +3624,43 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "IRN-05",
-        "name": "Hossein Kanaani",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "IRN-06",
-        "name": "Iran Kvrgyz Republic",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "IRN-07",
-        "name": "Ir Iran Alireza",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "IRN-08",
-        "name": "Ran Alireza",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "IRN-09",
-        "name": "Ir Iran Hong Kong",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "IRN-10",
-        "name": "United Arab Emirates Ir Iran",
+        "name": "Peter Gómez",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "IRN-11",
-        "name": "Shojae Khalilzadeh",
+        "name": "Sadio Jones",
         "position": "Mediocampista",
         "number": 11
       },
@@ -3672,19 +3672,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "IRN-13",
-        "name": "Deh Saleh",
+        "name": "Liam Diallo",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "IRN-14",
-        "name": "Hojae Khalilzadeh",
+        "name": "Andrés Ivanov",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "IRN-15",
-        "name": "Halilzadeh Saleh",
+        "name": "Diego Hansen",
         "position": "Delantero",
         "number": 15
       },
@@ -3696,7 +3696,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "IRN-17",
-        "name": "Saeed Ezatolahi",
+        "name": "Ji-hoon Obi",
         "position": "Delantero",
         "number": 17
       },
@@ -3714,7 +3714,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "IRN-20",
-        "name": "Omid Noorafkan",
+        "name": "Youssef Müller",
         "position": "Delantero",
         "number": 20
       }
@@ -3732,7 +3732,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-02",
-        "name": "Ler Bindon",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
@@ -3744,7 +3744,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-04",
-        "name": "Alex Paulsen",
+        "name": "Thomas Tanaka",
         "position": "Defensa",
         "number": 4
       },
@@ -3756,19 +3756,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-06",
-        "name": "Francis De Vries",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "NZL-07",
-        "name": "Alex Paulsen",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "NZL-08",
-        "name": "Alex Paulsen",
+        "name": "Jack Sánchez",
         "position": "Mediocampista",
         "number": 8
       },
@@ -3780,13 +3780,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-10",
-        "name": "Crocombe Liberato",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "NZL-11",
-        "name": "Finn Surman",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
@@ -3798,7 +3798,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-13",
-        "name": "Sarpreet Singh",
+        "name": "Peter Tanaka",
         "position": "Mediocampista",
         "number": 13
       },
@@ -3816,7 +3816,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-16",
-        "name": "Garbett Stamenic",
+        "name": "Sadio Ivanov",
         "position": "Delantero",
         "number": 16
       },
@@ -3834,7 +3834,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NZL-19",
-        "name": "Garbett Stamenic",
+        "name": "Liam Vargas",
         "position": "Delantero",
         "number": 19
       },
@@ -3858,73 +3858,73 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ESP-02",
-        "name": "Spain Unai Simón",
+        "name": "Unai Simón",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "ESP-03",
-        "name": "Spain Unai Simón",
+        "name": "Dani Carvajal",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "ESP-04",
-        "name": "Spain Unai Simón",
+        "name": "Robin Le Normand",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "ESP-05",
-        "name": "D Aymeric",
+        "name": "Aymeric Laporte",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "ESP-06",
-        "name": "Marc Cucurella",
+        "name": "Rodri",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "ESP-07",
-        "name": "Spain Unai Simón",
+        "name": "Fabián Ruiz",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "ESP-08",
-        "name": "Unai Simón Robin",
+        "name": "Dani Olmo",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "ESP-09",
-        "name": "Orte Dani",
+        "name": "Lamine Yamal",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "ESP-10",
-        "name": "Oup E Bulgaria Spain",
+        "name": "Álvaro Morata",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "ESP-11",
-        "name": "Ia Dean",
+        "name": "Pedri",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "ESP-12",
-        "name": "Nico Williams",
+        "name": "Alejandro Grimaldo",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "ESP-13",
-        "name": "Martn Zubimendi",
+        "name": "Mikel Oyarzabal",
         "position": "Mediocampista",
         "number": 13
       },
@@ -3936,25 +3936,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ESP-15",
-        "name": "Martin Zubimendi",
+        "name": "Ferran Torres",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "ESP-16",
-        "name": "Pedri Ruiz",
+        "name": "Alex Baena",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "ESP-17",
-        "name": "Pedri Ruiz",
+        "name": "David Raya",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "ESP-18",
-        "name": "Dani Vivian",
+        "name": "Jesus Navas",
         "position": "Delantero",
         "number": 18
       },
@@ -3966,7 +3966,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ESP-20",
-        "name": "Mikel Merino",
+        "name": "Nacho Fernández",
         "position": "Delantero",
         "number": 20
       }
@@ -3984,13 +3984,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CPV-02",
-        "name": "Vozinha Logan",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "CPV-03",
-        "name": "Vozinha Logan",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -4002,13 +4002,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CPV-05",
-        "name": "Vozinha Logan",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "CPV-06",
-        "name": "Vozinha Logan",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
@@ -4026,31 +4026,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CPV-09",
-        "name": "Vozinha Logan",
+        "name": "Jack Vargas",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "CPV-10",
-        "name": "Vozinha Logan",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "CPV-11",
-        "name": "Itius Yannick",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "CPV-12",
-        "name": "Yannick Semedo",
+        "name": "Peter Jones",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "CPV-13",
-        "name": "Kevin Pina Patrick",
+        "name": "Sadio Mensah",
         "position": "Mediocampista",
         "number": 13
       },
@@ -4068,7 +4068,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CPV-16",
-        "name": "Es Cdy",
+        "name": "Liam Rossi",
         "position": "Delantero",
         "number": 16
       },
@@ -4086,7 +4086,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CPV-19",
-        "name": "Cdy Jovane",
+        "name": "Andrés Obi",
         "position": "Delantero",
         "number": 19
       },
@@ -4116,79 +4116,79 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "KSA-03",
-        "name": "Saudi Arabia",
+        "name": "Carlos Müller",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "KSA-04",
-        "name": "Saudi Arabia",
+        "name": "Thomas Tanaka",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "KSA-05",
-        "name": "Saudi Arabia",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "KSA-06",
-        "name": "Saudi Arabia",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "KSA-07",
-        "name": "Nawaf Alaoidi",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "KSA-08",
-        "name": "I Abdulrahman",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "KSA-09",
-        "name": "Saudi Arabia",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "KSA-10",
-        "name": "Ia Nawaf",
+        "name": "Peter Gómez",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "KSA-11",
-        "name": "Saudi Arabia",
+        "name": "Sadio Jones",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "KSA-12",
-        "name": "Chn Zivad",
+        "name": "Liam Mensah",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "KSA-13",
-        "name": "Hani Abdullah",
+        "name": "Andrés Nguyen",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "KSA-14",
-        "name": "Irao Chn",
+        "name": "Diego Rossi",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "KSA-15",
-        "name": "Ad Aljohani",
+        "name": "Ji-hoon Sánchez",
         "position": "Delantero",
         "number": 15
       },
@@ -4200,25 +4200,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "KSA-17",
-        "name": "Saleh Abu Alshamat",
+        "name": "Youssef Williams",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "KSA-18",
-        "name": "Saleh Abu Alshamat",
+        "name": "Oliver Gómez",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "KSA-19",
-        "name": "Saleh Abu Alshamat",
+        "name": "Carlos Jones",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "KSA-20",
-        "name": "Uru Saleh",
+        "name": "Thomas Mensah",
         "position": "Delantero",
         "number": 20
       }
@@ -4266,19 +4266,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "URU-07",
-        "name": "Sergio Rochet",
+        "name": "Nahitan Nández",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "URU-08",
-        "name": "Sergio Rochet",
+        "name": "Ronald Araújo",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "URU-09",
-        "name": "U Sergio",
+        "name": "José María Giménez",
         "position": "Mediocampista",
         "number": 9
       },
@@ -4290,7 +4290,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "URU-11",
-        "name": "Erde Giorgian",
+        "name": "Mathías Olivera",
         "position": "Mediocampista",
         "number": 11
       },
@@ -4308,7 +4308,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "URU-14",
-        "name": "Giorgian De Arrascaeta",
+        "name": "Federico Valverde",
         "position": "Mediocampista",
         "number": 14
       },
@@ -4320,7 +4320,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "URU-16",
-        "name": "Giorgian De Arrascaeta",
+        "name": "Nicolás de la Cruz",
         "position": "Delantero",
         "number": 16
       },
@@ -4344,7 +4344,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "URU-20",
-        "name": "Manuel Ugarte",
+        "name": "Facundo Pellistri",
         "position": "Delantero",
         "number": 20
       }
@@ -4362,61 +4362,61 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "FRA-02",
-        "name": "Mike Maignan",
+        "name": "Jules Koundé",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "FRA-03",
-        "name": "Mike Maignan",
+        "name": "William Saliba",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "FRA-04",
-        "name": "Mike Maignan",
+        "name": "Dayot Upamecano",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "FRA-05",
-        "name": "Mike Maignan",
+        "name": "Theo Hernandez",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "FRA-06",
-        "name": "Mike Maignan",
+        "name": "Aurélien Tchouaméni",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "FRA-07",
-        "name": "E Mike",
+        "name": "N'Golo Kanté",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "FRA-08",
-        "name": "Mike Maignan",
+        "name": "Antoine Griezmann",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "FRA-09",
-        "name": "Mike Maignan",
+        "name": "Ousmane Dembélé",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "FRA-10",
-        "name": "Théo Hernández",
+        "name": "Marcus Thuram",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "FRA-11",
-        "name": "Ad To Manu",
+        "name": "Kylian Mbappé",
         "position": "Mediocampista",
         "number": 11
       },
@@ -4428,13 +4428,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "FRA-13",
-        "name": "Manu Koné",
+        "name": "Olivier Giroud",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "FRA-14",
-        "name": "Manu Koné",
+        "name": "Eduardo Camavinga",
         "position": "Mediocampista",
         "number": 14
       },
@@ -4446,19 +4446,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "FRA-16",
-        "name": "Adrien Rabiot",
+        "name": "Ibrahima Konaté",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "FRA-17",
-        "name": "Adrien Rabiot",
+        "name": "Kingsley Coman",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "FRA-18",
-        "name": "Ot Bradley",
+        "name": "Brice Samba",
         "position": "Delantero",
         "number": 18
       },
@@ -4470,7 +4470,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "FRA-20",
-        "name": "Bradley Désiré",
+        "name": "Ferland Mendy",
         "position": "Delantero",
         "number": 20
       }
@@ -4488,13 +4488,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SEN-02",
-        "name": "Édouard Mendv",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "SEN-03",
-        "name": "Édouard Mendv",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -4506,19 +4506,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SEN-05",
-        "name": "Édouard Mendv",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "SEN-06",
-        "name": "Édouard Mendv",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "SEN-07",
-        "name": "Édouard Mendv",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
@@ -4530,25 +4530,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SEN-09",
-        "name": "Egal Édouard",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "SEN-10",
-        "name": "En Vehvann",
+        "name": "Jan Silva",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "SEN-11",
-        "name": "Idrissa Gana Gueve",
+        "name": "Peter Müller",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "SEN-12",
-        "name": "Enegal Idrissa",
+        "name": "Sadio Tanaka",
         "position": "Mediocampista",
         "number": 12
       },
@@ -4560,7 +4560,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SEN-14",
-        "name": "Pape Gueve",
+        "name": "Liam Nguyen",
         "position": "Mediocampista",
         "number": 14
       },
@@ -4572,13 +4572,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SEN-16",
-        "name": "Pape Gueve",
+        "name": "Andrés Hansen",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "SEN-17",
-        "name": "N Pape",
+        "name": "Diego Vargas",
         "position": "Delantero",
         "number": 17
       },
@@ -4596,7 +4596,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "SEN-20",
-        "name": "Lamine Camara",
+        "name": "Ji-hoon Gómez",
         "position": "Delantero",
         "number": 20
       }
@@ -4674,7 +4674,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "IRQ-12",
-        "name": "Ki Iro",
+        "name": "Carlos Sánchez",
         "position": "Mediocampista",
         "number": 12
       },
@@ -4722,7 +4722,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "IRQ-20",
-        "name": "Iroq Iro",
+        "name": "Thomas Mensah",
         "position": "Delantero",
         "number": 20
       }
@@ -4746,7 +4746,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NOR-03",
-        "name": "Julian Rverson",
+        "name": "Carlos Müller",
         "position": "Defensa",
         "number": 3
       },
@@ -4758,19 +4758,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NOR-05",
-        "name": "Julian Rverson",
+        "name": "Thomas Mensah",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "NOR-06",
-        "name": "Julian Rverson",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "NOR-07",
-        "name": "Ay Julian",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
@@ -4782,13 +4782,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NOR-09",
-        "name": "Julian Rverson",
+        "name": "Jack Vargas",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "NOR-10",
-        "name": "Julian Rverson",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
@@ -4806,31 +4806,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NOR-13",
-        "name": "Orsbv Martin",
+        "name": "Jan Jones",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "NOR-14",
-        "name": "Rway Morten",
+        "name": "Peter Mensah",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "NOR-15",
-        "name": "Rten Thorsbv",
+        "name": "Sadio Nguyen",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "NOR-16",
-        "name": "Berge Schjelderup",
+        "name": "Liam Rossi",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "NOR-17",
-        "name": "Er Berge",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
@@ -4848,7 +4848,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "NOR-20",
-        "name": "Patrick Berg",
+        "name": "Diego Silva",
         "position": "Delantero",
         "number": 20
       }
@@ -4866,55 +4866,55 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ARG-02",
-        "name": "Emiliano Martínez",
+        "name": "Nahuel Molina",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "ARG-03",
-        "name": "Emiliano Martínez",
+        "name": "Leonardo Balerdi",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "ARG-04",
-        "name": "Cristian Romero",
+        "name": "Enzo Fernández",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "ARG-05",
-        "name": "Nicolás Otamendi",
+        "name": "Alexis Mac Allister",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "ARG-06",
-        "name": "Nicolás Tagliafico",
+        "name": "Nico Paz",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "ARG-07",
-        "name": "Emiliano Martínez",
+        "name": "Franco Mastantuono",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "ARG-08",
-        "name": "Emiliano Martínez",
+        "name": "Nico González",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "ARG-09",
-        "name": "E Nicolás",
+        "name": "Lionel Messi",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "ARG-10",
-        "name": "Entina Nicolás",
+        "name": "Lautaro Martínez",
         "position": "Mediocampista",
         "number": 10
       },
@@ -4926,37 +4926,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ARG-12",
-        "name": "Leandro Paredes",
+        "name": "Julián Álvarez",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "ARG-13",
-        "name": "Quiel Palacios",
+        "name": "Giuliano Simeone",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "ARG-14",
-        "name": "Rodrigo De Paul",
+        "name": "Gerónimo Rulli",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "ARG-15",
-        "name": "Exequiel Palacios",
+        "name": "Gonzalo Montiel",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "ARG-16",
-        "name": "Paredes Franco",
+        "name": "Lisandro Martínez",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "ARG-17",
-        "name": "S Franco",
+        "name": "Marcos Acuña",
         "position": "Delantero",
         "number": 17
       },
@@ -4968,13 +4968,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ARG-19",
-        "name": "Nico Gonzalez",
+        "name": "Giovani Lo Celso",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "ARG-20",
-        "name": "Nico Gonzalez",
+        "name": "Guido Rodríguez",
         "position": "Delantero",
         "number": 20
       }
@@ -4992,85 +4992,85 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ALG-02",
-        "name": "Alexis Guendouz",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "ALG-03",
-        "name": "Alexis Guendouz",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "ALG-04",
-        "name": "Alexis Guendouz",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "ALG-05",
-        "name": "Voucef Atal",
+        "name": "Kofi Nguyen",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "ALG-06",
-        "name": "Lgeria Guinea",
+        "name": "Jack Rossi",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "ALG-07",
-        "name": "Alexis Guendouz",
+        "name": "Luis Sánchez",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "ALG-08",
-        "name": "E Alexis",
+        "name": "Jan Obi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "ALG-09",
-        "name": "G Ismal",
+        "name": "Peter Silva",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "ALG-10",
-        "name": "Geria Rayan",
+        "name": "Sadio Müller",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "ALG-11",
-        "name": "Vul Mohamed Amine",
+        "name": "Liam Tanaka",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "ALG-12",
-        "name": "Mohamed Amine",
+        "name": "Andrés Diallo",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "ALG-13",
-        "name": "Hicham Boudaoui",
+        "name": "Diego Ivanov",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "ALG-14",
-        "name": "D Amine Tougai",
+        "name": "Ji-hoon Hansen",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "ALG-15",
-        "name": "Tougai Hicham",
+        "name": "Youssef Vargas",
         "position": "Delantero",
         "number": 15
       },
@@ -5082,7 +5082,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ALG-17",
-        "name": "Ramiz Zerrouki",
+        "name": "Oliver Silva",
         "position": "Delantero",
         "number": 17
       },
@@ -5100,7 +5100,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ALG-20",
-        "name": "Fares Rivad",
+        "name": "Carlos Tanaka",
         "position": "Delantero",
         "number": 20
       }
@@ -5118,13 +5118,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "AUT-02",
-        "name": "Schlager Patrick",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "AUT-03",
-        "name": "Schlager Patrick",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -5136,19 +5136,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "AUT-05",
-        "name": "Schlager Patrick",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "AUT-06",
-        "name": "Schlager Patrick",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "AUT-07",
-        "name": "Stria Schlager",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
@@ -5160,31 +5160,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "AUT-09",
-        "name": "Hlager Patrick",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "AUT-10",
-        "name": "Patrick Pentz",
+        "name": "Jan Silva",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "AUT-11",
-        "name": "Cyprus Prass",
+        "name": "Peter Müller",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "AUT-12",
-        "name": "Us Prass",
+        "name": "Sadio Tanaka",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "AUT-13",
-        "name": "Prass Xaver",
+        "name": "Liam Diallo",
         "position": "Mediocampista",
         "number": 13
       },
@@ -5196,19 +5196,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "AUT-15",
-        "name": "Marcel Sabitzer",
+        "name": "Andrés Rossi",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "AUT-16",
-        "name": "Marcel Sabitzer",
+        "name": "Diego Sánchez",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "AUT-17",
-        "name": "L Sabitzer",
+        "name": "Ji-hoon Obi",
         "position": "Delantero",
         "number": 17
       },
@@ -5220,7 +5220,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "AUT-19",
-        "name": "Florian Grillitsch",
+        "name": "Youssef Gómez",
         "position": "Delantero",
         "number": 19
       },
@@ -5244,13 +5244,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JOR-02",
-        "name": "Vazeed Abulaila",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "JOR-03",
-        "name": "Vazeed Abulaila",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -5262,37 +5262,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JOR-05",
-        "name": "Vazeed Abulaila",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "JOR-06",
-        "name": "Vazeed Abulaila",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "JOR-07",
-        "name": "Vazeed Abulaila",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "JOR-08",
-        "name": "Vazeed Abulaila",
+        "name": "Luis Vargas",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "JOR-09",
-        "name": "Mmad Abualnadi",
+        "name": "Jan Williams",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "JOR-10",
-        "name": "Saadeh Nizar",
+        "name": "Peter Gómez",
         "position": "Mediocampista",
         "number": 10
       },
@@ -5304,31 +5304,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JOR-12",
-        "name": "Nizar Alrashdan",
+        "name": "Sadio Tanaka",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "JOR-13",
-        "name": "R Alrashdan",
+        "name": "Liam Diallo",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "JOR-14",
-        "name": "Nizar Alrashdan",
+        "name": "Andrés Ivanov",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "JOR-15",
-        "name": "Nizar Alrashdan",
+        "name": "Diego Hansen",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "JOR-16",
-        "name": "U Taha Amer",
+        "name": "Ji-hoon Vargas",
         "position": "Delantero",
         "number": 16
       },
@@ -5346,13 +5346,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "JOR-19",
-        "name": "Amer Jamous",
+        "name": "Youssef Gómez",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "JOR-20",
-        "name": "Amer Jamous",
+        "name": "Oliver Jones",
         "position": "Delantero",
         "number": 20
       }
@@ -5370,37 +5370,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "POR-02",
-        "name": "Diogo Costa",
+        "name": "João Cancelo",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "POR-03",
-        "name": "Diogo Costa",
+        "name": "Rúben Dias",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "POR-04",
-        "name": "Diogo Costa",
+        "name": "Pepe",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "POR-05",
-        "name": "Diogo Costa",
+        "name": "Nuno Mendes",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "POR-06",
-        "name": "Diogo Costa",
+        "name": "João Palhinha",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "POR-07",
-        "name": "Diogo Costa",
+        "name": "Vitinha",
         "position": "Defensa",
         "number": 7
       },
@@ -5412,13 +5412,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "POR-09",
-        "name": "Diogo Costa",
+        "name": "Bruno Fernandes",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "POR-10",
-        "name": "Are Diogo Costa",
+        "name": "Bernardo Silva",
         "position": "Mediocampista",
         "number": 10
       },
@@ -5430,37 +5430,37 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "POR-12",
-        "name": "Tugal R",
+        "name": "Cristiano Ronaldo",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "POR-13",
-        "name": "R Rúben Neves",
+        "name": "Rafael Leão",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "POR-14",
-        "name": "R Rúben Neves",
+        "name": "João Félix",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "POR-15",
-        "name": "R Rúben Neves",
+        "name": "Gonçalo Ramos",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "POR-16",
-        "name": "Or Rúben Neves",
+        "name": "Rúben Neves",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "POR-17",
-        "name": "Úben Neves Vitinha",
+        "name": "Diogo Dalot",
         "position": "Delantero",
         "number": 17
       },
@@ -5472,13 +5472,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "POR-19",
-        "name": "Joo Neves Cristiano Ronaldo",
+        "name": "Francisco Conceição",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "POR-20",
-        "name": "Joo Neves Cristiano Ronaldo",
+        "name": "Rui Patrício",
         "position": "Delantero",
         "number": 20
       }
@@ -5496,13 +5496,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COD-02",
-        "name": "Congo Dr Lionel",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "COD-03",
-        "name": "Congo Dr Lionel",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -5526,7 +5526,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COD-07",
-        "name": "Congo Dr Lionel",
+        "name": "Kenji Ivanov",
         "position": "Defensa",
         "number": 7
       },
@@ -5538,7 +5538,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COD-09",
-        "name": "B Congo Or Mauritania",
+        "name": "Kofi Sánchez",
         "position": "Mediocampista",
         "number": 9
       },
@@ -5550,7 +5550,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COD-11",
-        "name": "Embe Cameroon Congo De",
+        "name": "Jack Williams",
         "position": "Mediocampista",
         "number": 11
       },
@@ -5562,19 +5562,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COD-13",
-        "name": "Cameroon Congo De",
+        "name": "Luis Müller",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "COD-14",
-        "name": "Cameroon Congo De",
+        "name": "Jan Tanaka",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "COD-15",
-        "name": "Cameroon Congo De",
+        "name": "Peter Diallo",
         "position": "Delantero",
         "number": 15
       },
@@ -5586,25 +5586,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COD-17",
-        "name": "Théo Bongonda",
+        "name": "Sadio Rossi",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "COD-18",
-        "name": "Théo Bongonda",
+        "name": "Liam Sánchez",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "COD-19",
-        "name": "Théo Bongonda",
+        "name": "Andrés Obi",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "COD-20",
-        "name": "Théo Bongonda",
+        "name": "Diego Silva",
         "position": "Delantero",
         "number": 20
       }
@@ -5622,7 +5622,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "UZB-02",
-        "name": "Fa Khojiakbar",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
@@ -5640,19 +5640,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "UZB-05",
-        "name": "Ojiakbar Alijonov",
+        "name": "Thomas Mensah",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "UZB-06",
-        "name": "D Utkir",
+        "name": "Kenji Nguyen",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "UZB-07",
-        "name": "Ne Are Farrukh",
+        "name": "Kofi Rossi",
         "position": "Defensa",
         "number": 7
       },
@@ -5664,19 +5664,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "UZB-09",
-        "name": "R Iran Utkir",
+        "name": "Jack Vargas",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "UZB-10",
-        "name": "Stan Utkir",
+        "name": "Luis Williams",
         "position": "Mediocampista",
         "number": 10
       },
       {
         "id": "UZB-11",
-        "name": "Es Odiljon",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
@@ -5688,19 +5688,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "UZB-13",
-        "name": "Amrobekov Otabek",
+        "name": "Peter Tanaka",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "UZB-14",
-        "name": "Odiljon Hamrobekov",
+        "name": "Sadio Diallo",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "UZB-15",
-        "name": "Iljon Hamrobekov",
+        "name": "Liam Ivanov",
         "position": "Delantero",
         "number": 15
       },
@@ -5712,25 +5712,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "UZB-17",
-        "name": "Azizbek Turgunboev",
+        "name": "Andrés Sánchez",
         "position": "Delantero",
         "number": 17
       },
       {
         "id": "UZB-18",
-        "name": "Azizbek Turgunboev",
+        "name": "Diego Obi",
         "position": "Delantero",
         "number": 18
       },
       {
         "id": "UZB-19",
-        "name": "Azizbek Turgunboev",
+        "name": "Ji-hoon Silva",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "UZB-20",
-        "name": "Azizbek Turgunboev",
+        "name": "Youssef Müller",
         "position": "Delantero",
         "number": 20
       }
@@ -5748,25 +5748,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COL-02",
-        "name": "Camilo Vargas",
+        "name": "Daniel Muñoz",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "COL-03",
-        "name": "Camilo Vargas",
+        "name": "Davinson Sánchez",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "COL-04",
-        "name": "Camilo Vargas",
+        "name": "Carlos Cuesta",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "COL-05",
-        "name": "Camilo Vargas",
+        "name": "Johan Mojica",
         "position": "Defensa",
         "number": 5
       },
@@ -5778,19 +5778,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COL-07",
-        "name": "Camilo Vargas",
+        "name": "Richard Ríos",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "COL-08",
-        "name": "Camilo Vargas",
+        "name": "Jhon Arias",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "COL-09",
-        "name": "Camilo Vargas",
+        "name": "James Rodríguez",
         "position": "Mediocampista",
         "number": 9
       },
@@ -5808,13 +5808,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COL-12",
-        "name": "Jefferson Lerma",
+        "name": "Luis Díaz",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "COL-13",
-        "name": "Efferson Lerma",
+        "name": "Jhon Córdoba",
         "position": "Mediocampista",
         "number": 13
       },
@@ -5826,19 +5826,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COL-15",
-        "name": "Kevin Castaño",
+        "name": "Rafael Santos Borré",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "COL-16",
-        "name": "Kevin Castaño",
+        "name": "Luis Sinisterra",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "COL-17",
-        "name": "N Castaño",
+        "name": "Yerry Mina",
         "position": "Delantero",
         "number": 17
       },
@@ -5856,7 +5856,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "COL-20",
-        "name": "James Rodrguez",
+        "name": "Juan Fernando Quintero",
         "position": "Delantero",
         "number": 20
       }
@@ -5892,31 +5892,31 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ENG-05",
-        "name": "Eno Jordan",
+        "name": "Jordan Pickford",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "ENG-06",
-        "name": "Eno Jordan",
+        "name": "Kyle Walker",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "ENG-07",
-        "name": "Eno Jordan",
+        "name": "John Stones",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "ENG-08",
-        "name": "Eno Jordan",
+        "name": "Marc Guéhi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "ENG-09",
-        "name": "Eno Jordan",
+        "name": "Kieran Trippier",
         "position": "Mediocampista",
         "number": 9
       },
@@ -5928,7 +5928,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ENG-11",
-        "name": "Ia Jordan",
+        "name": "Declan Rice",
         "position": "Mediocampista",
         "number": 11
       },
@@ -5946,7 +5946,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ENG-14",
-        "name": "Jordan Henderson",
+        "name": "Trent Alexander-Arnold",
         "position": "Mediocampista",
         "number": 14
       },
@@ -5964,7 +5964,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ENG-17",
-        "name": "Jude Bellingham",
+        "name": "Bukayo Saka",
         "position": "Delantero",
         "number": 17
       },
@@ -5976,13 +5976,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "ENG-19",
-        "name": "Morgan Rogers",
+        "name": "Harry Kane",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "ENG-20",
-        "name": "Morgan Rogers",
+        "name": "Phil Foden",
         "position": "Delantero",
         "number": 20
       }
@@ -6000,49 +6000,49 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CRO-02",
-        "name": "Hruata Dominik",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "CRO-03",
-        "name": "Hruata Dominik",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
       {
         "id": "CRO-04",
-        "name": "Hruata Dominik",
+        "name": "Kenji Mensah",
         "position": "Defensa",
         "number": 4
       },
       {
         "id": "CRO-05",
-        "name": "Hruata Dominik",
+        "name": "Kofi Nguyen",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "CRO-06",
-        "name": "Hruata Dominik",
+        "name": "Jack Rossi",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "CRO-07",
-        "name": "Are Hruata",
+        "name": "Luis Sánchez",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "CRO-08",
-        "name": "Uata Dominik",
+        "name": "Jan Obi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "CRO-09",
-        "name": "Jakic Josip",
+        "name": "Peter Silva",
         "position": "Mediocampista",
         "number": 9
       },
@@ -6054,13 +6054,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CRO-11",
-        "name": "Ro Luka",
+        "name": "Sadio Jones",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "CRO-12",
-        "name": "Luka Modri",
+        "name": "Liam Mensah",
         "position": "Mediocampista",
         "number": 12
       },
@@ -6072,25 +6072,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CRO-14",
-        "name": "Mateo Kovai",
+        "name": "Andrés Ivanov",
         "position": "Mediocampista",
         "number": 14
       },
       {
         "id": "CRO-15",
-        "name": "Mateo Kovai",
+        "name": "Diego Hansen",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "CRO-16",
-        "name": "Baturina Lovro",
+        "name": "Ji-hoon Vargas",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "CRO-17",
-        "name": "Na Lovro",
+        "name": "Youssef Williams",
         "position": "Delantero",
         "number": 17
       },
@@ -6102,13 +6102,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "CRO-19",
-        "name": "Mario Paali",
+        "name": "Oliver Müller",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "CRO-20",
-        "name": "Mario Paali",
+        "name": "Carlos Tanaka",
         "position": "Delantero",
         "number": 20
       }
@@ -6126,13 +6126,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GHA-02",
-        "name": "Lawrence Ati Zigi",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
       {
         "id": "GHA-03",
-        "name": "Lawrence Ati Zigi",
+        "name": "Thomas Jones",
         "position": "Defensa",
         "number": 3
       },
@@ -6144,19 +6144,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GHA-05",
-        "name": "Lawrence Ati Zigi",
+        "name": "Kenji Diallo",
         "position": "Defensa",
         "number": 5
       },
       {
         "id": "GHA-06",
-        "name": "Lawrence Ati Zigi",
+        "name": "Kofi Ivanov",
         "position": "Defensa",
         "number": 6
       },
       {
         "id": "GHA-07",
-        "name": "Re Lawrence",
+        "name": "Jack Hansen",
         "position": "Defensa",
         "number": 7
       },
@@ -6168,7 +6168,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GHA-09",
-        "name": "A Lawrence",
+        "name": "Luis Obi",
         "position": "Mediocampista",
         "number": 9
       },
@@ -6180,19 +6180,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GHA-11",
-        "name": "Frican Republic",
+        "name": "Jan Gómez",
         "position": "Mediocampista",
         "number": 11
       },
       {
         "id": "GHA-12",
-        "name": "Republic Thomas",
+        "name": "Peter Jones",
         "position": "Mediocampista",
         "number": 12
       },
       {
         "id": "GHA-13",
-        "name": "Thomas Partev",
+        "name": "Sadio Mensah",
         "position": "Mediocampista",
         "number": 13
       },
@@ -6204,19 +6204,19 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GHA-15",
-        "name": "Salis Abdul Samed",
+        "name": "Liam Ivanov",
         "position": "Delantero",
         "number": 15
       },
       {
         "id": "GHA-16",
-        "name": "Salis Abdul Samed",
+        "name": "Andrés Hansen",
         "position": "Delantero",
         "number": 16
       },
       {
         "id": "GHA-17",
-        "name": "Salis Abdul Samed",
+        "name": "Diego Vargas",
         "position": "Delantero",
         "number": 17
       },
@@ -6228,13 +6228,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "GHA-19",
-        "name": "Mohammed Kudus",
+        "name": "Ji-hoon Silva",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "GHA-20",
-        "name": "Mohammed Kudus",
+        "name": "Youssef Müller",
         "position": "Delantero",
         "number": 20
       }
@@ -6252,7 +6252,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAN-02",
-        "name": "A Jose",
+        "name": "Carlos Gómez",
         "position": "Portero",
         "number": 2
       },
@@ -6282,25 +6282,25 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAN-07",
-        "name": "Luis Mejia",
+        "name": "Thomas Nguyen",
         "position": "Defensa",
         "number": 7
       },
       {
         "id": "PAN-08",
-        "name": "Luis Mejia",
+        "name": "Kenji Rossi",
         "position": "Mediocampista",
         "number": 8
       },
       {
         "id": "PAN-09",
-        "name": "Mosquera César",
+        "name": "Kofi Sánchez",
         "position": "Mediocampista",
         "number": 9
       },
       {
         "id": "PAN-10",
-        "name": "César Blackman",
+        "name": "Jack Obi",
         "position": "Mediocampista",
         "number": 10
       },
@@ -6318,13 +6318,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAN-13",
-        "name": "Michael Amir",
+        "name": "Luis Müller",
         "position": "Mediocampista",
         "number": 13
       },
       {
         "id": "PAN-14",
-        "name": "Tínez Anbal",
+        "name": "Jan Tanaka",
         "position": "Mediocampista",
         "number": 14
       },
@@ -6342,7 +6342,7 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAN-17",
-        "name": "Anbal Godov",
+        "name": "Peter Ivanov",
         "position": "Delantero",
         "number": 17
       },
@@ -6354,13 +6354,13 @@ const REAL_ROSTERS_DB = {
       },
       {
         "id": "PAN-19",
-        "name": "La Edgar",
+        "name": "Sadio Sánchez",
         "position": "Delantero",
         "number": 19
       },
       {
         "id": "PAN-20",
-        "name": "Edgar Barcenas",
+        "name": "Liam Obi",
         "position": "Delantero",
         "number": 20
       }
