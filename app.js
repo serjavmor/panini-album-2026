@@ -285,16 +285,8 @@ function createStickerCard(sticker) {
   card.className = `sticker-card ${state.status}`;
   card.setAttribute("data-id", sticker.id);
   
-  // Emoji según rol o posición
-  let avatarEmoji = "⚽";
-  if (sticker.position === "Escudo") avatarEmoji = "🏆";
-  else if (sticker.position === "Equipo") avatarEmoji = "👥";
-  else if (sticker.position === "Portero") avatarEmoji = "🧤";
-  else if (sticker.position === "Defensa") avatarEmoji = "🛡️";
-  else if (sticker.position === "Mediocampista") avatarEmoji = "🧠";
-  else if (sticker.position === "Delantero") avatarEmoji = "⚡";
-  else if (sticker.position === "Estadio") avatarEmoji = "🏟️";
-  else if (sticker.position === "Especial") avatarEmoji = "✨";
+  // Formatear el ID quitando el guión para que se vea como en el álbum real: "MEX 2" o "FWC 5"
+  const formattedId = sticker.id.replace("-", " ");
   
   // Badge de repetidas
   let repeatBadgeHtml = "";
@@ -306,15 +298,11 @@ function createStickerCard(sticker) {
   
   card.innerHTML = `
     ${repeatBadgeHtml}
-    <div class="sticker-header">
-      <span class="sticker-number">${sticker.id}</span>
-      <span class="sticker-position">${sticker.position}</span>
+    <div class="sticker-slot-id">
+      <span>${formattedId}</span>
     </div>
-    <div class="sticker-center">
-      <div class="sticker-avatar">${state.status !== "missing" ? avatarEmoji : "➕"}</div>
-    </div>
-    <div class="sticker-info">
-      <div class="sticker-name">${sticker.name}</div>
+    <div class="sticker-slot-name">
+      <span>${sticker.name.toUpperCase()}</span>
     </div>
     
     <!-- Controles flotantes de repetidas -->

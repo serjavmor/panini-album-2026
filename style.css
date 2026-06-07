@@ -505,10 +505,10 @@ main {
 /* Tarjeta del Cromo (Lámina) */
 .sticker-card {
   aspect-ratio: 2.7 / 3.7; /* Proporción estándar de cromo Panini */
-  background: var(--sticker-missing-bg);
-  border: 2px dashed var(--sticker-missing-border);
+  background: #a2e8c4; /* Verde menta del fondo del espacio del álbum */
+  border: 2px solid #82d0a6;
   border-radius: 12px;
-  padding: 0.75rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -523,7 +523,7 @@ main {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   opacity: 0;
   transition: var(--transition-smooth);
 }
@@ -537,78 +537,56 @@ main {
   transform: translateY(-1px) scale(0.99);
 }
 
-.sticker-header {
+/* Espacio superior: ID de la lámina */
+.sticker-slot-id {
+  background: #ffffff;
+  border-radius: 8px;
+  flex: 1.1;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.4rem;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+  transition: var(--transition-smooth);
   z-index: 2;
 }
 
-.sticker-number {
+.sticker-slot-id span {
   font-family: var(--font-title);
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  background: rgba(0, 0, 0, 0.25);
-  padding: 0.1rem 0.4rem;
-  border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.03);
-}
-
-.sticker-position {
-  font-size: 0.65rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--text-secondary);
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: #438e64; /* Verde del texto en el espacio vacío */
   letter-spacing: 0.02em;
 }
 
-.sticker-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  gap: 0.5rem;
-  z-index: 2;
-}
-
-.sticker-avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+/* Espacio inferior: Nombre del jugador */
+.sticker-slot-name {
+  background: #ffffff;
+  border-radius: 8px;
+  flex: 0.9;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
-  color: var(--text-secondary);
-  transition: var(--transition-smooth);
-}
-
-.sticker-info {
+  padding: 0.3rem;
   text-align: center;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+  transition: var(--transition-smooth);
   z-index: 2;
 }
 
-.sticker-name {
+.sticker-slot-name span {
   font-family: var(--font-title);
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  line-clamp: 2;
-  overflow: clip;
-  min-height: 2.2em;
+  font-weight: 800;
+  font-size: 0.72rem;
+  color: #438e64; /* Verde del texto en el espacio vacío */
+  line-height: 1.15;
+  word-break: break-word;
 }
 
-/* Modos de Lámina: OBTEINDA */
+/* Modos de Lámina: OBTEINDA (Cromo pegado) */
 .sticker-card.owned {
-  background: var(--sticker-owned-bg);
-  border: 2px solid var(--sticker-owned-border);
+  background: linear-gradient(135deg, #312e81, #5b21b6, #1e40af);
+  border: 2px solid #8b5cf6;
   box-shadow: 0 4px 15px var(--accent-purple-glow);
 }
 
@@ -616,51 +594,49 @@ main {
   opacity: 1;
 }
 
-.sticker-card.owned .sticker-number {
-  color: #fff;
-  background: var(--accent-purple);
-  border-color: rgba(255, 255, 255, 0.15);
+.sticker-card.owned .sticker-slot-id {
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: none;
 }
 
-.sticker-card.owned .sticker-position {
-  color: var(--text-primary);
+.sticker-card.owned .sticker-slot-id span {
+  color: #ffffff;
 }
 
-.sticker-card.owned .sticker-avatar {
-  background: rgba(124, 58, 237, 0.3);
-  border-color: var(--accent-purple);
-  color: #fff;
-  font-size: 1.4rem;
+.sticker-card.owned .sticker-slot-name {
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: none;
 }
 
-.sticker-card.owned .sticker-name {
-  color: #fff;
+.sticker-card.owned .sticker-slot-name span {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* Modos de Lámina: REPETIDA */
+/* Modos de Lámina: REPETIDA (Cromo repetido brillante) */
 .sticker-card.repeated {
-  background: var(--sticker-repeated-bg);
-  border: 2px solid var(--sticker-repeated-border);
+  background: linear-gradient(135deg, #78350f, #d97706, #92400e);
+  border: 2px solid #e5b842;
   box-shadow: 0 4px 18px var(--accent-gold-glow);
 }
 
-.sticker-card.repeated .sticker-number {
-  color: #000;
-  background: var(--accent-gold);
-  border-color: rgba(255, 255, 255, 0.2);
-  font-weight: 800;
+.sticker-card.repeated .sticker-slot-id {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: none;
 }
 
-.sticker-card.repeated .sticker-avatar {
-  background: rgba(229, 184, 66, 0.25);
-  border-color: var(--accent-gold);
-  color: var(--accent-gold);
-  font-size: 1.4rem;
-  box-shadow: 0 0 10px var(--accent-gold-glow);
+.sticker-card.repeated .sticker-slot-id span {
+  color: #ffffff;
 }
 
-.sticker-card.repeated .sticker-name {
-  color: #fff;
+.sticker-card.repeated .sticker-slot-name {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+}
+
+.sticker-card.repeated .sticker-slot-name span {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Insignia de Repetidas (Badge Flotante) */
@@ -711,8 +687,8 @@ main {
   transform: translateY(0);
 }
 
-.sticker-card.owned:hover .sticker-name,
-.sticker-card.repeated:hover .sticker-name {
+.sticker-card.owned:hover .sticker-slot-name,
+.sticker-card.repeated:hover .sticker-slot-name {
   opacity: 0; /* Oculta temporalmente el nombre al hacer hover para mostrar botones */
   transform: translateY(-5px);
 }
