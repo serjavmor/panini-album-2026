@@ -250,45 +250,7 @@ main {
   gap: 1.5rem;
 }
 
-@media (max-width: 900px) {
-  .album-view-layout {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
 
-  .sidebar-panel {
-    position: sticky;
-    top: 1rem;
-    max-height: 90dvh;
-    z-index: 50;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  }
-
-  .sidebar-toggle-btn {
-    display: flex; /* Mostrar en móvil */
-  }
-
-  .groups-accordion-wrapper {
-    display: none; /* Colapsado por defecto */
-    max-height: 50dvh;
-    overflow-y: auto;
-  }
-
-  /* Mostrar cuando se expanda el sidebar */
-  .sidebar-panel.expanded .groups-accordion-wrapper {
-    display: flex;
-    animation: sidebarSlideDown 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .sidebar-panel.expanded .sidebar-toggle-btn svg {
-    transform: rotate(180deg);
-  }
-}
-
-@keyframes sidebarSlideDown {
-  from { opacity: 0; transform: translateY(-8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 
 /* Panel Lateral de Navegación */
 .sidebar-panel {
@@ -1202,4 +1164,67 @@ main {
   .modal-title {
     font-size: 1.2rem;
   }
+}
+
+/* Media query de 900px para Móviles y Tabletas (Colocado al final para cascada correcta) */
+@media (max-width: 900px) {
+  .album-view-layout {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .sidebar-panel {
+    position: sticky;
+    top: 1rem;
+    max-height: 90dvh;
+    z-index: 50;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Centrar el menú del sidebar */
+  }
+
+  .sidebar-toggle-btn {
+    display: flex; /* Mostrar en móvil */
+  }
+
+  .groups-accordion-wrapper {
+    display: none !important; /* Forzar colapso por defecto en móviles */
+    max-height: 50dvh;
+    overflow-y: auto;
+  }
+
+  /* Mostrar cuando se expanda el sidebar */
+  .sidebar-panel.expanded .groups-accordion-wrapper {
+    display: flex !important;
+    animation: sidebarSlideDown 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sidebar-panel.expanded .sidebar-toggle-btn svg {
+    transform: rotate(180deg);
+  }
+
+  /* Centrar Menús y Pestañas en pantallas menores a 900px */
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+  }
+
+  .nav-tabs {
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+  }
+
+  .tab-btn {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+@keyframes sidebarSlideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
 }

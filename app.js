@@ -564,7 +564,7 @@ function renderExchangeTab() {
       if (!groupedMissing[item.teamId]) groupedMissing[item.teamId] = [];
       // Si es FWC (sección especial), colocamos el id completo, para otros el número formateado a 2 dígitos
       const label = item.teamId === "FWC" ? item.id : String(item.number).padStart(2, "0");
-      groupedMissing[item.teamId].push(`${label} - ${item.name.toUpperCase()}`);
+      groupedMissing[item.teamId].push(label);
     });
     
     let textOut = `ÁLBUM PANINI MUNDIAL 2026 - MIS FALTANTES ❌\n`;
@@ -604,7 +604,7 @@ function renderExchangeTab() {
       const itemTexts = items.map(item => {
         // Obtener el número
         const numLabel = teamId === "FWC" ? item.id : item.id.split("-")[1];
-        return `${numLabel} - ${item.name.toUpperCase()} (x${item.count})`;
+        return `${numLabel} (x${item.count})`;
       });
       textOut += `   ${itemTexts.join(", ")}\n\n`;
     });
