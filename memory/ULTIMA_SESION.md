@@ -1,7 +1,7 @@
 # Última Sesión: Álbum Panini Mundial 2026 Tracker
 
 ## Estado Actual
-* **Hito:** Optimización Móvil, Safari (iOS / iPhone) y personalización del formato de listas de intercambio completadas y verificadas en GitHub. La SPA es responsiva, segura contra toques accidentales y genera listas de intercambio compactas.
+* **Hito (v1.1.0):** Optimización Móvil, Safari (iOS / iPhone) y personalización del formato de listas de intercambio completadas y verificadas en GitHub. La SPA es responsiva, segura contra toques accidentales y genera listas de intercambio compactas.
 * **Fecha:** 2026-06-06
 * **Resumen Ejecutivo:** Se rediseñó el flujo táctil en móviles para evitar borrados accidentales de láminas al hacer scroll. Se fijaron los botones de control `-` y `+` en las esquinas superiores de cromos obtenidos para mantener el nombre del jugador visible. Se adaptó el sidebar lateral para colapsar en pantallas menores a 900px. Se configuró `100dvh` y variables de safe area de iOS. Adicionalmente, se corrigió un bug en la búsqueda y se modificó el formato de las listas de intercambio para incluir únicamente el número y el nombre del jugador en mayúsculas (y la cantidad `(xN)` para repetidas).
 
