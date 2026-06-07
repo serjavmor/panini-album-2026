@@ -7,6 +7,8 @@
 
 ## Cambios Realizados
 * **Procesamiento de PDF:** Implementado script de OCR en Swift (`ocr_pdf.swift`) y de filtrado semántico en Python (`parse_exact.py`) para mapear el álbum oficial en `exact_rosters.json`.
+* **Remoción de Duplicados:** Creado script `clean_duplicates.py` para depurar cualquier nombre repetido en la misma selección por proximidad del OCR, garantizando jugadores únicos.
+* **Estandarización de Escudos:** Implementado script `adjust_shields.py` para forzar que la lámina número 1 de cada selección sea nombrada de forma limpia como "Escudo de [País]" con el rol "Escudo".
 * **Base de Datos (`db.js`):** Inyectados los 12 grupos reales y los nombres de jugadores oficiales extraídos del PDF para las 48 selecciones, con 20 láminas por equipo (1 Escudo + 19 Jugadores).
 * **Maquetación e Interfaces (`index.html`):** Actualizada la interfaz de estadísticas para reflejar el total real de 978 láminas de la colección.
 * **Entorno y Repositorio:** Compilado el bundle optimizado y subido los cambios al repositorio de GitHub (https://github.com/serjavmor/panini-album-2026).
